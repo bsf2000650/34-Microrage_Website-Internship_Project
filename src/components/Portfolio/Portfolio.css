@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+/* .who-are-we{
+    border: 2px solid black;
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  */
+
+/* Who we are Starts */
+.portfolio-who-are-we {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 100px; */
+    /* margin-top: 10px; */
+    margin: -277px 156px 0px 81px;
+    gap: 122px;
+}
+.portfolio-who-are-we-content{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* justify-content: center; */
+    width: 80%;
+    display: flex;
+    align-items : flex-start;
+    justify-content : flex-start;
+    flex-direction: column;
+    margin-top: 23px;
+}
+.portfolio-who-are-we-img {
+    width: 73%;
+    /* margin-top: -79px; */
+    /* margin-bottom: 84px; */
+}
+.portfolio-who-are-we .portfolio-who-are-we-content   h1 {
+    text-align: left;
+    margin: 0px 0px 16px 93px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+}
+.portfolio-who-are-we-content  > h1 > span {
+    color: #97B325;
+}
+.portfolio-who-are-we-content > p {
+    text-align: justify;
+    margin : 0px 0px 10px 100px;
+    line-height: 25px;
+    color: black;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.portfolio-who-are-we .portfolio-who-are-we-content .experienced-team {
+        margin-bottom: 25px;
+        margin-top: 0px;
+        font-weight: 380;
+}
+.portfolio-who-are-we-content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-who-are-we-content .btn  > button {
+    margin : 10px;
+    border: 1px solid green;
+    padding: 15px 25px;
+    border-radius: 5px;
+    /* margin-right: 150px; */
+    /* margin-left: -120px; */
+    transition: all 0.5s;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.portfolio-who-are-we-content .btn .btn-portfolio{
+    background-color: white;
+    margin-left: 100px;
+}
+.portfolio-who-are-we-content .btn .btn-get-in-touch{
+    background-color: #97B325;
+}
+
+.portfolio-who-are-we-content .btn .btn-portfolio .btn-link{
+    color: #97B325;
+    text-decoration: none;
+    font-weight: 600;
+}
+.portfolio-who-are-we-content .btn .btn-get-in-touch .btn-link{
+    color: white;
+    text-decoration: none;
+}
+.portfolio-who-are-we-content .btn .btn-portfolio:hover{
+    background-color: #97B325;
+    color: white !important;
+}
+.portfolio-who-are-we-content .btn .btn-portfolio .btn-link:hover{
+    background-color: #97B325;
+    color: white !important;
+}
+
+.portfolio-who-are-we-content .btn .btn-portfolio:hover{
+    background-color: #97B325;
+    color: white !important;
+}
+.portfolio-who-are-we-content .btn .btn-get-in-touch:hover{
+    background-color: #1d242d !important;
+    color: white !important;
+}
+
+.portfolio-who-are-we-img > img {
+    width: 90%;
+    height: auto;
+}
+
+/* Who we are End */

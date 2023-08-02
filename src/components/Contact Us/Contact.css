@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+/* Contact Section Start */
+.contact-section {
+    margin-top: -315px;
+}
+.contact-section h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin: 27px;
+}
+
+.contact-section .career-description{
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.contact-section .get-in-touch-grid {
+        display: flex;
+        align-items : flex-start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 70px;
+        margin-left: 18px;
+        margin-bottom: 60px;
+}
+.contact-section .get-in-touch-grid .google-map{
+    width: 50%;
+    height: 250px;
+}
+.contact-section .get-in-touch-grid .contact-item {
+    /* border: 2px solid black; */
+    /* width: 55%; */
+    height: 200px;
+}
+
+.contact-section .get-in-touch-grid .contact-item .contact-address {
+    /* border: 2px solid black; */
+    color: black;
+    margin: 31px 0px 0px 21px;
+    font-style: normal;
+    line-height: 27px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.contact-section .get-in-touch-grid .contact-item .contact-address a,
+.contact-section .get-in-touch-grid .contact-item .contact-address span {
+    color: #97B325;
+}
+
+.contact-section .get-in-touch-grid .contact-item h1{
+    font-size: 26px;
+    margin: 21px;
+    text-align: left;
+}
+
+/* Contact Section End */
+/* Build Together */
+/*
+.build-together {
+    background-color: #b7b0b0;
+}
+.build-together > h1 {
+    text-align:  center;
+    padding: 52px 0px;
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.build-together-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px 50px;
+    /* height: 400px; */
+    /* border: 2px solid black; */
+   /* padding-bottom: 30px;
+}
+.build-together .contact-form{
+    /* border: 2px solid black; */
+  /*  width: 60vw;
+    margin: 11px 0px 0px 21px;
+    /* height: 500px; */
+  /*  background-color: #97B325;
+    padding: 20px;
+}
+.build-together .contact-form form {
+    /* border: 2px solid black; */
+    /* margin: 24px
+}
+.build-together .contact-form h1 
+    {
+        margin: 10px 61px 0px 45px;
+        font-family: Montserrat;
+    }
+
+.build-together .contact-form form input[type=text],
+.build-together .contact-form form input[type=submit]{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 51px;
+    width: 90%;
+    display: block;
+    margin: 20px;
+    border: none;
+    background: #edf4cf;
+}
+.build-together .contact-form form input[type=email],
+.build-together .contact-form form .number,
+.build-together .contact-form form select,
+.build-together .contact-form form textarea
+
+{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 51px;
+    width: 41%;
+    display: inline;
+    margin: 10px 41px 27px 21px;
+    border: none;
+    background: #edf4cf;
+}
+.build-together .contact-form form select{
+    width: 27%;
+    margin-right: 152px;
+}
+
+.build-together .contact-form form textarea{
+    /* border: 2px solid black; */
+  /*  width: 90%;
+    height: 139px;
+}
+.build-together .contact-form form input[type=submit]{
+    border: 2px solid brown;
+    height: 80px;
+}
+.build-together .build-together-content {
+    background-color: white;
+    width: 29vw;
+    margin-left: -21px;
+    margin-top: 10px;
+}
+.build-together .build-together-content .further-div {
+    /* border: 2px solid black; */
+   /* border-radius: 13px 13px 13px 13px;
+    background-color: transparent;
+    background-color: #ffffff;
+    border-radius: 13px 13px 13px 13px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 1px #eeeeee;
+    padding: 23px 28px 14px 32px;
+    margin: 9px 14px;
+    /* height: 179vh; */
+    /*
+}
+.build-together .build-together-content .further-div h2 {
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+}
+.build-together .build-together-content .further-div ol li {
+   display: block;
+line-height: 22px;
+font-family: 'Montserrat';
+font-weight: 500;
+margin-bottom: 21px;
+}
+.build-together .build-together-content .further-div ol li span .portfolio{
+    text-decoration: none;
+    color: #97B325;
+    cursor: pointer;
+}
+.build-together .build-together-content img{
+    margin-left: 244px;
+}
+    
+/* Build Together */
+
+
+@media screen and (max-width: 992px) {
+    .contact-section {
+        margin-top: -280px;
+    }
+    .contact-section .get-in-touch-grid {
+        margin: 0px 17px 50px 17px;
+    }
+    .contact-section .get-in-touch-grid .google-map {
+        width: 69%;
+        height: 250px;
+    }
+    .contact-section .get-in-touch-grid {
+        gap: 12px;
+    }
+    .contact-section .get-in-touch-grid .google-map {
+        width: 100%;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 668px) {
+    .contact-section {
+        margin-top: -75px;
+    }
+}
+@media screen and (max-width: 421px) {
+    .contact-section h1 {
+        font-size: 37px;
+    }
+    .contact-section .career-description {
+        font-size:  19px;
+        margin-bottom: 37px;
+    }
+    .contact-section .get-in-touch-grid {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        margin: 13px 2px 36px 10px;
+    }
+    .contact-section .get-in-touch-grid .contact-item {
+        width: 100%;
+    }
+    .contact-section .get-in-touch-grid .contact-item h1 {
+        margin: 16px;
+    }
+    .contact-section .get-in-touch-grid .google-map {
+        width: 95%;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 381px) {
+    .contact-section .get-in-touch-grid .google-map {
+        width: 91%;
+        height: 250px;
+        margin-top: 20px;
+    }
+}

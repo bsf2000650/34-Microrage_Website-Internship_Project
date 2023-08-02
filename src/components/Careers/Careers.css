@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+/* .careers-section {
+
+} */
+.careers-section {
+    margin-top: -280px;
+}
+.careers-section h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin: 27px;
+}
+
+.careers-section .career-description{
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.careers-section  .job-archives{
+    text-align: left;
+    margin-left: 130px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #97B325;
+    margin-bottom: 34px;
+}
+
+.careers-section .job{
+    border: 1px solid black;
+    margin: 0px 0px 20px 123px;
+    width: 56vw;
+}
+
+.careers-section .job h2{
+    font-family: 'Montserrat';
+    color: #97B325;
+    /* border-bottom: 1px solid black; */
+    padding: 10px 50px 10px 22px ;
+    /* display: inline-block; */
+    width: 45vw;
+}
+.careers-section > .job > .job-detail {
+    margin: 15px 50px 24px 28px;
+    color: #97B325;
+    font-family: 'Montserrat';
+}
+.careers-section .job .apply-job{
+    display: flex;
+}
+.careers-section .job .apply-job button{
+    padding: 7px 14px;
+    margin: 5px 31px;
+    border: none;
+    border-radius: 6px;
+    background: #97B325;
+}
+.careers-section .job .apply-job button .apply-link {
+    text-decoration: none;
+    color: white;
+}
+.career-description .job .job-detail .brief-case {
+    margin-left: -20px;
+}
+.careers-section  .job  .job-detail .full-time{
+    margin-left: 7px;
+}
+.careers-section .job .job-detail .location-arrow {
+    /* margin-left: 50px; */
+}
+.careers-section > .job > .job-detail .location{
+    margin-left: 8px;
+}
+
+.career-description .full-time{
+    width: 8vw;
+    /* display: inline; */
+    border: 2px solid black;
+}
+.careers-section > .job > .job-detail p {
+    margin: 20px 0px;
+    color: black;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .careers-section {
+        margin-top: -280px;
+    }
+    .careers-section .job-archives {
+        margin-left: 32px
+    }
+    .careers-section .job {
+        margin: 0px 0px 20px 28px;
+        width: 74%;
+    }
+    /* .job-detail-further{
+        display: inline;
+    } */
+}
+
+@media screen and (max-width: 668px) {
+    .careers-section{
+        margin-top: -75px;
+    }
+    .careers-section .job {
+        width: 92%;
+    }
+    .careers-section .job h2 {
+        width: 53vw;
+    }
+    .careers-section .job .apply-job button {
+        margin: 5px 31px 5px 134px;
+    }
+    .careers-section > .job > .job-detail {
+        display: flex;
+    align-items : flex-start;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .careers-section .job .job-detail .location-arrow {
+        margin-left: 0px;
+    }
+    .job-div {
+        margin-bottom: 20px;
+    }
+    .careers-section .career-description {
+        text-align: center;
+        margin-bottom: 94px;
+        font-size: 19px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        padding: 10px 34px;
+    }
+    .careers-section .job .apply-job {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .careers-section .job h2 {
+        padding: 10px 50px 10px 9px;
+        width: 100%;
+    }
+    .careers-section .job .apply-job button {
+        margin: 3px 32px 6px 59px;
+        padding-left: 8px;
+        width: 19%;
+    }
+    .careers-section h1 {   
+        margin: 0px 27px 22px 27px;
+    }
+}
+@media screen and (max-width: 421px) {
+    .careers-section .job .apply-job {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .careers-section .job .apply-job button {
+        margin: 3px 9px 6px 260px;
+        padding-left: 8px;
+        width: 24%;
+    }
+}
+@media screen and (max-width: 380px){
+    .careers-section {
+        margin-top: 0px;
+    }
+    .careers-section .job {
+        margin: 0px 0px 20px 13px;
+    }
+    .careers-section .job .apply-job button {
+        margin: 3px 22px 6px 232px;
+        padding-left: 8px;
+        width: 26%;
+    }
+}

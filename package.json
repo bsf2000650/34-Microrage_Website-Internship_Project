@@ -1,15 +1,47 @@
-{
+{  
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy":"http://127.0.0.1:4000",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "buffer": "^6.0.3",
+    "config": "^3.3.9",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "font-awesome": "^4.7.0",
+    "fs": "^0.0.1-security",
+    "hamburger-react": "^2.5.0",
+    "http": "^0.0.1-security",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "querystring": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-dropdown": "^1.11.0",
+    "react-icons": "^4.10.1",
+    "react-refresh": "^0.14.0",
+    "react-refresh-webpack-plugin": "^0.1.0",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "source-map-loader": "^4.0.1",
+    "stream": "^0.0.2",
+    "style-loader": "^3.3.3",
+    "styled-components": "^6.0.5",
+    "url": "^0.11.1",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4",
+    "zlib": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +66,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1",
+    "react-app-rewired": "^1.6.2",
+    "react-error-overlay": "^6.0.9"
   }
 }

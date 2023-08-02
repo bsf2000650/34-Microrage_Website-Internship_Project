@@ -1,0 +1,356 @@
+/* .who-are-we{
+    border: 2px solid black;
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* Who we are Starts */
+.who-are-we {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 100px; */
+    /* margin-top: 10px; */
+    margin: -316px 156px 0px 81px;
+    gap: 122px;
+}
+.who-are-we-content{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* justify-content: center; */
+    width: 80%;
+    display: flex;
+    align-items : flex-start;
+    justify-content : flex-start;
+    flex-direction: column;
+    margin-top: -0px;
+}
+.who-are-we-img {
+    width: 73%;
+    /* margin-top: -79px; */
+    /* margin-bottom: 84px; */
+}
+.who-are-we .who-are-we-content   h1 {
+    text-align: left;
+    margin: 0px 0px 16px 93px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+}
+.who-are-we-content  > h1 > span {
+    color: #97B325;
+}
+.who-are-we-content > p {
+    text-align: justify;
+    margin : 0px 0px 10px 100px;
+    line-height: 25px;
+    color: black;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.who-are-we .who-are-we-content .experienced-team {
+        margin-bottom: 25px;
+        margin-top: 0px;
+        font-weight: 380;
+}
+.who-are-we-content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.who-are-we-content .btn  > button {
+    margin : 10px;
+    border: 1px solid green;
+    padding: 15px 25px;
+    border-radius: 5px;
+    /* margin-right: 150px; */
+    /* margin-left: -120px; */
+    transition: all 0.5s;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.who-are-we-content .btn .btn-portfolio{
+    background-color: white;
+    margin-left: 100px;
+}
+.who-are-we-content .btn .btn-get-in-touch{
+    background-color: #97B325;
+}
+.who-are-we-content .btn .btn-portfolio .btn-link {
+    color: #97B325;
+    text-decoration: none;
+}
+.who-are-we-content .btn .btn-get-in-touch .btn-link {
+    color: white;
+    text-decoration: none;
+}
+.who-are-we-content .btn .btn-portfolio:hover{
+    background-color: #97B325;
+    color: white !important;
+}
+.who-are-we-content .btn .btn-portfolio .btn-link:hover{
+    background-color: #97B325;
+    color: white !important;
+}
+.who-are-we-content .btn .btn-get-in-touch:hover{
+    background-color: #1d242d !important;
+    color: white !important;
+    
+}
+
+.who-are-we-img > img {
+    width: 90%;
+    height: auto;
+}
+
+/* Web Development Section Starts*/
+.web-development-section{
+    /* display: flex;
+    justify-content: space-between;
+    margin-top: 40px; */
+    background-color: #f9f9fb;
+}
+
+.web-development-section h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 45px;
+    margin-bottom: 5px;
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding: 41px 0px 28px 0px;
+}   
+.web-development-section p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 0px 447px 39px 412px;
+    color: black;
+    line-height: 26px;
+    /* margin-left: 291px; */
+}
+.web-development-section p > span {
+    font-weight: 600;
+}
+.get-in-touch{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.web-development .get-in-touch > p {
+    font-weight: 500;
+}
+.detail {
+    display: flex;
+    align-items : flex-start;
+    justify-content : flex-start;
+    flex-direction: row;
+}
+.detail ul li{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    line-height: 20px;
+    margin: 22px 54px 22px 4px;
+    display: inline;
+}
+.detail img {
+    margin: -22px 45px 0px 90px;
+    width: 25%; 
+}
+.detail ul .check-mark {
+    color: green;
+}
+
+@media screen and (max-width: 992px){
+    .who-are-we {
+        margin: -325px 0px 142px 0px;
+        gap: 40px;
+    }
+    .who-are-we-content {
+        width: 67%;
+    }
+    .who-are-we-content .btn > button {
+        margin: 10px;
+        border: 1px solid green;
+        padding: 15px 25px;
+        border-radius: 5px;
+        /* margin-right: 150px; */
+        /* margin-left: -120px; */
+        transition: all 0.5s;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .who-are-we-content .btn .btn-portfolio {
+        background-color: white;
+        margin-left: 22px;
+    }
+    .who-are-we .who-are-we-content h1, .who-are-we-content p {
+        margin: 0px 20px 26px 20px;
+        /* margin-bottom: 30px; */
+    }
+    .who-are-we-content p {
+        margin: 10px 20px;
+    }
+    .who-are-we-content > p {
+        text-align: left;
+        font-size: 18px;
+    }
+    .who-are-we-img{
+        /* margin-bottom: 287px; */
+        width: 71%;
+        margin-top: 0px;
+    }
+    .who-are-we-img img {
+        margin-left: 13px;
+        width: 93%;
+    }
+    .web-development-section h1 {
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        padding: 53px 0px;
+    }
+    .web-development-section p {
+        font-size: 14px;
+        padding: 0px 214px 39px 188px;
+        margin-left: 47px;
+    }
+    .detail-further{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .detail ul {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-left: 7px;
+        line-height: 20px;
+        margin: 22px 2px 8px -10px;
+    }
+    .detail img {
+        margin: -22px 26px 0px 24px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 669px){
+    /* .who-are-we-content {
+        width: 100%;
+    }*/
+    .who-are-we {
+        gap: 0px;
+        padding-bottom: 28px;
+        margin: 131px 0px 18px 0px;
+    }
+    .web-development-section p {
+        font-size: 14px;
+        padding: 0px 140px 39px 132px;
+        margin-left: 47px;
+    }
+    .who-are-we .who-are-we-content h1 {
+        font-size: 53px;
+    }
+    .who-are-we-img {
+        /* margin-bottom: 287px; */
+        width: 80%;
+        margin-top: -418px;
+    }
+    .who-are-we-content {
+        margin-top: -61px;
+        width: 56%;
+    }
+    .who-are-we-content .btn{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .who-are-we-content .btn .btn-get-in-touch {
+        margin-left: -45px;
+    }
+    .detail-further{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 421px){
+    .who-are-we {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin-top: 60px;
+    }
+    .who-are-we-content {
+        width: 100%;
+        
+    }
+    .who-are-we .who-are-we-content h1  {
+        font-size: 36px;
+        padding: 11px 0px;
+    }
+    .web-development-section h1 {
+        font-size: 31px;
+        padding: 20px 0px;
+    }
+    .web-development-section p {
+        font-size: 14px;
+        padding: 0px 21px 39px 2px;
+        margin-left: 21px;
+    }
+    .who-are-we-content .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .who-are-we .who-are-we-content .btn button {
+    padding: 13px 11px;
+    }
+    .who-are-we-img {
+        width: 100%;
+        margin-bottom: 35px;
+        margin-top: 24px;
+    }
+    .who-are-we-content .btn .btn-get-in-touch{
+        margin-left: 0px;
+    }
+    .who-are-we-content .btn .btn-portfolio ,
+    .who-are-we-content .btn .btn-get-in-touch {
+        font-size: 14px;
+    }
+    .detail {
+        margin-top: 0px;
+    }
+    .detail img {
+        margin: 138px 24px -2px 0px;
+        width: 100%;
+    }
+    .detail ul {
+        margin: 0px 2px 8px -385px;
+    }
+    .detail-further{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 381px){
+    
+}

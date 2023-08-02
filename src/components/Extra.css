@@ -1,0 +1,378 @@
+/* @media screen and (max-width: 1024) {
+    .get-in-touch-img{
+        width: 73%;
+        margin-right: 25px;
+      }
+      .get-in-touch p {
+        font-size: 30px;
+      }
+      .get-in-touch button{
+        padding: 27px 37px;
+        font-size: 28px;
+      }
+      .flexibity-to-innovative-div {
+        margin: 50px 22px
+      }
+      .flexibity-to-innovative-div h1 {
+        margin-left: 31px;
+      }
+      .flexibity-to-innovative-div p{
+        margin-left: 31px;
+        font-weight: 400;
+        font-size: 24px;
+      }
+      .flexibity-to-innovative-div button{
+        font-size: 25px;
+      }
+      .flexibity-to-innovative-img-div {
+        width: 200vw;
+      }
+      .power-of-great-work h1 {
+        width: 77%;
+      }
+      .power-of-great-work p {
+        margin: 2% 3% 0% 3%;
+      } 
+    }
+*/
+
+
+@media screen and (max-width: 992px){
+    .innovative-solutions-section .innovative-solutions .get-in-touch-image {
+        margin-right: 100px;
+    }
+    .innovative-solutions-section .innovative-solutions img {
+        width: 60%;
+    }
+    .flexibity-to-innovative-section .flexibity-to-innovative-div h1 {
+        margin: 50px 65px 50px 10px
+    }
+    .flexibity-to-innovative-section .flexibity-to-innovative-div p {
+        margin: 20px 30px 20px 10px;
+        font-weight: 400;
+        font-size: 19px;
+    }
+    .flexibity-to-innovative-section .flexibity-to-innovative-div button {
+        margin: 20px 80px 10px 10px;
+    }
+    .core-competencies-div {
+        margin: 10px 5%;
+    }
+    .power-of-great-work h1 {
+        width: 100%;
+        padding: 20px 34px;
+    }
+    .power-of-great-work .power-of-great-work-imgs .two-images-div {
+        width: 94vw;
+        margin-bottom: 30px;
+    }
+    .first-inner-div{
+        height: 104%;
+    }
+    .two-images-div-img{
+        height: 58%;
+    }
+    .three-images-div{
+        height: 58%;
+    }
+    .power-of-great-work .power-of-great-work-imgs .three-images-div {
+        width: 100%;
+    }
+    .power-of-great-work .power-of-great-work-imgs .three-images-div .first-div,
+    .power-of-great-work .power-of-great-work-imgs .three-images-div .second-div,
+    .power-of-great-work .power-of-great-work-imgs  .three-images-div .third-div{
+        margin-right: 26px;
+    }
+    .power-of-great-work .power-of-great-work-imgs .three-images-div p {
+        font-size: 16px;
+    }
+
+    .power-of-great-work .power-of-great-work-imgs .coded-level {
+        width: 90vw;
+    }
+    .our-strategy .services {
+        margin: 9px 0px 0px 12px;
+        width: 95%;
+    }
+    .key-clients .slick-carousel {
+        width: 100vw;
+    }
+    footer{
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 648px){
+    .innovative-solutions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .get-in-touch button{
+        margin-bottom: 16px;
+    }
+    .innovative-solutions img {
+        margin-right: 19px;
+        width: 84%;
+    }
+   .core-competencies-section .core-competencies-div{
+        margin: 10px 0%;
+    /* display: flex; */
+    /* align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+    align-items: flex-start;
+    }
+    .flexibity-to-innovative-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #eeedf3;
+        padding-bottom: 100px;
+        clip-path: polygon(0 0, 100% 0, 178% 77%, 0% 100%);
+        margin-bottom: 10px;
+     
+    }
+    .flexibity-to-innovative-section .flexibity-to-innovative-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+    }
+    .flexibity-to-innovative-section .flexibity-to-innovative-div {
+        width: 100%;
+    }
+    .flexibity-to-innovative-img-div img {
+        width: 80%;
+    }
+    .flexibity-to-innovative-section .flexibity-to-innovative-di h1{
+        margin: 26px 25px 21px 2px
+    }
+    .flexibity-to-innovative-div button{
+        margin: 20px 169px;
+    }
+    .first-inner-div, .second-inner-div{
+        height: 90%;
+        width: 92%;
+        margin-bottom: 14px;
+        margin-right: 0px;
+    }
+    .first-inner-div img {
+        width: 80%;
+        margin-left: 41px;
+    }
+    .two-images-div{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .power-of-great-work .power-of-great-work-imgs .two-images-div {
+        width: 94vw;
+        margin-bottom: 30px;
+        margin-top: 118px;
+    }
+    .first-div, .second-div, .third-div {
+        /* border: 2px solid black; */
+        width: 55%;
+        height: 40%;
+        margin-right: 100px;
+    }
+    .second-inner-div{
+        height: 95%;
+    }
+    .three-images-div {
+        width: 160%;
+    }
+    .coded-level {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .power-of-great-work h1 {
+        width: 100%;
+        padding: 11px 0px;
+    }
+    .coded-level h1 {
+        margin-left: 9px;
+    }
+    .coded-level p {
+        padding: 2px 38px 0px 0px;
+    }
+    .coded-level img {
+        width: 88%;
+    }
+    .content{
+        margin-left: 5px;
+    }
+    .power-of-great-work .power-of-great-work-imgs .three-images-div {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 210px;
+    }
+    .our-strategy .services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .service{
+        width: 90%;
+    }
+    .service img {
+        width: 44vw;
+    margin-left: 124px;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .logo{
+        width: 45vw;
+    }
+    .innovative-solutions .get-in-touch > p {
+        margin-left: -180px;
+    }
+    .get-in-touch button{
+        font-size: 19px;
+        padding: 12px 40px;
+        font-weight: 600;
+    }
+    .power-of-great-work h1 {
+        padding: 13px;
+    }
+    .power-of-great-work-imgs {
+        margin-top: 80px;
+    }
+    .two-images-div {
+        height: 111vh;
+    }
+    .second-inner-div{
+        height: 100%;
+    }
+    .two-images-div-img2{
+        height: 54%;
+    }
+    .three-images-div {
+        width: 175%;
+        margin-top: 161px;
+    }
+    .coded-level h1 {
+        margin-left: 10px;
+    }
+    .coded-level p {
+        margin-left: 12px;
+    }
+    .service img{ 
+        margin-left: 69px;
+    }
+    .key-clients .slick-carousel {
+        width: 244vw;
+    }
+    .reviews p {
+        margin: 0px;
+    }
+    footer{
+        padding-top: 165px;
+        /* padding-bottom: 80px; */
+    }
+    .copyright{
+        margin-top: 90px;
+    }
+}
+
+
+/* Navbar Extra CSS STARTS */
+/* Navbar Extra CSS ENDS */
+
+/* .container{
+    width: 1200px;
+    max-width: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+
+
+
+@media screen and (min-width: 1025px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 991px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 667px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 380px){
+
+} */
+
+
+@media screen and (max-width: 991px) {
+    .main-nav {
+      width: 100%;
+      margin: 0px;
+    }
+    /* .logo{
+      margin-left: 30px;
+    } */
+    .logo img{
+      width: 93%;
+    }
+}
+
+
+/* @media screen and (min-width: 799px) {
+ 
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1230px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+  }
+} */
+
+
+/* const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    console.log(file.type);
+    if (file) {
+      const reader = new FileReader();
+  
+      reader.onloadend = () => {
+        reader.readAsDataURL(file);
+        reader.onload = () =>{
+          const base64String = reader.result;
+          setFormData((prevFormData) => ({
+            ...prevFormData,
+            file: base64String,
+          }))
+        }
+      };
+    }
+  }; */

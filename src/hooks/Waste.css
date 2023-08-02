@@ -1,0 +1,115 @@
+/* Footer starts  */
+
+footer{
+    height: 314px;
+    background-color: #0e2631;
+    padding-left: 40px;
+}
+.footer-div{
+    /* margin: 10px 100px;
+    padding-top: 30px; */
+    /* width: 90vw;
+    height: 45vh; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items : flex-start;
+    justify-content: space-between;
+}
+.footer-div p {
+    text-align: justify;
+}
+.footer-div  .foot-div {
+    /* margin: 10px 35px;
+    width: 35%; */
+    /* border: 2px solid black; */
+}
+footer  .footer-div .microrage-solutions-div p{
+    color: white;
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+.footer-div ul {
+    display: flex;
+    flex-direction: column;
+    align-items : flex-start;
+    justify-content: start;
+}
+.footer-div ul {
+    margin-top: 48px;
+}
+.footer-div ul li {
+    margin: 13px 12px;
+    font-weight: 600;
+}
+.footer-div ul li .footer-links{
+    margin: 0px 10px;
+    transition: linear 0.3s;
+}
+.footer-div ul li .footer-links,
+.footer-div  h3,
+address {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+}
+address a, .phone-number{
+    transition: linear 0.3s;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+address a:hover, .phone-number:hover {
+    color: #97B325;
+}
+address{
+    margin-bottom: 30px;
+}
+
+.social-media {
+    display: flex;
+    align-items : flex-start;
+    justify-content: start;
+    margin-left: 20px 10px;
+}
+.FaFacebook {
+    background-color: #3b5998;
+    color: white;
+    font-size: 30px;
+    /* margin: 20px 0px; */
+    border-radius: 5px;
+}
+.twitter {
+    margin: 0px 10px;
+}
+.footer-div .address-div address {
+    line-height: 20px;
+    margin-top: 55px;
+}
+.footer-div ul li .footer-links:hover{
+    color: #97B325;
+}
+.footer-div  h3 {
+    margin-top: -5px;
+}
+.copyright{
+    /* margin-top: 75px; */
+}
+footer > .copyright p{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    padding: 7px 0px;
+    text-align: center ;
+}
+footer > .copyright p span:hover{
+    color: #97B325;
+    transition: linear 0.3s;
+    cursor: pointer;
+}
+/* Footer ends */

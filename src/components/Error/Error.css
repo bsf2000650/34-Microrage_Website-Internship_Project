@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap");
+
+.error-div{
+    background-image: url(//microrage.com/wp-content/uploads/2020/11/hero-bg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat';
+    height: 197px;
+    color: white;
+    margin-top: -367px;
+}
+.error-div h1 {
+    font-size: 63px;
+}
+.error-div p {
+    color: #888477;
+}
+.oops {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    margin: 28px 450px 26px 0px;
+}
+.div-404{
+    display: flex;
+    align-items : flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 132px;
+    margin-bottom: 20px;
+}
+.error-message{
+    font-size: 170px;
+    color: #f0f0f0;
+    font-family: 'Montserrat';
+}
+.helpful-links-div h2,
+.search-website h2 {
+    font-size: 32px;
+    margin: 32px 0px;
+    font-family: 'Montserrat';
+}
+.helpful-links-div ul 
+    {
+        display: flex;
+        align-items : flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .helpful-links-div ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 7px 0px;
+    }
+.helpful-links-div ul li .faChevronCircleRight{
+    color: red;
+    font-size: 28px;
+    margin-right: 14px;
+    margin-top: 0px;
+}
+.helpful-links-div ul li p,
+.search-website p{  
+  display: inline;
+color: black;
+font-family: 'Montserrat';
+font-size: 16px;
+}
+.search-website p{
+    display: block;
+    margin-bottom: 35px;
+}
+.helpful-links-div ul li p .helpful-link{
+    text-decoration: none;
+    color: black;
+}
+.helpful-links ul li p {
+
+}
+
+.search-website input[type='search']{
+    width: 60%;
+    height: 44px;
+    padding-left: 16px;
+}
+.search-website .magnifying-glass {
+
+}
+
+@media screen and (max-width: 992px) {
+    .error-div {
+        margin-top: -409px;
+    }
+    .div-404 {
+        display: flex;
+        align-items : flex-start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 59px;
+        margin-bottom: 20px;
+    }
+    .oops{
+        margin: 28px 143px 26px 59px;
+    }
+    .error-message {
+        font-size: 153px;
+        margin-left: 14px;
+    }
+    .search-website {
+        margin-left: -113px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .error-div {
+        margin-top: -94px;
+    }
+    .oops {
+        margin: 28px 32px 26px 44px;
+        font-size: 39px;
+        text-align: left;
+    }
+        .div-404 {
+            flex-direction: column;
+            gap: 0px;
+            margin-left: 33px;
+    }
+    .error-message {
+        font-size: 153px;
+        margin-left: 0px;
+    }
+    .helpful-links-div{
+        margin-left: 14px;
+    }
+    .search-website {
+        margin-left: 3px;
+    }
+}
