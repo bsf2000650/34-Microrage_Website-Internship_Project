@@ -19,16 +19,20 @@ const Footer = () => {
           <h3>Important Links</h3>
           <ul>
             <li>
+            <li>
               <NavLink activeClassName='active' className='footer-links' to='/about'>About Us</NavLink>
             </li>
             <li>
               <NavLink activeClassName='active' className='footer-links' to='/services'>Our Services</NavLink>
             </li>
+            </li>
+            <li className='inner'>
             <li>
               <NavLink activeClassName='active' className='footer-links'  to='/portfolio'>Portfolio</NavLink>
             </li>
             <li>
               <NavLink activeClassName='active' className='footer-links' to='/contact'>Contact Us</NavLink>
+            </li>
             </li>
           </ul>
           </div>
