@@ -1,26 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import './MobileApp.css';
-import { FaCheck } from 'react-icons/fa';
 import Tools from '../../images/tools.png';
 import { Link } from 'react-router-dom';
-import FormMan from '../../images/form-man.png';
-import ServiceBanner from '../../images/services-banner.png'
-import MobileAppImg from '../../images/mob-app.png'
-// import '../About/common.css'
-// import './common_build_together_style.css'
 import { mobileApp } from './ServicesData';
 import BuildTogether from './BuildTogether';
+import Spinner from "../Spinner";
 const MobileApp = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return (
     <>
+    {isLoading ?
+     <Spinner /> : <>        
         {/*  Who we are Start*/}
         <section className='mobile-who-are-we'>
         <div className="mobile-who-are-we-content">
           <h1><span>Mobile App</span> Development</h1>
           <p>{mobileApp[0].mobileAppDescription}</p>
           <div className='btn'>
-          <button className='btn-portfolio'><Link  className='btn-link' to='/portfolio'>Check out portfolio</Link></button>
-          <button className='btn-get-in-touch'><Link className='btn-link' to='/qoute' >Get in touch</Link></button>
+          <Link  className='btn-link-portfolio' to='/portfolio'>Check out portfolio</Link>
+          <Link className='btn-link' to='/qoute' >Get in touch</Link>
           </div>
         </div>
         <div className='who-are-we-img'>
@@ -34,13 +37,14 @@ const MobileApp = () => {
         <p>
         <span>Leaders in every way </span>{mobileApp[0].detail} </p>
         <div className='mobile-detail'>
-        <img src={Tools}/>
+        <img src={Tools} alt="Tools"/>
         </div>
       </section>
         {/* Web Development Section Ends*/}
                 {/* Build together */}
         <BuildTogether />
-      {/* Build Together */}
+      {/* Build Together */}</>}
+
     </>
   )
 }

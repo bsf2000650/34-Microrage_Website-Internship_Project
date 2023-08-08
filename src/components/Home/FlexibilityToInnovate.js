@@ -1,5 +1,6 @@
 import React from 'react';
 import MacBook from "../../images/macbook.PNG";
+import { Link } from 'react-router-dom';
 
 const FlexibilityToInnovate = () => {
   return (
@@ -13,7 +14,7 @@ const FlexibilityToInnovate = () => {
             phenomenal strategists, designers, architects, developers and
             quality analysts.
           </p>
-          <button>talk to us</button>
+          <Link className='talk-to-us' to='/contact'>Talk to Us</Link>
         </div>
         <div className="flexibity-to-innovative-img-div">
           <img src={MacBook} alt="Macbook" />

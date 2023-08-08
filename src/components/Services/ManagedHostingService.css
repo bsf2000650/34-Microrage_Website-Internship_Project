@@ -9,14 +9,10 @@
     justify-content: center;
     /* padding-bottom: 100px; */
     /* margin-top: 10px; */
-    margin: -293px 94px 0px 81px;
+    margin: 0px 94px 0px 81px;
     gap: 61px;
 }
 .managed-who-are-we-content{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* justify-content: center; */
     width: 80%;
     display: flex;
     align-items : flex-start;
@@ -41,11 +37,12 @@
 }
 .managed-who-are-we-content > p {
     text-align: justify;
-    margin : 0px 0px 10px 100px;
-    line-height: 25px;
+    margin: 0px 0px 10px 100px;
+    line-height: 27px;
     color: black;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 500;
+    font-size: 19px;
 }
 .managed-who-are-we .managed-who-are-we-content .experienced-team {
         margin-bottom: 25px;
@@ -57,7 +54,8 @@
     align-items: center;
     justify-content: center;
 }
-.managed-who-are-we-content .btn  > button {
+.managed-who-are-we-content .btn  .btn-link-portfolio, 
+.managed-who-are-we-content .btn  .btn-link{
     margin : 10px;
     border: 1px solid green;
     padding: 15px 25px;
@@ -67,39 +65,26 @@
     transition: all 0.5s;
     font-size: 20px;
     text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
 }
-.managed-who-are-we-content .btn .btn-portfolio{
+.managed-who-are-we-content .btn .btn-link-portfolio{
     background-color: white;
     margin-left: 100px;
 }
-.managed-who-are-we-content .btn .btn-get-in-touch{
+.managed-who-are-we-content .btn .btn-link{
     background-color: #97B325;
 }
 
-.managed-who-are-we-content .btn .btn-portfolio .btn-link{
-    color: #97B325;
-    text-decoration: none;
-    font-weight: 600;
-}
-.managed-who-are-we-content .btn .btn-get-in-touch .btn-link{
-    color: white;
-    text-decoration: none;
-}
-.managed-who-are-we-content .btn .btn-portfolio:hover{
-    background-color: #97B325;
-    color: white !important;
-}
-.managed-who-are-we-content .btn .btn-portfolio .btn-link:hover{
+.managed-who-are-we-content .btn .btn-link-portfolio:hover{
     background-color: #97B325;
     color: white !important;
 }
 
-.managed-who-are-we-content .btn .btn-portfolio:hover{
-    background-color: #97B325;
-    
-    color: white !important;
-}
-.managed-who-are-we-content .btn .btn-get-in-touch:hover{
+
+.managed-who-are-we-content .btn .btn-link:hover{
     background-color: #1d242d !important;
     color: white !important;
     

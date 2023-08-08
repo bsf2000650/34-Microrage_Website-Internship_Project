@@ -1,15 +1,27 @@
-import React from 'react';
+import React from 'react'
 import './Error.css';
 import {Link} from 'react-router-dom'
-import { faChevronCircleRight, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'font-awesome/css/font-awesome.min.css';
 import { IoMdSearch } from 'react-icons/io';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Spinner from '../Spinner'
+import { useEffect, useState } from 'react';
 
 const Error = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return (
+    
     <>
+        {
+          isLoading ? 
+          <Spinner /> : <>
         <div className='error-div'>
         <h1>Error 404 Page</h1>
         <p>Home &gt; 404 - Page Not Found</p>
@@ -62,6 +74,7 @@ const Error = () => {
                 {/* <input type="search" placeholder="&#xf002;" style={{fontFamily:'font-family:Arial, FontAwesome'}}/> */}
             </div>
         </div>
+        </>}
     </>
   )
 }

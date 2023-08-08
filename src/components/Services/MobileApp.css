@@ -10,7 +10,7 @@
     justify-content: center;
     /* padding-bottom: 100px; */
     /* margin-top: 10px; */
-    margin: -277px 156px 0px 81px;
+    margin: 0px 156px 0px 81px;
     gap: 122px;
 }
 .mobile-who-are-we-content{
@@ -42,11 +42,12 @@
 }
 .mobile-who-are-we-content > p {
     text-align: justify;
-    margin : 0px 0px 10px 100px;
-    line-height: 25px;
+    margin: 0px 0px 10px 100px;
+    line-height: 29px;
     color: black;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 500;
+    font-size: 19px;
 }
 .mobile-who-are-we .mobile-who-are-we-content .experienced-team {
         margin-bottom: 25px;
@@ -58,7 +59,8 @@
     align-items: center;
     justify-content: center;
 }
-.mobile-who-are-we-content .btn  > button {
+.mobile-who-are-we-content .btn .btn-link-portfolio,
+.mobile-who-are-we-content .btn .btn-link {
     margin : 10px;
     border: 1px solid green;
     padding: 15px 25px;
@@ -68,38 +70,36 @@
     transition: all 0.5s;
     font-size: 20px;
     text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
 }
-.mobile-who-are-we-content .btn .btn-portfolio{
+.mobile-who-are-we-content .btn .btn-link-portfolio{
     background-color: white;
     margin-left: 100px;
 }
-.mobile-who-are-we-content .btn .btn-get-in-touch{
+.mobile-who-are-we-content .btn .btn-link{
     background-color: #97B325;
 }
 
-.mobile-who-are-we-content .btn .btn-portfolio .btn-link{
-    color: #97B325;
-    text-decoration: none;
-    font-weight: 600;
-}
-.mobile-who-are-we-content .btn .btn-get-in-touch .btn-link{
-    color: white;
+.mobile-who-are-we-content .btn .btn-link{
     text-decoration: none;
 }
-.mobile-who-are-we-content .btn .btn-portfolio:hover{
+.mobile-who-are-we-content .btn .btn-link-portfolio:hover{
     background-color: #97B325;
     color: white !important;
 }
-.mobile-who-are-we-content .btn .btn-portfolio .btn-link:hover{
+.mobile-who-are-we-content .btn .btn-link-portfolio:hover{
     background-color: #97B325;
     color: white !important;
 }
 
-.mobile-who-are-we-content .btn .btn-portfolio:hover{
+.mobile-who-are-we-content .btn .btn-link-portfolio:hover{
     background-color: #97B325;
     color: white !important;
 }
-.mobile-who-are-we-content .btn .btn-get-in-touch:hover{
+.mobile-who-are-we-content .btn .btn-link:hover{
     background-color: #1d242d !important;
     color: white !important;
 }
@@ -135,7 +135,7 @@
 .mobile-web-development-section p {
     text-align: center;
     font-size: 17px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 500;
     padding: 0px 357px 39px 357px;
     color: black;
@@ -154,6 +154,9 @@
     font-weight: 500;
 }
 .mobile-detail {
+    display: flex;
+}
+.detail-further {
     display: flex;
 }
 .detail ul {

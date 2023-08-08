@@ -4,20 +4,21 @@
 
 /* Contact Section Start */
 .contact-section {
-    margin-top: -315px;
+    margin-top: -74px;
 }
 .contact-section h1{
     text-align: center;
     font-family: 'Montserrat';
     font-size: 50px;
     margin: 27px;
+    color: #232b36;
 }
 
-.contact-section .career-description{
+.contact-section .career-description {
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 85px;
     font-size: 24px;
-    font-family: 'Montserrat';
+    font-family: 'Source Sans Pro';
     font-weight: 400;
 }
 
@@ -38,6 +39,7 @@
     /* border: 2px solid black; */
     /* width: 55%; */
     height: 200px;
+    font-family: 'Source Sans Pro';
 }
 
 .contact-section .get-in-touch-grid .contact-item .contact-address {
@@ -184,7 +186,7 @@ margin-bottom: 21px;
 
 @media screen and (max-width: 992px) {
     .contact-section {
-        margin-top: -280px;
+        margin-top: 0px;
     }
     .contact-section .get-in-touch-grid {
         margin: 0px 17px 50px 17px;
@@ -197,13 +199,20 @@ margin-bottom: 21px;
         gap: 12px;
     }
     .contact-section .get-in-touch-grid .google-map {
-        width: 100%;
+        width: 73%;
         height: 250px;
+        display: block;
     }
 }
 @media screen and (max-width: 668px) {
     .contact-section {
-        margin-top: -75px;
+        margin-top: 0px;
+    }
+    .contact-section h1 {
+        font-size: 48px;
+    }
+    .contact-section .get-in-touch-grid .contact-item {
+        width: 42%;
     }
 }
 @media screen and (max-width: 421px) {
@@ -211,8 +220,9 @@ margin-bottom: 21px;
         font-size: 37px;
     }
     .contact-section .career-description {
-        font-size:  19px;
-        margin-bottom: 37px;
+        font-size: 24px;
+        padding: 0px 15px;
+        margin-bottom: 82px;
     }
     .contact-section .get-in-touch-grid {
         display: flex;
@@ -225,11 +235,20 @@ margin-bottom: 21px;
         width: 100%;
     }
     .contact-section .get-in-touch-grid .contact-item h1 {
-        margin: 16px;
+        margin: 16px 16px 9px 22px;
+        font-size: 29px;
+    }
+    .contact-section .get-in-touch-grid .contact-item .contact-address {
+        margin: 22px 0px 0px 21px;
     }
     .contact-section .get-in-touch-grid .google-map {
-        width: 95%;
+        width: 93%;
         height: 250px;
+        border-radius: 12px;
+    }
+    .contact-section .get-in-touch-grid .contact-item .contact-address a, .contact-section .get-in-touch-grid .contact-item .contact-address span {
+        color: #97B325;
+        text-decoration: none;
     }
 }
 @media screen and (max-width: 381px) {

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
 
+
 /* .about-who-are-we{
     border: 2px solid black;
     margin: 5% 10%;
@@ -16,15 +17,15 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 0px;
-    margin: -308px 129px 0px 67px;
+    margin: -50px 115px 0px 68px;
     gap: 0px;
-} 
+}
 .about-who-are-we-content{
      display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-     width: 50%;
+    width: 56%;
     display: flex;
     align-items : flex-start;
     justify-content : flex-start;
@@ -38,39 +39,50 @@
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 54px;
+    color: #212934;
 }
 .about-who-are-we-content  > h1 > span {
     color: #97B325;
 }
 .about-who-are-we-content > p {
     text-align: left;
-    margin : 0px 80px 10px 100px;
-    line-height: 25px;
+    margin: 0px 52px 10px 100px;
+    line-height: 29px;
     color: black;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 500;
+    font-size: 20px;
 }
 .about-who-are-we .about-who-are-we-content .experienced-team {
-        margin-bottom: 25px;
-        margin-top: 0px;
-        font-weight: 380;
-        font-size: 19px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Source Sans Pro';
+    margin-right: 7px;
+    width: 80%;
 }
 .about-who-are-we-content .btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.about-who-are-we-content .btn  > button {
+.about-who-are-we-content .btn  .btn-portfolio,
+.about-who-are-we-content .btn  .btn-get-in-touch
+ {
     margin : 10px;
     border: 1px solid green;
-    padding: 15px 25px;
+    padding: 13px 25px;
     border-radius: 5px;
     margin-right: 150px;
     margin-left: -120px;
     transition: all 0.5s;
     font-size: 20px;
     text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
 }
 .about-who-are-we-content .btn .btn-portfolio{
     background-color: white;
@@ -122,7 +134,8 @@
     /* border: 2px solid black; */
     display: grid;
     grid-template-columns:  auto auto;
-    padding: 20px 100px;
+    padding: 20px 128px;
+    margin-top: -61px;
 }
 
 .about-microrage-solutions div {
@@ -148,10 +161,13 @@
     font-style: italic;
     border-left: 3px solid #97B325;
     text-align: justify;
-    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 23px;
     color: black;
+    word-spacing: -1px;
+    line-height: 29px;
+    color: #3f6779;
 }
 .vision-div div {
     margin-top: 50px;
@@ -165,7 +181,7 @@
 .about-microrage h2 {
     font-family:  'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 31px;
     margin-bottom: 20px;
 }
 
@@ -174,21 +190,22 @@
 }
 .about-microrage p {
     text-align: justify;
-    /* margin : 0px 80px 10px 100px; */
-    line-height: 26px;
+    /* margin: 0px 80px 10px 100px; */
+    line-height: 25px;
     color: black;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 550;
-    font-size: 15px;
+    font-size: 17px;
 }
 .mission {
     display: flex;
     flex-direction: column;
-    align-items : flex-start;
-    justify-content : flex-start;
-    padding: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 23px 23px 23px 35px;
     background: #f4f5f7;
-    height: 65%;
+    height: 74%;
+    width: 95%;
 }
 .mission h2 {
     font-size: 24px;
@@ -196,20 +213,21 @@
     margin: 20px 0px;
 }
 .mission p {
-    font-family: 'Montserrat';
-    color: black;
+    font-family: 'Source Sans Pro';
+    color: #8d7c80;
     padding-bottom: 15px;
     font-size: 17px;
     display: inline;
 }
+
 .mission ul p {
-    font-family: 'Montserrat';
-    color: black;
+    font-family: 'SOURCE SANS PRO';
     padding-bottom: 15px;
-    font-size: 15px;
+    font-size: 16px;
     display: inline;
     margin-left: 20px;
     line-height: 27px;
+    color: #8d7c80;
 }
 /* .mission ul li {
     font-family: 'Montserrat';
@@ -220,7 +238,7 @@
     margin-left: 10px;
 } */
 .mission ul .check-mark {
-    color: green;
+    color: #bed74c;
 }
 
 .detail p{
@@ -239,41 +257,45 @@
     background-color: transparent;
     color: white;
     background-attachment: fixed;
+    padding-bottom: 15px;
 }
 
 .how-we-do h1 {
-    margin: 56px 20px 20px 20px;
-    font-size: 42px;
+    margin: 73px 20px 20px 20px;
+    font-size: 37px;
     font-family: 'Montserrat';
     color: white;
 }
 
 .how-we-do p {
-    margin: 0 260px;
+    margin: 0 250px;
     line-height: 27px;
-    font-family: 'Montserrat';
-    padding: 50px 0px;
+    font-family: 'Source Sans Pro';
+    padding: 0px 86px 52px 86px;
     /* color: white; */
+    text-align: center;
+    font-size: 18px;
 }
 
 /* Why Choose Us Start */
 
-.why-choose-us-section  h1 {
+.why-choose-us-section h1 {
     text-align: center;
     font-size: 37px;
     font-family: 'Montserrat';
-    margin: 58px 0px
+    margin: 72px 0px 58px 0px;
 }
 
 .why-choose-us-grid {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 0px 160px;
+    margin: 0px 277px;
+    gap: 26px;
 }
 
 
 .item {
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,7 +304,7 @@
 }
 
 .item > h2 {
-    font-size: 25px;
+    font-size: 23px;
     /* margin: 5px 0px; */
     width: 10;
     padding-bottom: 4px;
@@ -295,12 +317,19 @@
     border-bottom: 2px solid #97B325;
 }
 
+.line{
+    border: 1px solid #97B325;
+    width: 25%;
+    margin: 13px 0px;
+}
+
 .item p {
-    padding: 13px 106px;
-    font-size: 20px;
+    padding: 12px 0px;
+    font-size: 21px;
     color: black;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Source Sans Pro';
+    line-height: 31px;
 }
 
 .last-section{
@@ -309,12 +338,33 @@
 
 @media screen and (max-width: 992px) {
     .about-who-are-we{
-        margin: -188px 0px 42px 0px;
-        gap: 40px;
+        margin: 255px 17px 120px 17px;
+        gap: 0px;
     }
     .about-who-are-we-content {
-        width: 67%;
+        width: 90%;
     }
+    
+element.style {
+}
+.about-who-are-we-content .btn .btn-get-in-touch {
+    background-color: #97B325;
+}
+.about-who-are-we-content .btn .btn-portfolio, .about-who-are-we-content .btn .btn-get-in-touch {
+    margin: 10px;
+    border: 1px solid green;
+    padding: 13px 32px;
+    border-radius: 5px;
+    /* margin-right: 134px;
+    margin-left: -120px; */
+    transition: all 0.5s;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
+}
     .about-who-are-we-content .btn > button {
         margin: 10px;
         border: 1px solid green;
@@ -336,31 +386,37 @@
     }
     .about-who-are-we-content > p {
         text-align: left;
-        font-size: 18px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 19px;
     }
-    .about-who-are-we-img{
+    .about-who-are-we-img {
         /* margin-bottom: 287px; */
-        margin-top: -160px;
+        margin-top: -279px;
+        width: 96%;
     }
     .about-who-are-we-img img {
         margin-left: 13px;
         width: 93%;
     }
     .about-who-are-we-content {
-
+        width: 100%;
     }
     .about-microrage-solutions {
         display: grid;
         grid-template-columns:  auto auto;
-        padding: 20px 25px;
+        padding: 20px 10px;
     }
     .about-microrage-solutions div {
        margin: 10px 22px;
     }
-    .about-microrage p
-    {
-       font-size: 13px;
-   }
+    .about-microrage h2 {
+        line-height: 48px;
+    }
+    .about-microrage p {
+        line-height: 28px;
+        font-size: 14px;
+    }
    .detail {
        margin-top: 10px;
    }
@@ -386,20 +442,21 @@
    font-size: 36px;
 }
 .item {
-    width: 91%;
+    width: 100%;
     margin-bottom: 55px;
     line-height: 29px;
 }
 .item p {
-   padding: 13px 38px;
-   font-size: 18px;
-   font-weight: 500;
+    padding: 13px 0px;
+    font-size: 22px;
+    font-weight: 500;
 }
-.item > h2{
-   text-align: center;
+.item > h2 {
+    text-align: center;
+    padding: 0px 12px;
 }
-.why-choose-us-grid{
-   margin: 0px 96px;
+.why-choose-us-grid {
+    margin: 0px 120px;
 }
     .last-section{
         display: flex;
@@ -408,9 +465,13 @@
         flex-direction: row;
         margin: 21px 10px 71px 10px;
     }
-    .last-section .vision-div{
+    .vision-div p {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+    .last-section .vision-div {
         gap: 10px;
-        width: 37%;
+        width: 70%;
         margin-left: 8px;
         height: 43vh;
         margin-bottom: 43px;
@@ -441,9 +502,14 @@
         margin: -188px 0px 42px 0px;
         gap: 33px
     }
+    .about-who-are-we  .about-who-are-we-content h1{
+        margin: 29px 20px 0px 20px;
+        font-size: 52px;
+    }
     .about-who-are-we-content {
         margin-top: 161px;
-        width: 105%;
+        width: 100%;
+        margin-left: 14px;
     }
     .about-who-are-we-content .btn {
         display: flex;
@@ -457,13 +523,25 @@
     }
     .about-microrage p {
         text-align: left;
+        line-height: 26px;
+        font-size: 17px;
     }
     .about-microrage-solutions {
-        padding: 15px 10px;
+        padding: 70px 10px 15px 10px;
+    }
+    .about-microrage-solutions .detail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .about-who-are-we-img {
             /* margin-bottom: 287px; */
-            margin-top: -205px;
+            /* margin-top: 0px; */
+    }
+    .about-who-are-we-content .btn .btn-portfolio {
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
     .vision-div {
         height: 60vh;
@@ -478,13 +556,14 @@
         margin: 65px 10px 0px 10px;
     }
     .how-we-do p {
-        margin: 2px 135px;
+        margin: 2px 130px;
+        font-size: 18px;
     }
     .item{
         width: 100%;
     }
     .why-choose-us-grid {
-        margin: 0px 36px;
+        margin: 0px 28px;
     }
     .item p {
         padding: 13px 23px;
@@ -492,6 +571,12 @@
     .last-section .vision-div,
     .last-section .mission {
         height: 75vh;
+    }
+    .last-section .vision-div div {
+        padding: 5px 24px 40px 24px;
+    }
+    .last-section .mission ul {
+        margin-left: 0px;
     }
 }
 
@@ -504,6 +589,20 @@
         justify-content: center;
         flex-direction: column;
     }
+    .about-who-are-we-content {
+        margin-top: -42px;
+        width: 115%;
+        margin-bottom: 155px;
+        margin-left: -9px;
+        padding-right: 44px;
+    }
+    .about-who-are-we .about-who-are-we-content .experienced-team {
+        font-size: 24px;
+    }
+    .about-who-are-we-content > p {
+        text-align: left;
+        font-size: 19px;
+    }
     .about-who-are-we {
         /* margin: -188px 0px 42px 0px; */
         /* gap: 33px; */
@@ -511,21 +610,26 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 3px 41px;
+        margin: 3px 0px 3px 41px;
     }
-    .about-who-are-we-content {
-        margin-top: -42px;
-        width: 115%;
-        margin-bottom: 155px;
+    .about-who-are-we-img {
+        width: 100%;
     }
     .about-who-are-we-img img {
         margin-left: -14px;
         width: 100%;
+        margin-top: 30px;
     }
     .about-who-are-we-content .btn {
         margin-left: 8px;
         flex-direction: row;
-        margin-bottom: 45px;
+        margin-bottom: 66px;
+        margin-left: 18px;
+    }
+    .about-who-are-we-content .btn .btn-portfolio, .about-who-are-we-content .btn .btn-get-in-touch {
+        padding: 12px 16px;
+        font-size: 15px;
+        font-weight: 500;
     }
     .about-who-are-we-content .btn > button {
         font-size: 14px;
@@ -535,20 +639,14 @@
     }
     .about-who-are-we-content .btn .btn-get-in-touch {
         margin-left: 0px;
+        margin-top: 0px;
     }
     .about-who-are-we .about-who-are-we-content h1 {
         font-size: 41px;
     }
-    .about-who-are-we-content > p {
-        text-align: left;
-        font-size: 16px;
-    }
     .about-who-are-we-img {
         margin-bottom: 40px;
-    }
-    .about-who-are-we .about-who-are-we-content .experienced-team {
-        font-size: 19px;
-    }    
+    }  
     .about-microrage-solutions {
         display: flex;
         align-items: center;
@@ -556,18 +654,24 @@
         flex-direction: column;
     }
     .about-microrage-solutions div {
-        margin: 10px 22px 45px 22px;
+        margin: 10px 22px 54px 22px;
+    }
+    .about-microrage {
+        /* border: 2px solid black; */
+        padding-bottom: 0px;
     }
     .vision-div {
         height: 50vh;
     }
     .mission {
         height: 75vh;
+        width: 89%;
     }
     .how-we-do p {
         margin: 0px 37px;
-        font-size: 16px;
+        font-size: 18px;
     }
+
     .why-choose-us-grid {
         display: flex;
         align-items: center;
@@ -575,11 +679,22 @@
         flex-direction: column;
         margin: 0px 24px;
     }
+    .item p {
+        padding: 13px 6px;
+    }
     .last-section {
         display: none;
     } 
 }
 
+@media screen and (max-width: 380px) {
+    .about-who-are-we .about-who-are-we-content .experienced-team {
+        width: 100%;
+    }
+    .about-who-are-we-content > p {
+        width: 95%;
+    }
+}
 
 
 

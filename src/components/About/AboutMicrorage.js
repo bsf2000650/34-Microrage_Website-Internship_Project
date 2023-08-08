@@ -17,8 +17,8 @@ const AboutMicrorage = () => {
                     <p>{data.experiencedTeamDetail}</p>
                     
                     <div className='btn'>
-                    <button className='btn-portfolio'><Link  className='btn-link' to='/portfolio'>Check out portfolio</Link></button>
-                    <button className='btn-get-in-touch'><Link className='btn-link' to='/qoute' >Get in touch</Link></button>
+                    <Link  className='btn-portfolio' to='/portfolio'>Check out portfolio</Link>
+                    <Link className='btn-get-in-touch' to='/qoute' >Get in touch</Link>
                     </div>
                     </div>
                     <div className='about-who-are-we-img'>
@@ -54,7 +54,8 @@ const AboutMicrorage = () => {
                         </ul>
                     </div>
                     <div className='about-microrage detail'>
-                        <p>{data.aboutMicrorageDetail}</p>
+                        <p>{data.aboutMicrorageDetail1}</p>
+                        <p>{data.aboutMicrorageDetail2}</p>
                     </div>
                     </section>
                     </>

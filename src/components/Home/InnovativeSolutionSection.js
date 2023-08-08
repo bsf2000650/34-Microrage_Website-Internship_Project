@@ -1,5 +1,6 @@
 import React from 'react';
 import GetInTouch from "../../images/get-in-touch-image.PNG";
+import { Link } from 'react-router-dom';
 
 const InnovativeSolutionSection = () => {
   return (
@@ -17,7 +18,7 @@ const InnovativeSolutionSection = () => {
             <p>
               Have an idea for <br /> a great project?
             </p>
-            <button type="submit">Get in Touch</button>
+            <Link to='/qoute' className='get-in-touch-link'>Get in Touch</Link>
           </div>
           <img
             className="get-in-touch-image"

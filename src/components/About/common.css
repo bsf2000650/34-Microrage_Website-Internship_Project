@@ -6,6 +6,7 @@
     justify-content: center;
 } */
 
+
 /* Who we are Starts */
 .who-are-we {
     display: flex;
@@ -13,15 +14,15 @@
     justify-content: center;
     /* padding-bottom: 100px; */
     /* margin-top: 10px; */
-    margin: -316px 156px 0px 81px;
-    gap: 122px;
+    margin: -49px 116px 0px 60px;
+    gap: 48px;
 }
 .who-are-we-content{
     /* display: flex;
     flex-direction: column;
     align-items: center; */
     /* justify-content: center; */
-    width: 80%;
+    width: 97%;
     display: flex;
     align-items : flex-start;
     justify-content : flex-start;
@@ -29,27 +30,29 @@
     margin-top: -0px;
 }
 .who-are-we-img {
-    width: 73%;
+    width: 77%;
     /* margin-top: -79px; */
     /* margin-bottom: 84px; */
 }
 .who-are-we .who-are-we-content   h1 {
     text-align: left;
-    margin: 0px 0px 16px 93px;
+    margin: 0px 0px 32px 93px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 54px;
+    color: #232b36;
 }
 .who-are-we-content  > h1 > span {
     color: #97B325;
 }
 .who-are-we-content > p {
-    text-align: justify;
-    margin : 0px 0px 10px 100px;
-    line-height: 25px;
+    text-align: left;
+    margin: 0px 0px 10px 100px;
+    line-height: 30px;
     color: black;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 500;
+    font-size: 21px;
 }
 .who-are-we .who-are-we-content .experienced-team {
         margin-bottom: 25px;
@@ -60,8 +63,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 84px;
 }
-.who-are-we-content .btn  > button {
+.who-are-we-content .btn  > .btn-link-portfolio, 
+.who-are-we-content .btn  > .btn-link {
     margin : 10px;
     border: 1px solid green;
     padding: 15px 25px;
@@ -71,31 +76,40 @@
     transition: all 0.5s;
     font-size: 20px;
     text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro';
 }
-.who-are-we-content .btn .btn-portfolio{
+.who-are-we-content .btn .btn-link-portfolio{
     background-color: white;
-    margin-left: 100px;
+    font-weight: 600;
+    /* margin-left: 100px; */
 }
-.who-are-we-content .btn .btn-get-in-touch{
+.who-are-we-content .btn .btn-link{
     background-color: #97B325;
 }
-.who-are-we-content .btn .btn-portfolio .btn-link {
+.who-are-we-content .btn .btn-link {
     color: #97B325;
     text-decoration: none;
 }
-.who-are-we-content .btn .btn-get-in-touch .btn-link {
+.who-are-we-content .btn .btn-link {
     color: white;
     text-decoration: none;
+        color: white;
+        text-decoration: none;
+        font-family: 'Source Sans Pro';
+        color: black;
+        font-weight: 600;
 }
-.who-are-we-content .btn .btn-portfolio:hover{
+.who-are-we-content .btn .btn-link-portfolio:hover{
     background-color: #97B325;
     color: white !important;
 }
-.who-are-we-content .btn .btn-portfolio .btn-link:hover{
+.who-are-we-content .btn .btn-link:hover{
     background-color: #97B325;
     color: white !important;
 }
-.who-are-we-content .btn .btn-get-in-touch:hover{
+.who-are-we-content .btn .btn-link:hover{
     background-color: #1d242d !important;
     color: white !important;
     
@@ -119,14 +133,14 @@
     margin: 20px;
     font-size: 45px;
     margin-bottom: 5px;
-    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat';
     font-weight: 900;
     padding: 41px 0px 28px 0px;
 }   
 .web-development-section p {
     text-align: center;
-    font-size: 15px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
     font-weight: 500;
     padding: 0px 447px 39px 412px;
     color: black;
@@ -152,14 +166,19 @@
     justify-content : flex-start;
     flex-direction: row;
 }
-.detail ul li{
-    font-family: 'Montserrat';
-    font-size: 15px;
-    padding-bottom: 10px;
+.detail li:before {
+    content: "✓";
+    display: inline-block;
+    color: rgb(151, 179, 37);
+    width: 20px;
+    font-weight: 600;
+}
+.detail ul li {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    padding-bottom: 7px;
     padding-left: 7px;
     line-height: 20px;
-    margin: 22px 54px 22px 4px;
-    display: inline;
 }
 .detail img {
     margin: -22px 45px 0px 90px;
@@ -170,12 +189,16 @@
 }
 
 @media screen and (max-width: 992px){
-    .who-are-we {
-        margin: -325px 0px 142px 0px;
-        gap: 40px;
-    }
+        .who-are-we {
+    margin: 28px 8px 142px 8px;
+    gap: 40px;
+}
+
     .who-are-we-content {
         width: 67%;
+    }
+    .who-are-we-content .btn {
+        margin-left: 9px;
     }
     .who-are-we-content .btn > button {
         margin: 10px;
@@ -193,7 +216,7 @@
         margin-left: 22px;
     }
     .who-are-we .who-are-we-content h1, .who-are-we-content p {
-        margin: 0px 20px 26px 20px;
+        margin: 0px 12px 26px 20px;
         /* margin-bottom: 30px; */
     }
     .who-are-we-content p {
@@ -249,7 +272,10 @@
     .who-are-we {
         gap: 0px;
         padding-bottom: 28px;
-        margin: 131px 0px 18px 0px;
+        margin: 100px 8px 18px 8px
+    }
+    .who-are-we-content .btn > .btn-link{
+        margin-left: -47px;
     }
     .web-development-section p {
         font-size: 14px;
@@ -262,7 +288,7 @@
     .who-are-we-img {
         /* margin-bottom: 287px; */
         width: 80%;
-        margin-top: -418px;
+        margin-top: -365px;
     }
     .who-are-we-content {
         margin-top: -61px;
@@ -293,15 +319,40 @@
     justify-content: center;
     flex-direction: column;
     padding-bottom: 0px;
-    margin-top: 60px;
+    margin-top: 44px;
     }
     .who-are-we-content {
         width: 100%;
-        
     }
     .who-are-we .who-are-we-content h1  {
         font-size: 36px;
         padding: 11px 0px;
+        margin-bottom: 0px;
+    }
+    .who-are-we-content > p {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .who-are-we-content .btn {
+        margin-left: 8px;
+        flex-direction: row;
+        margin-bottom: 0px;
+        margin-left: 18px;
+    }
+    .who-are-we-content .btn .btn-link-portfolio, .who-are-we-content .btn .btn-link{
+        padding: 12px 16px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .who-are-we-content .btn > button {
+        font-size: 14px;
+    }
+    .who-are-we-content .btn .btn-link-portfolio {
+        margin-left: 0px;
+    }
+    .who-are-we-content .btn .btn-link {
+        margin-left: 0px;
+        margin-top: 10px;
     }
     .web-development-section h1 {
         font-size: 31px;

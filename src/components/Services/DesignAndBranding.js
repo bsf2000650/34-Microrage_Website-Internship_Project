@@ -1,25 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from "react"
 import Tools from '../../images/tools.png';
 import { Link } from 'react-router-dom';
-import FormMan from '../../images/form-man.png';
-import Design_Branding from '../../images/design-and-branding.png';
 import { FaCheck } from 'react-icons/fa';
 import '../About/common.css'
 import './common_build_together_style.css'
 import { designAndBranding } from './ServicesData';
 import BuildTogether from './BuildTogether';
+import Spinner from "../Spinner";
+// import './DesignAndBranding.css'
 
 const DesignAndBranding = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return (
     <>
-        {/*  Who we are Start*/}
+    {isLoading ? 
+    <Spinner /> : <>  
+    {/*  Who we are Start*/}
         <section className='who-are-we'>
         <div className="who-are-we-content">
           <h1><span>Design and</span> Branding</h1>
           <p>{designAndBranding[0].designAndBrandingDescription}</p>
           <div className='btn'>
-          <button className='btn-portfolio'><Link  className='btn-link' to='/portfolio'>Check out portfolio</Link></button>
-          <button className='btn-get-in-touch'><Link className='btn-link' to='/qoute' >Get in touch</Link></button>
+          <Link  className='btn-link-portfolio' to='/portfolio'>Check out portfolio</Link>
+          <Link className='btn-link' to='/qoute' >Get in touch</Link>
           </div>
         </div>
         <div className='who-are-we-img'>
@@ -34,19 +42,15 @@ const DesignAndBranding = () => {
         <span>Our creative team  </span> {designAndBranding[0].detail}
         </p>
         <div className='detail'>
-        <img src={Tools}/> 
+        <img src={Tools} alt="Tools"/> 
         <div className='detail-further'>
         <ul>
-        <FaCheck className='check-mark'/>
-        <li>{designAndBranding[0].point1}</li><br/>
-        <FaCheck className='check-mark'/>
-        <li>{designAndBranding[0].point2}</li><br/>
+        <li>{designAndBranding[0].point1}</li>
+        <li>{designAndBranding[0].point2}</li>
         </ul>
         <ul>
-        <FaCheck className='check-mark'/>
-        <li>{designAndBranding[0].point3}</li><br/>
-        <FaCheck className='check-mark'/>
-        <li>{designAndBranding[0].point4}</li><br/>
+        <li>{designAndBranding[0].point3}</li>
+        <li>{designAndBranding[0].point4}</li>
         </ul>
         </div>
         </div>
@@ -54,7 +58,8 @@ const DesignAndBranding = () => {
         {/* Web Development Section Ends*/}
                 {/* Build together */}
       <BuildTogether />
-      {/* Build Together */}
+      {/* Build Together */}</>}
+
     </>
   )
 }

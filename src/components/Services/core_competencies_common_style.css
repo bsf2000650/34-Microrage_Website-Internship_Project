@@ -5,26 +5,29 @@
     /* width: 100%; */
     /* height: auto; */
 }
-.core-competencies-section h2{
-    padding: 90px 0px 30px 0px;
-    color: #b7b0b0;
-    border-bottom: 1px solid #b7b0b0;
+.core-competencies-section h2 {
+    padding: 108px 0px 13px 0px;
+    color: #6b7175;
+    border-bottom: 0.5px solid #61676c;
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
-    margin-bottom: 10px;
-    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 900;
+    width: 36%;
+    margin-left: 32%;
+    margin-bottom: 29px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 2px;
 }
 .core-competencies-div{
    display: grid;
    grid-template-columns: auto auto auto;
-   padding: 10px;
+   padding: 10px 10px 38px 10px;
    margin: 0px 10%;
 }
 .core-competencies-item {
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
-  margin: 10px 30px;
+  margin: 10px 15px 30px 15px;
   /* padding: 20px; */
   font-size: 15px;
   text-align: center;
@@ -34,6 +37,8 @@
     text-transform: uppercase;
     font-family:  'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 18px;
 }
 h3, .links > p , .links > img{
     margin: 20px 0px ;
@@ -67,11 +72,23 @@ h3, .links > p , .links > img{
 @media screen and (max-width: 992px){
     .core-competencies-div {
         margin: 0px 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
+
 }
 @media screen and (max-width: 669px){
     .core-competencies-item {
         margin: 10px 13px;
+    }
+    .core-competencies-section h2 {
+        width: 60%;
+        margin-left: 19%;
+    }
+    .build-together > h1 {
+        padding: 52px 0px 38px 0px;
     }
 }
 @media screen and (max-width: 421px){
@@ -84,8 +101,15 @@ h3, .links > p , .links > img{
         justify-content: center;
         flex-direction: column;
     }
+    .core-competencies-div {
+        margin: 0px 3% 0px 3%;
+    }
     .coded-level .content h1 {
         margin-left: -4px;
+    }
+    .core-competencies-section h2 {
+        width: 80%;
+        margin-left: 12%;
     }
 }
 @media screen and (max-width: 381px){
@@ -97,5 +121,8 @@ h3, .links > p , .links > img{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .coded-level .content h1 {
+        margin-left: -7px;
     }
 }

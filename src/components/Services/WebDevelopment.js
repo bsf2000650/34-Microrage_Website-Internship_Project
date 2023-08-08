@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import './WebDevelopment.css';
 import { FaCheck } from 'react-icons/fa';
 import Tools from '../../images/tools.png';
@@ -7,18 +7,26 @@ import './common_build_together_style.css'
 import { webDevelopment } from './ServicesData';
 import BuildTogether from './BuildTogether';
 import { Link } from 'react-router-dom';
+import Spinner from "../Spinner";
 
 const WebDevelopment = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return (
     <>
-        {/*  Who we are Start*/}
-        <section className='who-are-we'>
+    {isLoading ? <Spinner /> : <>
+              {/*  Who we are Start*/}
+              <section className='who-are-we'>
         <div className="who-are-we-content">
           <h1><span>Web Application</span> Development</h1>
           <p>{webDevelopment[0].webDevelopmentDescription}</p>
           <div className='btn'>
-          <button className='btn-portfolio'><Link  className='btn-link'  className='btn-link' to='/portfolio'>Check out portfolio</Link></button>
-          <button className='btn-get-in-touch'><Link className='btn-link' className='btn-link' to='/qoute' >Get in touch</Link></button>
+          <Link  className='btn-link-portfolio' to='/portfolio'>Check out portfolio</Link>
+          <Link className='btn-link'  to='/qoute' >Get in touch</Link>
           </div>
         </div>
         <div className='who-are-we-img'>
@@ -32,16 +40,12 @@ const WebDevelopment = () => {
         <p>
         <span>Custom web development</span> {webDevelopment[0].detail}</p>
         <div className='detail'>
-        <img src={Tools}/>
-            <ul>
-                <FaCheck className='check-mark'/>
-              <li>{webDevelopment[0].point1}</li><br/>
-                <FaCheck className='check-mark'/>
-                <li>{webDevelopment[0].point2}</li><br/>
-                <FaCheck className='check-mark'/>
-                <li>{webDevelopment[0].point3}</li><br/>
-                <FaCheck className='check-mark'/>
-                <li>{webDevelopment[0].point4}</li><br/>
+        <img src={Tools} alt="Tools"/>
+          <ul>
+              <li>{webDevelopment[0].point1}</li>
+                <li>{webDevelopment[0].point2}</li>
+                <li>{webDevelopment[0].point3}</li>
+                <li>{webDevelopment[0].point4}</li>
             </ul>    
         </div>
       </section>
@@ -49,6 +53,8 @@ const WebDevelopment = () => {
       {/* Build together */}
       <BuildTogether />
       {/* Build Together */}
+    </>}
+
     </>
   )
 }

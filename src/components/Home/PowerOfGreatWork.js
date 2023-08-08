@@ -7,7 +7,7 @@ const PowerOfGreatWork = () => {
     <>
         <section className="power-of-great-work">
         <h1>{powerOfGreatWork[0].mainHeading}</h1>
-        <p>{powerOfGreatWork[0].description}</p>
+        <p>We’re proud of all our work yet these deserve a spot up-front</p>
         <div className="power-of-great-work-imgs">
           <div className="two-images-div">
             <div className="first-inner-div">

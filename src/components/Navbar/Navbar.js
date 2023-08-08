@@ -1,20 +1,12 @@
 import React, { useEffect, useState,createContext } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/logo.JPG";
+import Logo from "../../images/logo.PNG";
 import "./Navbar.css";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { useWindowSize } from "../../hooks/useWindowSize";
 import Hamburger from 'hamburger-react'
 import { NavLink } from "react-router-dom";
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Dropdown from 'react-dropdown';
-import Home from "../Home/Home";
-import GetFreeQoute from "../GetFreeQoute/GetFreeQoute";
-import About from "../About/About";
-import Contact from "../Contact Us/Contact";
-import Careers from "../Careers/Careers";
-import Services from "../Services/Services";
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const UserContext = createContext();
 
@@ -22,6 +14,7 @@ const Navbar = () => {
   const [showMediaIcon, setShowMediaIcon] = useState(false);
   const size = useWindowSize();
   let [open, setOpen] = useState(false);
+  let [time,setTime] = useState()
 
   useEffect(() => {
     return setShowMediaIcon(false)
@@ -47,38 +40,41 @@ const Navbar = () => {
             </li>
             <li id="our-services"><NavLink 
                   activeClassName='active' 
-                  onMouseOver={()=>{setOpen(setTimeout((open) => {open=true},1000))}}
+                  onMouseOver={()=>{setOpen(open=true)}}
                   onMouseLeave={()=>{setOpen(open=false)}}
                   className='link'
                   to='/services'
                   >Our Services <FontAwesomeIcon className="faChevronDown" icon={faChevronDown} />
-                  <ul id="services-link" className={`dropdown-menu ${open ? 'isActive' : 'is-InActive'}`}>
+                 </NavLink>
+                 <ul id="services-link" className={`dropdown-menu ${open ? 'isActive' : 'is-InActive'}`} 
+        onMouseOver={()=>{setOpen(open=true)}}
+        onMouseLeave={()=>{setOpen(open=false)}}
+      >
                 <li>
-                <Link className="service-link" to='/services/web-development'>Web App Development</Link>
+                <Link className="service-link" to='/services/web-development'><span>Web App Development</span></Link>
                 </li>
                 <li>
-                <Link className="service-link" to='/services/mobile-app'>Mobile App Development</Link>
+                <Link className="service-link" to='/services/mobile-app'><span>Mobile App Development</span></Link>
                 </li>
                 <li>
-                <Link className="service-link" to='/services/ecommerce'>E-commerce development</Link>
+                <Link className="service-link" to='/services/ecommerce'><span>E-commerce development</span></Link>
                 </li>
                 <li>
-                <Link className="service-link"  to='/services/design-branding'>Design and Branding</Link>
+                <Link className="service-link"  to='/services/design-branding'><span>Design and Branding</span></Link>
                 </li>
                 <li>
-                <Link className="service-link" to='/services/digital-marketing'>SEO & Digital Marketing</Link>
+                <Link className="service-link" to='/services/digital-marketing'><span>SEO & Digital Marketing</span></Link>
                 </li>
                 <li>
-                <Link className="service-link" to='/services/strategic-consultancy'>Strategic Consultancy</Link>
+                <Link className="service-link" to='/services/strategic-consultancy'><span>Strategic Consultancy</span></Link>
                 </li>
                 <li>
-                <Link className="service-link" to='/services/business-process-outsourcing'>Business Process Outsourcing</Link>
+                <Link className="service-link" to='/services/business-process-outsourcing'><span>Business Process Outsourcing</span></Link>
                 </li>
                 <li>
-                <Link className="service-link" to='/services/managed-hosting-services'>Managed Hosting Services</Link>
+                <Link className="service-link" to='/services/managed-hosting-services'><span>Managed Hosting Services</span></Link>
                 </li>
-              </ul>
-                  </NavLink>
+      </ul>
                   </li>
             <li>
               <NavLink activeClassName='active' className="link" to='/careers'>Careers</NavLink>
@@ -92,20 +88,12 @@ const Navbar = () => {
           </ul>
           </div>
           <div className="hamburger-menu">
-          <a onClick={() => setShowMediaIcon(!showMediaIcon)}>
-            {/* <GiHamburgerMenu size="30" color="black" /> */}
+          <button onClick={() => setShowMediaIcon(!showMediaIcon)}>
             <Hamburger color="#97b325"/>
-          </a>
+          </button>
         </div>
       </nav>
-      {/* <UserContext.Provider value={showMediaIcon}>
-        <Home showMediaIcon={showMediaIcon}/>
-        <About showMediaIcon={showMediaIcon}/>
-        <Services showMediaIcon={showMediaIcon}/>
-        <Contact showMediaIcon={showMediaIcon}/>
-        <Careers showMediaIcon={showMediaIcon}/>
-        <GetFreeQoute showMediaIcon={showMediaIcon}/>
-      </UserContext.Provider> */}
+      
     </>
   );
 };

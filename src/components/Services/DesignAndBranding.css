@@ -270,5 +270,9 @@ margin-bottom: 21px;
     
 /* Build Together */
 
+.design-further {
+    display: flex;
+}
+
 
 

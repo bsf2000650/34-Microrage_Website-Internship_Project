@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import './Footer.css'
-import Logo from "../../images/logo.PNG";
+import Logo from "../../images/footer-logo.png";
 
 const Footer = () => {
   return (

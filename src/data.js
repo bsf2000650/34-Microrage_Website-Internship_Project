@@ -1,14 +1,14 @@
 const servicesData = [
     {
-        serviceTitle : "Web Development",
+        serviceTitle : "Web App Development",
         serviceImg:require('./images/web-development.PNG'),
         homeServiceImg:require('./images/web-app.png'),
-        serviceDetail : 'Custome web development offers options for business who seek to provide a flexible, consistent experience for users across different platforms, we achieve it through innovative functionality, well designed architecture based on most suitable technology.',
+        serviceDetail : 'Custom web development offers options for business who seek to provide a flexible, consistent experience for users across different platforms, we achieve it through innovative functionality, well designed architecture based on most suitable technology.',
         serviceUrl : '/services/web-development'
     },
     {
         serviceTitle : "Mobile Apps",
-        serviceDetail : 'Custome web development offers options for business who seek to provide a flexible, consistent experience for users across different platforms, we achieve it through innovative functionality, well designed architecture based on most suitable technology.',
+        serviceDetail : 'Our team, having ability to adopt and learn fast, leads in every way. We make sure you make the best choice of project’s requirements through our wide range of experience from purely native to cross platform app development..',
         serviceImg:require('./images/mobile-apps.PNG'),
         homeServiceImg:require('./images/mobile-app.png'),
         serviceUrl : '/services/web-development'

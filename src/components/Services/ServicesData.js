@@ -11,7 +11,7 @@ const webDevelopment = [
         webDevelopment : 'Web Application Development',
         webDevelopmentDescription: 'We build high-performing custom web applications for businesses that need more than a standard solution.',
         detail : ' offers options for businesses who seek to provide a flexible, consistent experience for users across different platforms, we achieve it through innovative functionality, well designed architecture based on most suitable technology. Leveraging new approaches to web development including progressive web apps, we bring front-end, back-end and architecture ability together to deliver on your business need and maximize delivery speed.',
-        image : require('../../images/ecommerce_1.png'),
+        image : require('../../images/services-banner.png'),
         imageTools : require('../../images/tools.png'),
         point1 : 'Database programming',
         point2 : 'Responsive/multi-platform compatible solutions',
@@ -24,7 +24,7 @@ const mobileApp = [
     {
         mobileApp : 'Mobile App Development',
         mobileAppDescription : 'Leaders in every way, our team adopts early and learns fast. With experience in the range of development from pure native to cross platform apps, we can help you select the best choice for your project requirements.',
-        detail : ' our team adopts early and learns fast. With experience in the range of development from pure native to cross platform apps, we can help you select the best choice for your project requirements. Our technologists provide recommendations to elevate your development strategy, reduce procedural churn and strengthen your solution or technology ecosystem.',
+        detail : 'Our team, having ability to adopt and learn fast, leads in every way. We make sure you make the best choice of project’s requirements through our wide range of experience from purely native to cross platform app development.',
         image : require('../../images/mob-app.png'),
         imageTools : require('../../images/tools.png'),
     }
@@ -35,7 +35,7 @@ const ecommerce = [
         cmsAndEcommerce : 'CMS and Ecommerce Development',
         cmsAndEcommercedescription: 'Have a great idea for a custom marketplace? We know how to create a platform that your users will love.',
         detail : ' CMS development and implementation services help you automate your value chain through ready to use application packages such as WordPress, Joomla!, and Magento to seamlessly achieve desired business benefits with quick turn around and cost effectiveness.',
-        image : require('../../images/services-banner.png'),
+        image : require('../../images/ecommerce_1.png'),
         imageTools : require('../../images/tools.png'),
     }
 ]
@@ -59,7 +59,7 @@ const digitalMarketing = [
         digitalMarketing : 'SEO & Digital Marketing',
         digitalMarketingDescription: "Leverage our mix of SEO skills with creative internet marketing to deliver solutions that communicate, brand and conve",
         detail : 'Leverage our mix of SEO skills with creative internet marketing to deliver solutions that communicate, brand and convert. This service offers the ability to become more visible to all the major search engine providers including Google, Yahoo! and MSN. We strive to keep our clients well ahead of the competition.',
-        image : require('../../images/design.PNG'),
+        image : require('../../images/design-and-branding.png'),
         imageTools : require('../../images/tools.png'),
         point1 : 'Search engine optimization',
         point2 : 'Social Media Marketing',

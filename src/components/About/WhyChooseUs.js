@@ -13,6 +13,7 @@ const WhyChooseUs = () => {
             return (
               <div className="item">
                 <h2>{data.header}</h2>
+                <div className="line"></div>
                 <p>{data.detail}</p>
               </div>
             );

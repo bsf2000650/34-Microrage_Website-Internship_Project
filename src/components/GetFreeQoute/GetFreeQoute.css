@@ -109,6 +109,9 @@
     width: 100%;
     margin-left: 0px;
     }
+    .qoute-build-together .build-together-content {
+        display: none;
+    }
 }
 @media screen and (max-width: 669px) {
 

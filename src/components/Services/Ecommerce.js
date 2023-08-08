@@ -1,24 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import './Ecommerce.css';
-import E_commerce from '../../images/ecommerce_1.png';
 import Tools from '../../images/tools.png';
 import { Link } from 'react-router-dom';
 import FormMan from '../../images/form-man.png'
 import '../About/common.css'
 import './common_build_together_style.css'
 import { ecommerce } from './ServicesData';
+import Spinner from "../Spinner";
 
 const Ecommerce = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return (
     <>
-        {/*  Who we are Start*/}
+        {isLoading ?
+         <Spinner /> : 
+         <>{/*  Who we are Start*/}
         <section className='who-are-we'>
         <div className="who-are-we-content">
           <h1><span>E-commerce</span> Development</h1>
           <p>{ecommerce[0].cmsAndEcommercedescription}</p>
           <div className='btn'>
-          <button className='btn-portfolio'><Link  className='btn-link' to='/portfolio'>Check out portfolio</Link></button>
-          <button className='btn-get-in-touch'><Link className='btn-link' to='/qoute' >Get in touch</Link></button>
+          <Link  className='btn-link-portfolio' to='/portfolio'>Check out portfolio</Link>
+          <Link className='btn-link' to='/qoute' >Get in touch</Link>
           </div>
         </div>
         <div className='who-are-we-img'>
@@ -33,7 +41,7 @@ const Ecommerce = () => {
         <span>Microrage Solutions’  </span>{ecommerce[0].detail}
         </p>
         <div className='detail'>
-        <img src={Tools}/>   
+        <img src={Tools} alt="Tools"/>   
         </div>
       </section>
         {/* Web Development Section Ends*/}
@@ -84,7 +92,7 @@ const Ecommerce = () => {
         </div>
         </div>
       </section>
-      {/* Build Together */}
+      {/* Build Together */}</>}
     </>
   )
 }

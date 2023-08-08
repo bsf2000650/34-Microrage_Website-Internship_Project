@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import ServiceBanner from '../../images/services-banner.png'
 import './Portfolio.css'
 import HotelsFinder from "../../images/hotels-finder.PNG";
@@ -7,13 +7,24 @@ import SourceApp from "../../images/source-app.PNG";
 import Upgrade from "../../images/upgrade.PNG";
 import CanvasStudio from "../../images/canvas-studio.PNG";
 import CodedLevel from "../../images/coded-level.PNG";
-// import '../About/common.css';
 import { Link } from 'react-router-dom';
+import Spinner from "../Spinner";
 
 const Portfolio = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return (
     <>
-    {/*  Who we are Start*/}
+    {
+      isLoading 
+      ? 
+      <Spinner /> :
+       <>
+            {/*  Who we are Start*/}
     <section className='portfolio-who-are-we'>
         <div className="portfolio-who-are-we-content">
           <h1><span>OUR</span> WORK</h1>
@@ -106,7 +117,9 @@ const Portfolio = () => {
             </div>
             <img src={CodedLevel} alt="Coded Level" />
           </div>
-          </div>
+      </div>
+    </>}
+
     </>
   )
 }

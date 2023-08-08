@@ -19,7 +19,7 @@ import BusinessProcessOutSourcing from './components/Services/BusinessProcessOut
 import ManagedHostingService from './components/Services/ManagedHostingService'
 import Portfolio from './components/Portfolio/Portfolio';
 import Error from './components/Error/Error';
-
+import "@fontsource/source-sans-pro/400.css"; 
 const App = () => {
 
   return (
