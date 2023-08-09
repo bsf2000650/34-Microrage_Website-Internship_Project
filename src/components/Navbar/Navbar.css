@@ -284,10 +284,10 @@ li{
   .hamburger-menu {
     display: block;
     z-index: 99;
-    background-color: white;
   }
   .hamburger-menu button {
     border:  none;
+    background-color: white;
   }
   .main-nav .logo {
     width: 30vw;
@@ -397,10 +397,18 @@ li{
   .main-nav .logo{
     width: 50vw;
   }
+  .hamburger-menu button {
+    border: none;
+    background: white;
+}
 }
 
 @media  screen and (max-width: 380px) {
    .logo{
     width: 80%;
    }
+   .hamburger-menu button {
+    border: none;
+    background: white;
+}
 }

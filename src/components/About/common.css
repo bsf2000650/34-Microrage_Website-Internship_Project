@@ -161,12 +161,12 @@
 .web-development .get-in-touch > p {
     font-weight: 500;
 }
-/* .detail {
+.detail {
     display: flex;
     align-items : flex-start;
     justify-content : flex-start;
     flex-direction: row;
-} */
+}
 .detail p {
     text-align: left;
 }
