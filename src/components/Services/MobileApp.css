@@ -299,14 +299,37 @@ margin-bottom: 21px;
 
 @media screen and (max-width: 992px) {
     .mobile-who-are-we {
-        margin: -350px 0px 132px 0px;
+        margin: 54px 0px 50px 0px;
+        gap: 30px;
     }
-    .mobile-who-are-we .mobile-who-are-we-content h1,
-    .mobile-who-are-we .mobile-who-are-we-content p {
+    .mobile-who-are-we .mobile-who-are-we-content {
+        width: 100%;
+    }
+    .mobile-who-are-we .mobile-who-are-we-content h1 {
         margin: 0px 0px 16px 29px;
     }
-    .mobile-who-are-we-content .btn .btn-portfolio {
-        margin-left: 23px;
+    .mobile-who-are-we-content > p {
+        text-align: left;
+        margin: 0px 0px 10px 23px;
+        line-height: 29px;
+        color: black;
+        font-family: 'Source Sans Pro';
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .mobile-who-are-we-content .btn .btn-link-portfolio {
+        background-color: white;
+        margin-left: 19px;
+    }
+    .mobile-web-development-section p {
+        text-align: center;
+        font-size: 21px;
+        font-family: 'Source Sans Pro';
+        font-weight: 500;
+        padding: 0px 256px 22px 256px;
+        color: black;
+        line-height: 29px;
     }
 }
 
@@ -332,13 +355,26 @@ margin-bottom: 21px;
     }
     .mobile-who-are-we-content .btn{
         display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    margin-left: 15px;
+    }
+    .mobile-who-are-we-content .btn .btn-link-portfolio {
+        background-color: white;
+        margin-left: 10px;
     }
     .mobile-who-are-we-content .btn .btn-get-in-touch {
         margin-left: -45px;
     } 
+    .mobile-web-development-section p {
+        font-size: 18px;
+        padding: 0px 100px 22px 100px;
+        line-height: 29px;
+    }
+    .mobile-detail img {
+        margin-right: 0px;
+    }
 }
 
 @media screen and (max-width: 421px){
@@ -348,7 +384,7 @@ margin-bottom: 21px;
     justify-content: center;
     flex-direction: column;
     padding-bottom: 0px;
-    margin-top: 60px;
+    margin-top: 110px;
     }
     .mobile-web-development-section h1 {
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -359,20 +395,23 @@ margin-bottom: 21px;
         text-align: center;
     }
     .mobile-web-development-section p {
-    font-size: 14px;
-    padding: 96px 21px 39px 2px;
-    margin-left: 23px;
-    margin-bottom: -98px;
-    font-size: 15px;
-    text-align: center;
-    font-family: 'Montserrat';
-}
+        font-size: 14px;
+        padding: 96px 21px 39px 2px;
+        margin-left: 23px;
+        margin-bottom: -98px;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Source Sans Pro';
+    }
     .mobile-who-are-we-content {
         width: 100%;
         
     }
     .mobile-who-are-we .mobile-who-are-we-content h1 {
-        font-size: 48px;
+        font-size: 36px;
+    }
+    .mobile-who-are-we-content > p {
+        font-size: 18px;
     }
     .mobile-who-are-we .mobile-who-are-we-content h1, 
     .mobile-who-are-we .mobile-who-are-we-content p {
@@ -391,6 +430,11 @@ margin-bottom: 21px;
         width: 100%;
         margin-bottom: 35px;
         margin-top: 24px;
+    }
+    .mobile-who-are-we-content .btn .btn-link-portfolio, .mobile-who-are-we-content .btn .btn-link {
+        margin: 10px 4px;
+        padding: 8px 6px;
+        font-size: 18px;
     }
     .mobile-who-are-we-content .btn .btn-get-in-touch{
         margin-left: 0px;

@@ -11,7 +11,7 @@ const servicesData = [
         serviceDetail : 'Our team, having ability to adopt and learn fast, leads in every way. We make sure you make the best choice of project’s requirements through our wide range of experience from purely native to cross platform app development..',
         serviceImg:require('./images/mobile-apps.PNG'),
         homeServiceImg:require('./images/mobile-app.png'),
-        serviceUrl : '/services/web-development'
+        serviceUrl : '/services/mobile-app'
     },
     {
         serviceTitle : "Ecommerce",

@@ -1,3 +1,5 @@
+import { link } from 'fs'
+
 const servicesData = [
     {
         ourServices : 'OUR SERVICES',
@@ -16,7 +18,8 @@ const webDevelopment = [
         point1 : 'Database programming',
         point2 : 'Responsive/multi-platform compatible solutions',
         point3 : 'High performance resilient systems',
-        point4 : 'SEO compliant Industry standards'
+        point4 : 'SEO compliant Industry standards',
+        link : '/services/web-development'
     }
 ]
 
@@ -27,6 +30,7 @@ const mobileApp = [
         detail : 'Our team, having ability to adopt and learn fast, leads in every way. We make sure you make the best choice of project’s requirements through our wide range of experience from purely native to cross platform app development.',
         image : require('../../images/mob-app.png'),
         imageTools : require('../../images/tools.png'),
+        link : '/services/mobile-app'
     }
 ]
 
@@ -37,6 +41,7 @@ const ecommerce = [
         detail : ' CMS development and implementation services help you automate your value chain through ready to use application packages such as WordPress, Joomla!, and Magento to seamlessly achieve desired business benefits with quick turn around and cost effectiveness.',
         image : require('../../images/ecommerce_1.png'),
         imageTools : require('../../images/tools.png'),
+        link : '/services/ecommerce'
     }
 ]
 
@@ -50,7 +55,8 @@ const designAndBranding = [
         point1 : 'Logo and Brand Identityg',
         point2 : 'Interfaces/layout design',
         point3 : 'User Experience',
-        point4 : 'Printable/Office stationary'
+        point4 : 'Printable/Office stationary',
+        link : '/services/design-branding'
     }
 ]
 
@@ -64,7 +70,8 @@ const digitalMarketing = [
         point1 : 'Search engine optimization',
         point2 : 'Social Media Marketing',
         point3 : 'Digital advertising',
-        point4 : 'Google, Bing, Facebook campaign management'
+        point4 : 'Google, Bing, Facebook campaign management',
+        link : '/services/digital-marketing'
     }
 ]
 
@@ -80,7 +87,8 @@ const strategicConsultancy = [
         point3 : 'Architecture Consulting',
         point4 : 'Code Analysis',
         point5 : 'Monitoring',
-        point6 : 'Server Maintenanceent'
+        point6 : 'Server Maintenanceent',
+        link : '/services/strategic-consultancy',
     }
 ]
 
@@ -96,6 +104,7 @@ const businessProcessOutsourcing = [
         point3 : 'Technical support',
         point4 : 'Data entry',
         point5 : 'HR Outsourcing',
+        link : '/services/business-process-outsourcing'
     }
 ]
 
@@ -112,6 +121,7 @@ const managedHostingServices = [
         point4 : 'Service monitoring',
         point5 : 'Virus cleaning',
         point6 : 'Server security',
+        link : '/services/managed-hosting-services'
     }
 ]
 

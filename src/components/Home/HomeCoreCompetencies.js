@@ -3,6 +3,7 @@ import { servicesData } from '../../data';
 import { Link } from 'react-router-dom';
 
 const HomeCoreCompetencies = () => {
+  console.log(servicesData.link)
   return (
     <>
     <section className="core-competencies-section">
@@ -12,7 +13,7 @@ const HomeCoreCompetencies = () => {
             servicesData.map((serviceData)=>{
               return(
                 <div className="core-competencies-item">
-                    <Link className="links">
+                    <Link to={serviceData.serviceUrl} className="links">
                     <img src={serviceData.homeServiceImg} />
                     <h3>{serviceData.serviceTitle}</h3>
                     <p>{serviceData.serviceDetail}</p>

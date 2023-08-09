@@ -281,15 +281,35 @@ margin-bottom: 21px;
 
 @media screen and (max-width: 992px) {
     .managed-who-are-we {
-        margin: -350px 0px 132px 0px;
+        margin: 50px 0px 132px 0px;
+        gap: 0px;
     }
     .managed-who-are-we .managed-who-are-we-content h1,
     .managed-who-are-we .managed-who-are-we-content p {
         margin: 0px 0px 16px 29px;
     }
+    .web-development-section p {
+        font-size: 19px;
+        padding: 0px 84px 26px 74px;
+        margin-left: 47px;
+    }
     .managed-who-are-we-content .btn .btn-portfolio {
         margin-left: 23px;
     }
+    .managed-who-are-we-img {
+        /* margin-bottom: 287px; */
+        width: 78%;
+        margin-top: 0px;
+    }
+    .managed-who-are-we-content {
+        width: 92%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 23px;
+    }
+    
 }
 
 @media screen and (max-width: 669px){
@@ -314,13 +334,19 @@ margin-bottom: 21px;
     }
     .managed-who-are-we-content .btn{
         display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     }
-    .managed-who-are-we-content .btn .btn-get-in-touch {
-        margin-left: -45px;
-    } 
+
+    .managed-who-are-we-content .btn .btn-link-portfolio {
+        background-color: white;
+        margin-left: 29px;
+    }
+    .managed-who-are-we-content .btn .btn-link {
+        background-color: #97B325;
+        margin-left: 29px;
+    }
 }
 
 @media screen and (max-width: 421px){
@@ -384,15 +410,29 @@ margin-bottom: 21px;
         margin-top: 38px;
     }
     .detail img {
-        margin: 89px 24px -2px 0px;
+        margin: 112px 24px -2px 0px;
         width: 100%;
     }
     .detail ul {
-        margin: -38px 2px 8px -385px;
+        margin: -38px 6px 36px -375px;
+    }
+    .managed-who-are-we-content .btn .btn-link-portfolio, .managed-who-are-we-content .btn .btn-link {
+        padding: 10px 8px;
+    }
+    .managed-who-are-we-content .btn .btn-link {
+        background-color: #97B325;
+        margin-left: 0px;
+    }
+    .web-development-section p {
+        font-size: 17px;
+        padding: 0px 43px 26px 33px;
+        margin-left: 47px;
     }
 }
 
 @media screen and (max-width: 381px){
-    
+    .detail ul {
+        margin: -38px 6px 36px -324px;
+    }
 }
 

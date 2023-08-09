@@ -127,7 +127,7 @@
 .business-web-development-section p {
     text-align: center;
     font-size: 15px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro';
     font-weight: 500;
     padding: 0px 447px 39px 412px;
     color: black;
@@ -172,7 +172,7 @@
 
 @media screen and (max-width: 992px){
     .business-who-are-we {
-        margin: -325px 0px 142px 0px;
+        margin: 56px 0px 142px 0px;
         gap: 40px;
     }
     .business-who-are-we-content {
@@ -202,7 +202,7 @@
     }
     .business-who-are-we-content > p {
         text-align: left;
-        font-size: 18px;
+        font-size: 20px;
     }
     .business-who-are-we-img{
         /* margin-bottom: 287px; */
@@ -218,9 +218,13 @@
         font-weight: 900;
         padding: 53px 0px;
     }
+    .business-who-are-we-content .btn .btn-link-portfolio {
+        background-color: white;
+        margin-left: 20px;
+    }
     .business-web-development-section p {
-        font-size: 14px;
-        padding: 0px 214px 39px 188px;
+        font-size: 20px;
+        padding: 0px 209px 35px 183px;
         margin-left: 47px;
     }
     .detail ul {
@@ -229,7 +233,7 @@
         padding-bottom: 10px;
         padding-left: 7px;
         line-height: 20px;
-        margin: 22px 2px 8px -10px;
+        margin: 0px 65px 8px -53px;
     }
     .detail img {
         margin: -22px 26px 0px 24px;
@@ -247,8 +251,8 @@
         margin: 131px 0px 18px 0px;
     }
     .business-web-development-section p {
-        font-size: 14px;
-        padding: 0px 140px 39px 132px;
+        font-size: 19px;
+        padding: 0px 86px 39px 86px;
         margin-left: 47px;
     }
     .business-who-are-we .business-who-are-we-content h1 {
@@ -265,12 +269,13 @@
     }
     .business-who-are-we-content .btn{
         display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     }
-    .business-who-are-we-content .btn .btn-get-in-touch {
-        margin-left: -45px;
+    .business-who-are-we-content .btn .btn-link {
+        background-color: #97B325;
+        margin-left: 19px;
     }
     
 }
@@ -297,7 +302,7 @@
         padding: 20px 0px;
     }
     .business-web-development-section p {
-        font-size: 14px;
+        font-size: 19px;
         padding: 0px 21px 39px 2px;
         margin-left: 21px;
     }
@@ -315,12 +320,19 @@
         margin-bottom: 35px;
         margin-top: 24px;
     }
+    .business-who-are-we-content .btn .btn-link-portfolio, .business-who-are-we-content .btn .btn-link {
+        padding: 6px 10px;
+    }
     .business-who-are-we-content .btn .btn-get-in-touch{
         margin-left: 0px;
     }
     .business-who-are-we-content .btn .btn-portfolio ,
     .business-who-are-we-content .btn .btn-get-in-touch {
         font-size: 14px;
+    }
+    .business-who-are-we-content .btn .btn-link {
+        background-color: #97B325;
+        margin-left: 0px;
     }
     .detail {
         margin-top: 0px;

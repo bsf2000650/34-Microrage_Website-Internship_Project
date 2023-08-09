@@ -193,10 +193,10 @@
 }
 
 @media screen and (max-width: 992px){
-        .who-are-we {
-            margin: 50px 8px 142px 8px;
-    gap: 40px;
-}
+    .who-are-we {
+        margin: 50px 8px 100px 8px;
+        gap: 40px;
+    }
 
     .who-are-we-content {
         width: 67%;
@@ -220,15 +220,18 @@
         margin-left: 22px;
     }
     .who-are-we .who-are-we-content h1, .who-are-we-content p {
-        margin: 0px 12px 26px 20px;
+        margin: 0px 12px 9px 20px;
         /* margin-bottom: 30px; */
+    }
+    .who-are-we .who-are-we-content h1 {
+        font-size: 58px;
     }
     .who-are-we-content p {
         margin: 10px 20px;
     }
     .who-are-we-content > p {
         text-align: left;
-        font-size: 18px;
+        font-size: 20px;
     }
     .who-are-we-img{
         /* margin-bottom: 287px; */
@@ -245,8 +248,8 @@
         padding: 53px 0px;
     }
     .web-development-section p {
-        font-size: 14px;
-        padding: 0px 214px 39px 188px;
+        font-size: 20px;
+        padding: 1px 193px 39px 187px;
         margin-left: 47px;
     }
     .detail-further{
@@ -282,8 +285,8 @@
         margin-left: -47px;
     }
     .web-development-section p {
-        font-size: 14px;
-        padding: 0px 140px 39px 132px;
+        font-size: 16px;
+        padding: 0px 118px 26px 113px;
         margin-left: 47px;
     }
     .who-are-we .who-are-we-content h1 {
@@ -307,6 +310,9 @@
     .who-are-we-content .btn .btn-get-in-touch {
         margin-left: -45px;
     }
+    .detail ul {
+        margin: 0px 2px 8px -53px;
+    }
     .detail-further{
         display: flex;
         align-items: center;
@@ -323,7 +329,7 @@
     justify-content: center;
     flex-direction: column;
     padding-bottom: 0px;
-    margin-top: 44px;
+    margin-top: 80px;
     }
     .who-are-we-content {
         width: 100%;
@@ -363,7 +369,7 @@
         padding: 20px 0px;
     }
     .web-development-section p {
-        font-size: 14px;
+        font-size: 17px;
         padding: 0px 21px 39px 2px;
         margin-left: 21px;
     }
@@ -398,14 +404,23 @@
     .detail ul {
         margin: 0px 2px 8px -385px;
     }
-    .detail-further{
+    .detail-further {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
+        margin-left: 10px;
     }
 }
 
 @media screen and (max-width: 381px){
+    .web-development-section p {
+        font-size: 17px;
+        padding: 0px 13px 39px 2px;
+        margin-left: 21px;
+    }
+    .web-development-section h1 {
+        margin: 0px 10px;
+    }
     
 }
