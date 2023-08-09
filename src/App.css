@@ -8,4 +8,8 @@
   /* font-family: 'Source Sans Pro'; */
 
 } 
-body, html { overflow-x:hidden; }
+body{
+  width: 100%;
+  min-height: 100%;
+}
+html { width:100%; overflow-x:hidden; overflow-y: auto; }

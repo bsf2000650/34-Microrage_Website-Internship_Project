@@ -11,6 +11,7 @@ import PowerOfGreatWork from "./PowerOfGreatWork";
 import OurStrategy from "./OurStrategy";
 import Testimonials from "./Testimonials";
 import Spinner from "../Spinner";
+import "@fontsource/source-sans-pro"; 
 import "@fontsource/source-sans-pro/400.css"; 
 
 const Home = () => {

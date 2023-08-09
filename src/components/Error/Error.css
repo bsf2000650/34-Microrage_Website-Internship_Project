@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap");
 
-.error-div{
+.error-div {
     background-image: url(//microrage.com/wp-content/uploads/2020/11/hero-bg.jpg);
     display: flex;
     align-items: center;
@@ -12,13 +12,14 @@
     font-family: 'Montserrat';
     height: 197px;
     color: white;
-    margin-top: -367px;
+    /* margin-top: -367px; */
 }
 .error-div h1 {
     font-size: 63px;
 }
 .error-div p {
     color: #888477;
+    font-family: 'Source Sans Pro';
 }
 .oops {
     text-align: center;
@@ -37,7 +38,7 @@
 .error-message{
     font-size: 170px;
     color: #f0f0f0;
-    font-family: 'Montserrat';
+    font-family: 'Source Sans Pro';
 }
 .helpful-links-div h2,
 .search-website h2 {
@@ -75,10 +76,12 @@ font-size: 16px;
 .search-website p{
     display: block;
     margin-bottom: 35px;
+    font-family: 'Source Sans Pro';
 }
 .helpful-links-div ul li p .helpful-link{
     text-decoration: none;
     color: black;
+    font-family: 'Source Sans Pro';
 }
 .helpful-links ul li p {
 
@@ -95,31 +98,36 @@ font-size: 16px;
 
 @media screen and (max-width: 992px) {
     .error-div {
-        margin-top: -409px;
+        margin-top: 0px;
     }
     .div-404 {
         display: flex;
         align-items : flex-start;
         justify-content: center;
         flex-direction: row;
-        gap: 59px;
+        gap: 40px;
         margin-bottom: 20px;
     }
-    .oops{
-        margin: 28px 143px 26px 59px;
+    .oops {
+        margin: 28px 78px 20px 27px;
+        text-align: left;
+        font-size: 40px;
+    }
+    .helpful-link {
+        width: 28%;
     }
     .error-message {
         font-size: 153px;
         margin-left: 14px;
     }
     .search-website {
-        margin-left: -113px;
+        margin-left: 0px;
     }
 }
 
 @media screen and (max-width: 668px) {
     .error-div {
-        margin-top: -94px;
+        /* margin-top: -94px; */
     }
     .oops {
         margin: 28px 32px 26px 44px;
@@ -134,11 +142,54 @@ font-size: 16px;
     .error-message {
         font-size: 153px;
         margin-left: 0px;
+        font-family: 'Source Sans Pro';
+        /* font-size: 137px; */
+        font-weight: 900;
     }
     .helpful-links-div{
         margin-left: 14px;
+        width: 35%;
     }
     .search-website {
         margin-left: 3px;
+        width: 100%;
     }
+}
+
+@media screen and (max-width: 420px) {
+    .search-website {
+        width: 98%;
+    }
+    .helpful-links-div {
+        margin-left: 14px;
+        width: 70%;
+    }
+    .eHeQiF {
+        padding: 0.5rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: gray;
+        border: 3px;
+    }    
+}
+
+@media screen and (max-width: 380px) {
+    .search-website {
+        width: 96%;
+    }
+    .helpful-links-div {
+        margin-left: 14px;
+        width: 70%;
+    }
+    .eHeQiF {
+        padding: 0.5rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: gray;
+        border: 3px;
+    }    
 }

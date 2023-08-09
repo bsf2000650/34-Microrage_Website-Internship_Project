@@ -4,7 +4,7 @@
 
 /* Contact Section Start */
 .contact-section {
-    margin-top: -74px;
+    margin-top: 60px;
 }
 .contact-section h1{
     text-align: center;
@@ -186,7 +186,7 @@ margin-bottom: 21px;
 
 @media screen and (max-width: 992px) {
     .contact-section {
-        margin-top: 0px;
+        margin-top: 50px;
     }
     .contact-section .get-in-touch-grid {
         margin: 0px 17px 50px 17px;
@@ -213,6 +213,9 @@ margin-bottom: 21px;
     }
     .contact-section .get-in-touch-grid .contact-item {
         width: 42%;
+    }
+    .contact-section .get-in-touch-grid .google-map {
+        border-radius: 18px;
     }
 }
 @media screen and (max-width: 421px) {

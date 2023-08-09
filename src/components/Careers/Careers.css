@@ -6,7 +6,7 @@
 
 } */
 .careers-section {
-    margin-top: -89px;
+    margin-top: 50px;
 }
 .careers-section h1{
     text-align: center;
@@ -16,12 +16,14 @@
     color: #232b36;
 }
 
-.careers-section .career-description{
+.careers-section .career-description {
     text-align: center;
     margin-bottom: 130px;
     font-size: 24px;
     font-family: 'Source Sans Pro';
     font-weight: 400;
+    padding: 0px 400px;
+    line-height: 32px;
 }
 
 .careers-section  .job-archives{
@@ -44,25 +46,30 @@
     font-family: 'Source Sans Pro';
     color: #97B325;
     /* border-bottom: 1px solid black; */
-    padding: 10px 50px 10px 22px ;
+    padding: 15px 50px 15px 22px;
     /* display: inline-block; */
     width: 45vw;
+    font-weight: 600;
 }
 .careers-section > .job > .job-detail {
     margin: 15px 50px 24px 28px;
     color: #97B325;
     font-family: 'Montserrat';
 }
+.job-div{
+    margin-bottom: 25px;
+}
 .careers-section .job .apply-job{
     display: flex;
-    border-bottom: 0.5 solid #dcd6d6;
+    border-bottom: 1px solid #dcd6d6;
 }
-.careers-section .job .apply-job button{
-    padding: 7px 14px;
-    margin: 5px 31px;
+.careers-section .job .apply-job button {
+    padding: 0px 14px;
+    margin: 12px 4px 5px 71px;
     border: none;
     border-radius: 6px;
     background: #97B325;
+    height: 40px;
 }
 .careers-section .job .apply-job button .apply-link {
     text-decoration: none;
@@ -89,22 +96,24 @@
     border: 2px solid black;
 }
 .careers-section > .job > .job-detail p {
-    margin: 16px 0px;
+    margin: 16px 0px 36px 0px;
     color: #717796;
     font-size: 15px;
     font-family: 'Source Sans Pro';
+    display: inline;
 }
 
 @media screen and (max-width: 992px) {
     .careers-section {
-            margin-top: -25px;
+        margin-top: 0px;
     }
     .careers-section h1 {
         font-size: 55px;
-        margin-bottom: 50px;
+        margin-bottom: 39px;
     }
     .careers-section .career-description {
         margin-bottom: 100px;
+        padding: 0px 155px;
     }
     .careers-section .job h2 {
         font-family: 'Source Sans Pro';
@@ -160,14 +169,15 @@
     }
     .careers-section > .job > .job-detail p {
         margin: 0px 0px 16px 0px;
+        display: block;
     }
     .careers-section .career-description {
         text-align: center;
         margin-bottom: 94px;
-        font-size: 21px;
+        font-size: 25px;
         font-family: 'Source Sans Pro';
         font-weight: 500;
-        padding: 10px 15px;
+        padding: 10px 39px;
         line-height: 33px;
     }
     .careers-section .job .apply-job {
@@ -219,6 +229,7 @@
     }
     .careers-section .career-description {
         font-size: 24px;
+        padding: 10px 32px;
     }
 }
 @media screen and (max-width: 380px){

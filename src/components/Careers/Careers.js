@@ -26,7 +26,6 @@ const Careers = () => {
           <h2>WordPress Developer</h2>
           <button><Link className='apply-link'>Apply Now</Link></button>
           </div>
-          <hr />
           <div className='job-detail'>
           <div className='job-div'>
           <p>

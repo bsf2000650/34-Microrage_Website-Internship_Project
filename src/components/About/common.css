@@ -14,7 +14,7 @@
     justify-content: center;
     /* padding-bottom: 100px; */
     /* margin-top: 10px; */
-    margin: -49px 116px 0px 60px;
+    margin: 69px 116px 0px 77px;
     gap: 48px;
 }
 .who-are-we-content{
@@ -100,6 +100,7 @@
         font-family: 'Source Sans Pro';
         color: black;
         font-weight: 600;
+        border: none;
 }
 .who-are-we-content .btn .btn-link-portfolio:hover{
     background-color: #97B325;
@@ -160,11 +161,14 @@
 .web-development .get-in-touch > p {
     font-weight: 500;
 }
-.detail {
+/* .detail {
     display: flex;
     align-items : flex-start;
     justify-content : flex-start;
     flex-direction: row;
+} */
+.detail p {
+    text-align: left;
 }
 .detail li:before {
     content: "✓";
@@ -190,7 +194,7 @@
 
 @media screen and (max-width: 992px){
         .who-are-we {
-    margin: 28px 8px 142px 8px;
+            margin: 50px 8px 142px 8px;
     gap: 40px;
 }
 

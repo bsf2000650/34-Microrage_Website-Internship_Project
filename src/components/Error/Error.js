@@ -8,6 +8,9 @@ import { IoMdSearch } from 'react-icons/io';
 import styled from 'styled-components';
 import Spinner from '../Spinner'
 import { useEffect, useState } from 'react';
+import "@fontsource/source-sans-pro/400.css"; 
+import "@fontsource/source-sans-pro/600.css"; 
+import "@fontsource/source-sans-pro/700.css"; 
 
 const Error = () => {
   const [isLoading, setIsLoading] = useState(true);

@@ -166,7 +166,7 @@
     padding: 10px 15px;
     color: black;
     font-weight: 500;
-    font-family: Montserrat;
+    font-family: 'Source Sans Pro';
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
@@ -174,7 +174,7 @@
     padding: 10px 15px;
     color: black;
     font-weight: 500;
-    font-family: Montserrat;
+    font-family: 'Source Sans Pro';
   }
     
 /* Build Together */
@@ -235,7 +235,7 @@
         height: 134vh;
     }
     .build-together > h1 {
-        padding: 235px 0px 38px 0px;
+        padding: 40px 0px 38px 0px;
     }
     .build-together .build-together-content {
         height: 134vh;

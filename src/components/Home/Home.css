@@ -25,7 +25,7 @@ img{
 }
 
 .innovative-solutions-section{
-    margin-top: -22px;
+    margin-top: 90px;
     margin-bottom: 14px;
 }
 
@@ -251,8 +251,8 @@ img{
     text-align: start;
     color: black;
     font-family: 'Source Sans Pro';
-    font-weight: normal;
-    font-size: 22px;
+    font-weight: 300;
+    font-size: 26px;
 }
 
 .power-of-great-work-imgs h2, .power-of-great-work-imgs p {
@@ -262,8 +262,11 @@ img{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 19px;
 }
-.power-of-great-work-imgs p{
+.power-of-great-work-imgs p {
     font-size: 15px;
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    font-size: 17px;
 }
 .power-of-great-work-imgs h2{
     font-size: 30px;
@@ -619,6 +622,10 @@ padding-bottom: 45px;
         width: 50%;
         margin-right: 135px;
     }
+    .get-in-touch .get-in-touch-link {
+        border: none;
+        margin-left: 0px;
+    }
     .get-in-touch {
         margin-left: 56px;
         margin-bottom: 63px;
@@ -672,7 +679,7 @@ padding-bottom: 45px;
         justify-content: center;
         /* margin-top: 68px; */
         margin-bottom: 74px;
-        margin-left: 84px;
+        margin-left: 40px;
     }
     .core-competencies-div {
         margin: 0px;
@@ -856,8 +863,21 @@ padding-bottom: 45px;
     .flexibity-to-innovative-div .talk-to-us {
         margin: 22px 0px 77px 3px;
     }
+    .core-competencies-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .power-of-great-work p {
         margin: 11% 6% 0% 4%;
+    }
+    .power-of-great-work-imgs .three-images-div .third-div .third-div-content h2,
+    .power-of-great-work-imgs .three-images-div .second-div .second-div-content p{
+        margin: 4% 0% 3% 0%;
+    }
+    .power-of-great-work-imgs h2, .power-of-great-work-imgs p {
+        margin: 3% 11% 3% 5%;
     }
     .power-of-great-work-imgs {
         margin-top: 0px;
@@ -915,7 +935,7 @@ padding-bottom: 45px;
     }
     .second-inner-div img {
         height: 48%;
-        margin-top: 25px;
+        margin-top: 55px;
     }
     .power-of-great-work h1 {
         padding: 3px 62px 1px 0px;
@@ -1023,6 +1043,10 @@ padding-bottom: 45px;
         width: 116%;
         font-weight: 600;
     }
+    .get-in-touch .get-in-touch-link {
+    border: none;
+    margin-left: 85px;
+}
     .get-in-touch-image {
         margin-bottom: -33px;
         width: 79%;

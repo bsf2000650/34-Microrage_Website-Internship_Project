@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { buildTogetherData } from "../../data";
 import FormMan from "../../images/form-man.png";
+import './common_build_together_style.css'
 import { Link } from "react-router-dom";
-import axios from 'axios';
+import "@fontsource/source-sans-pro"; 
+import "@fontsource/source-sans-pro/400.css";
+
 
 const BuildTogether = () => {
 

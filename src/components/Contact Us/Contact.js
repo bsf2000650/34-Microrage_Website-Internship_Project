@@ -19,7 +19,7 @@ const Contact = () => {
     {isLoading ? <Spinner /> : <>
     <section className='contact-section'>
         <h1>Contact Us</h1>
-        <p className='career-description'>Being a strong team of high-skilled programmers, we are passionate<br/> about delivering tangible results.</p>
+        <p className='career-description'>Being a strong team of high-skilled programmers, we are passionate about delivering tangible results.</p>
         <div className='get-in-touch-grid'>
             <div className='contact-item'>
             <h1>Get in touch</h1>
