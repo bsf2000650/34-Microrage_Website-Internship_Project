@@ -196,7 +196,8 @@ const BuildTogether = () => {
                     placeholder={buildData.textarea_placeholder}
                   ></textarea>
                   <label className="custom-file-upload">
-                    <input type="file" name="file" onChange={handleFileChange}/>
+                    <input type="file" name="file" 
+                    onChange={handleFileChange}/>
                     {buildData.attach_file}
                   </label>
                   <input type="submit" value="Submit"/>

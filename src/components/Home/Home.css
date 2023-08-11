@@ -200,7 +200,7 @@ img{
 .flexibity-to-innovative-div .talk-to-us {
     margin: 22px 100px 77px 100px;
     border: 3px solid #0587b7;
-    padding: 14px 48px;
+    padding: 14px 34px;
     border-radius: 5px;
     /* margin-right: 150px; */
     /* margin-left: -120px; */
@@ -212,11 +212,26 @@ img{
     text-decoration: none;
     color: black;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 32%;
 }
 
 .flexibity-to-innovative-div .talk-to-us:hover{
     background-color: #1d242d;
     color: white !important;
+}
+
+.flexibity-to-innovative-div .talk-to-us span{
+    font-weight: 500;
+}
+
+.arrow-right {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 10px;
 }
 
 .flexibity-to-innovative-img-div > img {
@@ -523,6 +538,10 @@ padding-bottom: 45px;
     flex-direction: row;
 } */
 
+.slick-slider .slick-list .slick-track .slick-slide {
+    width: 4%;
+}
+
 .slick-carousel , .slick-carousel-testimonials{
     padding: 0.8rem;
     /* background-color: #000; */
@@ -531,6 +550,22 @@ padding-bottom: 45px;
     margin: auto;
     
 }
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    background: black;
+    width: 125%;
+    margin-left: -165px;
+    height: 25px;
+}
+
 
 .box {
     /* background-color: lightgreen; */
@@ -566,7 +601,7 @@ padding-bottom: 45px;
     color: #97B325;
     text-align: center;
     font-size: 45px;
-    padding: 30px 0px 18px 0px;
+    padding: 70px 0px 18px 0px;
     font-family:  'Montserrat', Arial, Helvetica, sans-serif;
 }
 .reviews h3, .reviews p {
@@ -579,7 +614,7 @@ padding-bottom: 45px;
     font-size: 15px;
     line-height: 25px;
 }
-.slick-prev, .slick-next {
+.testimonials .slick-carousel-testimonials .slick-prev, .slick-next {
     font-size: 0;
     line-height: 0;
     position: absolute;
@@ -594,6 +629,30 @@ padding-bottom: 45px;
     border: none;
     outline: none;
     background: transparent;
+}
+.testimonials .slick-carousel-testimonials .slick-prev:before {
+    content: "";
+    font-family: 'FontAwesome';
+    font-size: 22px;
+    border: 2px solid #80848c;
+    padding: 10px;
+    color: #80848c;
+
+} 
+.testimonials .slick-carousel-testimonials .slick-prev:hover:before,
+.testimonials .slick-carousel-testimonials .slick-next:hover:before {
+    border: 2px solid #97B325;
+    background-color: #97B325;
+    transition: linear 0.3s;
+    color: white;
+}
+.testimonials .slick-carousel-testimonials .slick-next:before {
+    content: "";
+    font-family: 'FontAwesome';
+    font-size: 22px;
+    border: 2px solid #80848c;
+    padding: 10px;
+    color: #80848c;
 }
 .stars {
     display: flex;
@@ -707,7 +766,8 @@ padding-bottom: 45px;
         word-spacing: -2px;
     }
     .flexibity-to-innovative-div .talk-to-us {
-        margin: 22px 100px 77px 3px;
+        margin: 22px 7px 71px 6px;
+        width: 47%;
     }
     .flexibity-to-innovative-div p,
     .flexibity-to-innovative-div  button {
@@ -831,12 +891,26 @@ padding-bottom: 45px;
     .box img {
         width: 100%;
     }
+    .slick-carousel img {
+        /* width: 400px; */
+        height: 130px;
+    }
+    .slick-slider .slick-list .slick-track .slick-slide {
+        width: 5%;
+    }
+    .key-clients .slick-slider .slick-track, .slick-slider .slick-list {
+        height: 200px;
+    }
+    .testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
+        height: 380px;
+    }
     .footer-div{
         padding-top: 8px;
         margin-left: 16px;
     }
-    .slick-carousel {
+    .key-clients .slick-carousel {
         width: 100%;
+        height: 203px;
     }
     .social-media{
         margin-top: 12px;
@@ -848,6 +922,10 @@ padding-bottom: 45px;
         font-size: 15px;
         line-height: 25px;
     }
+    /* .slick-prev:before,
+.slick-next:before{
+    display: none;
+} */
 }
 
 @media screen and (max-width: 669px) {
@@ -862,6 +940,10 @@ padding-bottom: 45px;
     }
     .flexibity-to-innovative-div .talk-to-us {
         margin: 22px 0px 77px 3px;
+    }
+    .flexibity-to-innovative-div > p {
+        text-align: left;
+        word-spacing: 0px;
     }
     .core-competencies-div {
         display: flex;
@@ -948,6 +1030,11 @@ padding-bottom: 45px;
         padding: 24px 183px 22px 41px;
         font-family: 'Montserrat';
     }
+    .power-of-great-work-imgs .three-images-div .first-div .first-div-content p, .power-of-great-work-imgs .three-images-div .second-div .second-div-content p, .power-of-great-work-imgs .three-images-div .third-div .third-div-content p {
+        margin-right: 18px;
+        text-align: left;
+        margin: 21px 13px 21px 0px;
+    }
     .coded-level > img {
         margin: 45px 29px 45px 61px;
         width: 38%;
@@ -971,6 +1058,25 @@ padding-bottom: 45px;
     .our-strategy .services {
         margin-left: 0px;
     }
+    .key-clients .slick-carousel {
+        width: 100%;
+        height: 203px;
+    }
+    .key-clients .slick-slider .slick-track, .slick-slider .slick-list {
+        height: 4px;
+    }
+    .testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
+        height: 525px;
+    }
+    .slick-slider .slick-list .slick-track .slick-slide {
+        width: 8%;
+    }
+    /* .key-clients .slick-slider .slick-track, .slick-slider .slick-list .slick-prev:before,
+    .key-clients .slick-slider .slick-track, .slick-slider .slick-list .slick-next:before
+    {
+    display: none;
+    } */
+
 }
 
 @media screen and (max-width: 422px) {
@@ -1195,6 +1301,15 @@ padding-bottom: 45px;
     .key-clients h1{
         font-size: 37px;
     }
+    .key-clients .slick-slider .slick-track, .slick-slider .slick-list {
+        height: 0px;
+    }
+    .testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
+        height: 525px;
+    }
+   .slick-slider .slick-list .slick-track .slick-slide {
+        width: 14%;
+    }
     .slick-slide{
         width: 16%;
     }
@@ -1266,3 +1381,20 @@ padding-bottom: 45px;
         margin-right: 12px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .slick-slider .slick-list .slick-track .slick-slide {
+    width: 8%;
+} */

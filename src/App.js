@@ -19,6 +19,7 @@ import BusinessProcessOutSourcing from './components/Services/BusinessProcessOut
 import ManagedHostingService from './components/Services/ManagedHostingService'
 import Portfolio from './components/Portfolio/Portfolio';
 import Error from './components/Error/Error';
+import Job from './components/Careers/Job';
 import "@fontsource/source-sans-pro/400.css"; 
 const App = () => {
 
@@ -40,6 +41,7 @@ const App = () => {
         <Route exact path='/services/:managed-hosting-services' element={<ManagedHostingService />} />
         <Route exact path='/portfolio' element={<Portfolio />} />
         <Route exact path='/careers' element={<Careers />} />
+        <Route exact path='/careers/job' element={<Job />}/>
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/qoute' element={<GetFreeQoute />} />
         <Route exact path='*' element={<Error />} />

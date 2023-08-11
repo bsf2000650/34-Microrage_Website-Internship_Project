@@ -37,7 +37,7 @@
     text-transform: uppercase;
     font-family:  'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 21px;
     margin-bottom: 18px;
 }
 h3, .links > p , .links > img{
@@ -73,13 +73,13 @@ h3, .links > p , .links > img{
     .core-competencies-div {
         display: grid;
         grid-template-columns: auto auto auto;
-        padding: 10px 10px 38px 10px;
+        padding: 10px 25px 38px 25px;
         margin: 0px 1%;
     }
 }
 @media screen and (max-width: 669px){
     .core-competencies-item {
-        margin: 10px 13px;
+        margin: 10px 24px 30px 15px;
     }
     .core-competencies-div{
         display: flex;
@@ -93,6 +93,9 @@ h3, .links > p , .links > img{
     }
     .build-together > h1 {
         padding: 52px 0px 38px 0px;
+    }
+    .flexibity-to-innovative-div .talk-to-us {
+        width: 73%;
     }
 }
 @media screen and (max-width: 421px){
@@ -115,6 +118,12 @@ h3, .links > p , .links > img{
         width: 80%;
         margin-left: 12%;
     }
+    .flexibity-to-innovative-div .talk-to-us {
+    width: 59%;
+    }
+    .testimonials .slick-carousel-testimonials .slick-next:before {
+        margin-left: -42px;
+    }
 }
 @media screen and (max-width: 381px){
     .core-competencies-item .links p {
@@ -128,5 +137,11 @@ h3, .links > p , .links > img{
     }
     .coded-level .content h1 {
         margin-left: -7px;
+    }
+    .flexibity-to-innovative-div .talk-to-us {
+        width: 59%;
+    }
+    .testimonials .slick-carousel-testimonials .slick-next:before {
+        margin-left: -42px;
     }
 }

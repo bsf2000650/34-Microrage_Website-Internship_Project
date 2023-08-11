@@ -137,7 +137,7 @@ h3, .links > p, .links > img {
     padding: 0px 33px;
 }
 .links > img {
-    width: 74px;
+    width: 90px;
     height: auto;
     transition: all 0.5s;
     margin-bottom: 21px;
@@ -156,7 +156,7 @@ h3, .links > p, .links > img {
     font-weight: normal;
     color: white;
     font-family: 'Source Sans Pro';
-    padding: 0px 20px;
+    padding: 0px 23px;
 }
 
 /* Core Competencies End */
@@ -286,6 +286,9 @@ margin-bottom: 21px;
 @media screen and (max-width: 992px) {
     .services-div {
         margin: 0px 4%;
+    }
+    .links > p {
+        padding: 0px 24px;
     }
     .links > img {
         width: 87px;
