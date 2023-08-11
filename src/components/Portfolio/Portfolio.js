@@ -28,13 +28,13 @@ const Portfolio = () => {
     <section className='portfolio-who-are-we'>
         <div className="portfolio-who-are-we-content">
           <h1><span>OUR</span> WORK</h1>
-          <p className='experienced-team'>We are a passionate experienced team with big ambitions.</p>
+
           <p>
           Custom web development offers options for businesses who seek to provide a flexible, consistent experience for users across different platforms, we achieve it through innovative functionality, well designed architecture based on most suitable technology.
           </p>
           <div className='btn'>
           {/* <button className='btn-portfolio'>Check out portfolio</button> */}
-          <button style={{marginLeft:'98px'}} className='btn-get-in-touch'><Link className='btn-link' to='/qoute' >Get in touch</Link></button>
+          <button className='btn-get-in-touch'><Link className='btn-link' to='/qoute' >Get in touch</Link></button>
           </div>
         </div>
         <div className='portfolio-who-are-we-img'>

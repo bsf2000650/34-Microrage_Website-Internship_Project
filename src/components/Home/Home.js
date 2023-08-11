@@ -15,7 +15,7 @@ import "@fontsource/source-sans-pro";
 import "@fontsource/source-sans-pro/400.css"; 
 
 const Home = () => {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
