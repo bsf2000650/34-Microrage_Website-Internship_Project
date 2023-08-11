@@ -1324,8 +1324,10 @@ padding-bottom: 45px;
     .container{
         width: 380px;
         /* border: 1px solid black; */
-    }.innovative-solutions-section {
+    }
+    .innovative-solutions-section {
         margin-top: 0px;
+        margin-right: 10px;
     }
     .get-in-touch {
         width: 50%;
@@ -1374,6 +1376,9 @@ padding-bottom: 45px;
     .service img {
         width: 96%;
         margin-left: 0px;
+    }
+    .coded-level {
+        margin-right: 10px;
     }
     .social-media{
         margin-top: 12px;
