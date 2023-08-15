@@ -590,7 +590,7 @@ padding-bottom: 45px;
 
 .testimonials {
     background: black;
-    margin-bottom: 56px;
+    margin-bottom: 70px;
 }
 
 .slick-carousel-testimonials {
@@ -666,6 +666,9 @@ padding-bottom: 45px;
 .key-clients .slick-carousel-key-clients 
 .slick-slider .slick-list {
     height: 44vh;
+}
+.key-clients {
+    margin: 0px 90px;
 }
 .testimonials .slick-carousel-testimonials .slick-dots li button{
     width: 30%;
@@ -916,11 +919,11 @@ padding-bottom: 45px;
     .slick-slider .slick-list .slick-track .slick-slide {
         width: 5%;
     }
-    .key-clients .slick-slider .slick-track, .slick-slider .slick-list {
+    .key-clients  .slick-slider .slick-list {
         height: 200px;
     }
-    .testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
-        height: 380px;
+    .testimonials .slick-carousel-testimonials  .slick-slider .slick-list {
+        height: 410px;
     }
     .footer-div{
         padding-top: 8px;
@@ -1077,14 +1080,17 @@ padding-bottom: 45px;
     .our-strategy .services {
         margin-left: 0px;
     }
+    .key-clients{
+        margin: 0px 34px;
+    }
     .key-clients .slick-carousel {
         width: 100%;
         height: 203px;
     }
-    .key-clients .slick-slider .slick-track, .slick-slider .slick-list {
-        height: 4px;
+    .key-clients .slick-slider .slick-list {
+        height: 200px;
     }
-    .testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
+    .testimonials .slick-carousel-testimonials  .slick-slider .slick-list {
         height: 525px;
     }
     .slick-slider .slick-list .slick-track .slick-slide {
@@ -1320,6 +1326,9 @@ padding-bottom: 45px;
     .key-clients h1{
         font-size: 37px;
     }
+    .key-clients .slick-slider .slick-list {
+        height: 200px;
+    }
     .testimonials .slick-carousel-testimonials  .slider .slick-list {
         height: 147vh;
         width: 121%;
@@ -1345,12 +1354,15 @@ padding-bottom: 45px;
         -moz-osx-font-smoothing: grayscale;
     }
     .key-clients .slick-slider .slick-list .slick-track .slick-slide {
-        width: 16%;
+        width: 12%;
     }
     .social-media{
         margin-top: 12px;
         font-size: 33px;
         margin-right: 12px;
+    }
+    .key-clients{
+        margin: 0px;
     }
 }
 
@@ -1424,6 +1436,9 @@ padding-bottom: 45px;
     }
     .key-clients .slick-slider .slick-list .slick-track .slick-slide {
         width: 12%;
+    }
+    .key-clients {
+        margin: 0px;
     }
 }
 
