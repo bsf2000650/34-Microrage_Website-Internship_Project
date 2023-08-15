@@ -63,6 +63,10 @@
     text-align: left;
 }
 
+.contact-section .get-in-touch-grid .google-map {
+    border-radius: 15px;
+}
+
 /* Contact Section End */
 /* Build Together */
 /*
@@ -203,6 +207,17 @@ margin-bottom: 21px;
         height: 250px;
         display: block;
     }
+    .contact-section .career-description {
+        text-align: center;
+        margin-bottom: 85px;
+        font-size: 24px;
+        font-family: 'Source Sans Pro';
+        font-weight: 400;
+        padding: 0px 51px;
+    }
+    .contact-section .get-in-touch-grid .google-map {
+        border-radius: 15px;
+    }
 }
 @media screen and (max-width: 668px) {
     .contact-section {
@@ -253,11 +268,17 @@ margin-bottom: 21px;
         color: #97B325;
         text-decoration: none;
     }
+    .contact-section .get-in-touch-grid .google-map {
+        border-radius: 15px;
+    }
 }
 @media screen and (max-width: 381px) {
     .contact-section .get-in-touch-grid .google-map {
         width: 91%;
         height: 250px;
         margin-top: 20px;
+    }
+    .contact-section .get-in-touch-grid .google-map {
+        border-radius: 15px;
     }
 }

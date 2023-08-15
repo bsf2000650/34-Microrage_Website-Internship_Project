@@ -33,6 +33,8 @@ const BuildTogether = () => {
   // };
 
   // https://projects.microrage.com/microrage/api.php
+  // https://projects.microrage.com/microrage/api.php?j=contact_us
+// https://projects.microrage.com/microrage/api.php?j=add_job
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -63,9 +65,10 @@ const BuildTogether = () => {
     formDataToSend.append('message', formData.message);
     formDataToSend.append('file', formData.file);
     console.log(formData.file);
+    console.log(formDataToSend)
 
     try {
-      const res = await fetch('https://projects.microrage.com/microrage/api.php', {
+      const res = await fetch('https://projects.microrage.com/microrage/api.php?j=contact_us', {
         method: 'POST',
         body: formDataToSend,
       });
@@ -187,6 +190,7 @@ const BuildTogether = () => {
                     </option>
                   </select>
                   <textarea
+                    className="textarea"
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
@@ -206,7 +210,7 @@ const BuildTogether = () => {
               <div className="build-together-content">
                 <div className="further-div">
                   <h2>{buildData.whats_next}</h2>
-                  <ol>
+                  <ol class="custom-list">
                     <li>{buildData.point_1}</li>
                     <li>
                       {buildData.point_2}

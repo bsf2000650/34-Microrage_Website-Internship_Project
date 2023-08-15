@@ -9,7 +9,6 @@ import MicrorageFavIcon from "../../images/favicon-300x300.png";
 import { FontAwesomeIcon } from "react-icons";
 import { FaBuilding } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
-import { FaLocationArrow } from "react-icons/fa";
 import { FaMapMarker } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -64,10 +63,12 @@ const Job = () => {
       formDataToSend.append('email', formData.email);
       formDataToSend.append('phone', formData.phone);
       formDataToSend.append('file', formData.file);
+      console.log(formDataToSend)
       console.log(formData.file);
   
       try {
-        const res = await fetch('https://projects.microrage.com/microrage/api.php', {
+        const res = await fetch('https://projects.microrage.com/microrage/api.php?j=add_job',
+         {
           method: 'POST',
           body: formDataToSend,
         });
@@ -163,7 +164,11 @@ const Job = () => {
                 placeholder='0300 1234567'
                 defaultCountry="PK"
                 value={formData.phone}
-                onChange={handleInputChange}
+                onChange={(e)=>{
+                  setFormData(prev=>{
+                    return {...prev, phone:e}
+                  })
+                }}
                 required='required'
 
                 />
@@ -183,7 +188,7 @@ const Job = () => {
                 </div>
             </div>
             <div className="application-form-inputs">
-                <input type="submit" />
+                <input type="submit" onClick={handleSubmit}/>
             </div>
           </form>
         </div>
@@ -195,34 +200,34 @@ const Job = () => {
         <div className="share-story">
           <h1>Share This Story, Choose Your Platform!</h1>
           <div className="social-links">
-            <Link className="icon">
+            <Link to='https://www.facebook.com/microrage/' className="icon">
               <FaFacebookF />
             </Link>
-            <Link className="icon">
+            <Link to='https://twitter.com/share?url=https%3A%2F%2Fmicrorage.com%2Fcareers%2Fwordpress-developer%2F&text=WordPress%20developer' className="icon">
               <FaTwitter />
             </Link>
-            <Link className="icon">
+            <Link to='https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fmicrorage.com%252Fcareers%252Fwordpress-developer%252F%26title%3DWordPress%2520developer' className="icon">
               <FaReddit />
             </Link>
-            <Link className="icon">
+            <Link to='https://www.linkedin.com/company/microrage-inc./' className="icon">
               <FaLinkedinIn />
             </Link>
-            <Link className="icon">
+            <Link to="https://api.whatsapp.com/send?text=https%3A%2F%2Fmicrorage.com%2Fcareers%2Fwordpress-developer%2F" className="icon">
               <FaWhatsapp />
             </Link>
-            <Link className="icon">
+            <Link to='https://www.tumblr.com/share/link?url=https%3A%2F%2Fmicrorage.com%2Fcareers%2Fwordpress-developer%2F&name=WordPress%20developer&description=We%20are%20looking%20for%20a%20talented%20and%20innovative%20WordPress%20Developer%20having%202-4%20years%20of%20a%20proven%20track%20record%20of%20developing%20WordPress%20Themes%20and%20Plugins.%20Candidates%20who%20are%20interested%20in%20developing%20their%20careers%2C%20loving%20to%20work%20in%20a%20great%20team%20environment%2C%20and%20enthusiastic%20about%20learning%20new%20technologies%20are%20encouraged%20to%20apply.' className="icon">
               <FaTumblr />
             </Link>
-            <Link className="icon">
+            <Link to='https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fmicrorage.com%2Fcareers%2Fwordpress-developer%2F&description=We%20are%20looking%20for%20a%20talented%20and%20innovative%20WordPress%20Developer%20having%202-4%20years%20of%20a%20proven%20track%20record%20of%20developing%20WordPress%20Themes%20and%20Plugins.%20Candidates%20who%20are%20interested%20in%20developing%20their%20careers%2C%20loving%20to%20work%20in%20a%20great%20team%20environment%2C%20and%20enthusiastic%20about%20learning%20new%20technologies%20are%20encouraged%20to%20apply.&media=' className="icon">
               <FaPinterestP />
             </Link>
-            <Link className="icon">
+            <Link to='https://vk.com/share.php?url=https%3A%2F%2Fmicrorage.com%2Fcareers%2Fwordpress-developer%2F&title=WordPress%20developer&description=We%20are%20looking%20for%20a%20talented%20and%20innovative%20WordPress%20Developer%20having%202-4%20years%20of%20a%20proven%20track%20record%20of%20developing%20WordPress%20Themes%20and%20Plugins.%20Candidates%20who%20are%20interested%20in%20developing%20their%20careers%2C%20loving%20to%20work%20in%20a%20great%20team%20environment%2C%20and%20enthusiastic%20about%20learning%20new%20technologies%20are%20encouraged%20to%20apply.' className="icon">
               <SlSocialVkontakte />
             </Link>
-            <Link className="icon">
+            <Link to='https://login.xing.com/?sc_p=xing-share&dest_url=https%3A%2F%2Fwww.xing.com%2Fsocial%2Fshare%2Fspi%3Fh%3D1%26url%3Dhttps%253A%252F%252Fmicrorage.com%252Fcareers%252Fwordpress-developer%252F' className="icon">
               <FaSquareXing />
             </Link>
-            <Link className="icon">
+            <Link to='mailto:?body=https://microrage.com/careers/wordpress-developer/' className="icon">
               <AiOutlineMail />
             </Link>
           </div>

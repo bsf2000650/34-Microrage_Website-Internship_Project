@@ -274,5 +274,13 @@ margin-bottom: 21px;
     display: flex;
 }
 
+@media screen and (max-width: 992px) {
+    .web-development-section .design-detail {
+        font-size: 17px;
+        padding: 0px 160px 26px 213px;
+        margin-left: 47px;
+    }  
+}
+
 
 

@@ -38,7 +38,7 @@ const DesignAndBranding = () => {
         {/* Web Development Section Starts*/}
         <section className="web-development-section">
         <h1>{designAndBranding[0].designAndBranding}</h1>
-        <p>
+        <p className="design-detail">
         <span>Our creative team  </span> {designAndBranding[0].detail}
         </p>
         <div className='detail'>

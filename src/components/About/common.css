@@ -10,7 +10,7 @@
 /* Who we are Starts */
 .who-are-we {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     /* padding-bottom: 100px; */
     /* margin-top: 10px; */
@@ -34,13 +34,14 @@
     /* margin-top: -79px; */
     /* margin-bottom: 84px; */
 }
-.who-are-we .who-are-we-content   h1 {
+.who-are-we .who-are-we-content h1 {
     text-align: left;
-    margin: 0px 0px 32px 93px;
+    margin: 53px 2px 17px 94px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 54px;
     color: #232b36;
+    padding-right: 18px;
 }
 .who-are-we-content  > h1 > span {
     color: #97B325;
@@ -117,7 +118,7 @@
 }
 
 .who-are-we-img > img {
-    width: 90%;
+    width: 84%;
     height: auto;
 }
 
@@ -248,9 +249,9 @@
         padding: 53px 0px;
     }
     .web-development-section p {
-        font-size: 20px;
-        padding: 1px 193px 39px 187px;
-        margin-left: 47px;
+            font-size: 17px;
+            padding: 0px 209px 26px 259px;
+            margin-left: 47px;
     }
     .detail-further{
         display: flex;
@@ -295,7 +296,7 @@
     .who-are-we-img {
         /* margin-bottom: 287px; */
         width: 80%;
-        margin-top: -365px;
+        /* margin-top: -365px; */
     }
     .who-are-we-content {
         margin-top: -61px;

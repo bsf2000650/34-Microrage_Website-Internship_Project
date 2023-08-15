@@ -264,10 +264,60 @@ margin-bottom: 21px;
 .build-together .build-together-content img{
     margin-left: 244px;
 }
+
     
 /* Build Together */
     
 /* Build Together */
+.ecommerce-img {
+    width: 88%;
+    height: auto;
+    margin-left: 20px;
+}
+
+@media  screen and (max-width: 992px){
+    .ecommerce-content {
+        width: 72%;
+    }
+    
+    .web-development-section .ecommerce-detail {
+        font-size: 17px;
+        padding: 0px 192px 26px 226px;
+        margin-left: 47px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .web-development-section .ecommerce-detail {
+        font-size: 17px;
+        padding: 0px 109px 26px 147px;
+        margin-left: 47px;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .ecommerce-content {
+        width: 100%;
+    }
+    .web-development-section .ecommerce-detail {
+        font-size: 17px;
+        padding: 0px 36px 26px 24px;
+        margin-left: 25px;
+    }
+    .ecommerce-detail{
+        margin: 0px 24px -2px 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:381px) {
+    .ecommerce-detail{
+        margin-top: 0px;
+    }
+}
+
+
+
 
 
 

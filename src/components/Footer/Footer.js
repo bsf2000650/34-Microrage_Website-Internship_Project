@@ -1,11 +1,9 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
 import './Footer.css'
 import Logo from "../../images/footer-logo.png";
-
+import {AiOutlineFacebook} from 'react-icons/ai'
+import {AiOutlineLinkedin} from 'react-icons/ai'
 const Footer = () => {
   return (
     <>
@@ -45,8 +43,12 @@ const Footer = () => {
             Email: <span>info@microrage.com</span>
             </address>
             <div className='social-media'>
-                <FaFacebookSquare />
-                <FaTwitterSquare />
+                <Link to='https://www.facebook.com/microrage/'>
+                   <AiOutlineFacebook className='facebook-link' />
+                </Link>
+                <Link to='https://www.linkedin.com/company/microrage-inc./'>
+                <AiOutlineLinkedin className='linkedin-link' />
+                </Link>
             </div>
           </div>
         </div>

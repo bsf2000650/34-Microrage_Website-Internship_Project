@@ -37,7 +37,7 @@ const DigitalMarketing = () => {
         {/* Web Development Section Starts*/}
         <section className="web-development-section">
         <h1>{digitalMarketing[0].digitalMarketing}</h1>
-        <p>
+        <p className="digital-marketing-detail">
         Leverage our mix of SEO skills with creative internet marketing to deliver solutions that communicate, brand and convert. This service offers the ability to become more visible to all the major search engine providers including <span>Google</span>, <span>Yahoo!</span> and <span>MSN</span>. We strive to keep our clients well ahead of the competition.
         </p>
         <div className='detail'>

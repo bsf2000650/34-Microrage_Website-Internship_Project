@@ -37,7 +37,7 @@ const BusinessProcessOutSourcing = () => {
         <section className="business-web-development-section">
         <h1>{businessProcessOutsourcing[0].businessProcessOutsourcing}</h1>
         <p>
-        <span>Our creative team  </span> {businessProcessOutsourcing[0].detail}
+        <span>Microrage Solutions'  </span> {businessProcessOutsourcing[0].detail}
         </p>
         <div className='detail'>
         <img src={Tools} alt="Tools"/> 

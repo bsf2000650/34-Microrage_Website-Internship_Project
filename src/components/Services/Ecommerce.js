@@ -7,6 +7,7 @@ import '../About/common.css'
 import './common_build_together_style.css'
 import { ecommerce } from './ServicesData';
 import Spinner from "../Spinner";
+import BuildTogether from "./BuildTogether";
 
 const Ecommerce = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +22,7 @@ const Ecommerce = () => {
          <Spinner /> : 
          <>{/*  Who we are Start*/}
         <section className='who-are-we'>
-        <div className="who-are-we-content">
+        <div className="who-are-we-content ecommerce-content">
           <h1><span>E-commerce</span> Development</h1>
           <p>{ecommerce[0].cmsAndEcommercedescription}</p>
           <div className='btn'>
@@ -30,23 +31,23 @@ const Ecommerce = () => {
           </div>
         </div>
         <div className='who-are-we-img'>
-            <img src={ecommerce[0].image} alt='About Banner'/>
+            <img className="ecommerce-img" src={ecommerce[0].image} alt='About Banner'/>
         </div>
         </section>
         {/* Who we are End */}
         {/* Web Development Section Starts*/}
         <section className="web-development-section">
         <h1>{ecommerce[0].cmsAndEcommerce}</h1>
-        <p>
+        <p className="ecommerce-detail">
         <span>Microrage Solutions’  </span>{ecommerce[0].detail}
         </p>
         <div className='detail'>
-        <img src={Tools} alt="Tools"/>   
+        <img className="ecommerce-detail" src={Tools} alt="Tools"/>   
         </div>
       </section>
         {/* Web Development Section Ends*/}
                 {/* Build together */}
-      <section className="build-together">
+      {/* <section className="build-together">
         <h1>Let’s build a great product <br/>together!</h1>
         <div className="build-together-grid">
           <div className="contact-form">
@@ -91,7 +92,8 @@ const Ecommerce = () => {
                 <img src={FormMan} alt="Form Man" />
         </div>
         </div>
-      </section>
+      </section> */}
+      <BuildTogether />
       {/* Build Together */}</>}
     </>
   )

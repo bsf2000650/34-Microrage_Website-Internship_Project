@@ -560,7 +560,7 @@ padding-bottom: 45px;
     list-style: none;
     text-align: center;
     display: block;
-    background: black;
+    /* background: black; */
     width: 125%;
     margin-left: -165px;
     height: 25px;
@@ -1305,7 +1305,7 @@ padding-bottom: 45px;
         height: 0px;
     }
     .testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
-        height: 525px;
+        height: 139vh;
     }
    .slick-slider .slick-list .slick-track .slick-slide {
         width: 14%;
@@ -1359,6 +1359,9 @@ padding-bottom: 45px;
     }
     .flexibity-to-innovative-section {
         margin-bottom: 34px;
+    }
+    .innovative-solutions-section h1 {
+        margin: 20px 20px 20px 9px;
     }
     .second-inner-div img {
         margin-top:  43px;

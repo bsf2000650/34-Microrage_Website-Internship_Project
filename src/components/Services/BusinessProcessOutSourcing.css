@@ -172,7 +172,7 @@
 
 @media screen and (max-width: 992px){
     .business-who-are-we {
-        margin: 56px 0px 142px 0px;
+        margin: 56px 0px 142px 10px;
         gap: 40px;
     }
     .business-who-are-we-content {
@@ -224,7 +224,7 @@
     }
     .business-web-development-section p {
         font-size: 20px;
-        padding: 0px 209px 35px 183px;
+        padding: 0px 163px 35px 146px;
         margin-left: 47px;
     }
     .detail ul {
@@ -233,7 +233,7 @@
         padding-bottom: 10px;
         padding-left: 7px;
         line-height: 20px;
-        margin: 0px 65px 8px -53px;
+        margin: 0px 1px 8px -53px
     }
     .detail img {
         margin: -22px 26px 0px 24px;
@@ -296,14 +296,15 @@
     .business-who-are-we .business-who-are-we-content h1  {
         font-size: 36px;
         padding: 11px 0px;
+        color: #212934;
     }
     .business-web-development-section h1 {
         font-size: 31px;
         padding: 20px 0px;
     }
     .business-web-development-section p {
-        font-size: 19px;
-        padding: 0px 21px 39px 2px;
+        font-size: 17px;
+        padding: 0px 22px 39px 15px;
         margin-left: 21px;
     }
     .business-who-are-we-content .btn {

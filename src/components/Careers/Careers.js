@@ -4,6 +4,7 @@ import { FaBriefcase } from 'react-icons/fa';
 import { FaLocationArrow } from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import Spinner from '../Spinner';
+import { FaMapMarker } from "react-icons/fa";
 
 const Careers = () => {
 
@@ -24,7 +25,7 @@ const Careers = () => {
       <div className='job'>
           <div className='apply-job'>
           <h2>WordPress Developer</h2>
-          <button><Link className='apply-link'>Apply Now</Link></button>
+          <button><Link to='/careers/job' className='apply-link'>Apply Now</Link></button>
           </div>
           <div className='job-detail'>
           <div className='job-div'>
@@ -33,7 +34,7 @@ const Careers = () => {
           <span className='full-time'>Full Time</span>
           </p>
           <p>
-            <FaLocationArrow style={{color:'#3b3a3c'}}  className='location-arrow' />
+            <FaMapMarker style={{color:'#3b3a3c'}}  className='location-arrow' />
           <span className='location'>Location</span>
             </p>
           </div>

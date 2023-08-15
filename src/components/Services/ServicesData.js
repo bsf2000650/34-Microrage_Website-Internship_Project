@@ -27,7 +27,7 @@ const mobileApp = [
     {
         mobileApp : 'Mobile App Development',
         mobileAppDescription : 'Leaders in every way, our team adopts early and learns fast. With experience in the range of development from pure native to cross platform apps, we can help you select the best choice for your project requirements.',
-        detail : 'Our team, having ability to adopt and learn fast, leads in every way. We make sure you make the best choice of project’s requirements through our wide range of experience from purely native to cross platform app development.',
+        detail : ' our team adopts early and learns fast. With experience in the range of development from pure native to cross platform apps, we can help you select the best choice for your project requirements. Our technologists provide recommendations to elevate your development strategy, reduce procedural churn and strengthen your solution or technology ecosystem.',
         image : require('../../images/mob-app.png'),
         imageTools : require('../../images/tools.png'),
         link : '/services/mobile-app'
@@ -96,7 +96,7 @@ const businessProcessOutsourcing = [
     {
         businessProcessOutsourcing : 'Business Process Outsourcing',
         businessProcessOutsourcingDescription : 'Microrage outsourcing service offers the ability to entirely or partially take over the development, maintenance, conversion and enhancement of development, design, support and consultancy services.',
-        detail : "identifies your brand’s core characteristics and craft an image that perfectly fits your business identity that work anywhere, all the time. From a new compelling corporate identity to improving your existing logo, we can assist with detailed illustrations for both web and print media.",
+        detail : " outsourcing service offers the ability to entirely or partially take over the development, maintenance, conversion and enhancement of development, design, support and consultancy services. We provide international businesses with full-scope nearshoring services, placing quality as our top priority. All our services are performed by highly skilled and qualified employees, who share our clients’ culture and mentality, and timezone.",
         image : require('../../images/mob-app.png'),
         imageTools : require('../../images/tools.png'),
         point1 : 'Remote team hiring',

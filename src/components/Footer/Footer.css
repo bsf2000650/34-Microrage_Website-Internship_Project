@@ -92,6 +92,25 @@ footer {
   color: #97b325;
 }
 
+.social-media .facebook-link {
+  background-color: #3b5998;
+  color: white;
+  border-radius: 5px;
+  font-size: 31px;
+  width: 30px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.social-media .linkedin-link{
+  background-color: #0077b5;
+  color: white;
+  border-radius: 5px;
+  font-size: 31px;
+  width: 30px;
+  height: 36px;
+}
+
 @media screen and (max-width: 992px) {
   .main-footer {
     padding: 81px 17px 204px 17px;

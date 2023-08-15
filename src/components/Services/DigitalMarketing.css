@@ -271,5 +271,10 @@ margin-bottom: 21px;
     
 /* Build Together */
 
-
-
+@media screen and (max-width: 992px) {
+    .web-development-section .digital-marketing-detail p {
+        font-size: 17px;
+        padding: 0px 175px 26px 226px;
+        margin-left: 47px;
+    } 
+}

@@ -158,7 +158,7 @@ li{
     font-size: 15px;
     font-weight: 500;
     transition: linear 0.5s;
-    padding: 20px 0px 0px 0px;
+    /* padding: 20px 0px 0px 0px; */
     width: 100%;
     /* margin: 10px 0px;*/
 }
@@ -173,13 +173,16 @@ li{
   /* margin-right: 165px; */
   /* margin-left: 10px; */
   /* margin-bottom: -3px; */
+  padding: 14px 19px;
+  transition : linear .2s;
+  
 }
 #services-link .service-link span{
-  margin-left: 23px;
+  /* margin-left: 23px; */
   /* margin-bottom: 24px; */
   /* padding-bottom: 17px; */
 }
-#services-link  li:hover{
+#services-link .service-link:hover{
   background-color: #97b325;
 }
 
@@ -200,7 +203,7 @@ li{
 
 @media screen and (max-width: 992px){
   .main-nav {
-    padding: 0px 26px 0px 0px;
+    padding: 10px 33px 10px 0px;
     gap: 0px;
     margin-top: 0px;
     justify-content: flex-start;
@@ -241,7 +244,7 @@ li{
     padding-right: 16px;
   }
   .menu-links ul {
-    gap: 0px;
+    gap: 11px;
     margin-left: -20px;
   }
   .menu-links ul li {

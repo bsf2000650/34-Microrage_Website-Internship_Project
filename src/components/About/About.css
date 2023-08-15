@@ -363,7 +363,7 @@ element.style {
     text-decoration: none;
     color: black;
     font-family: 'Source Sans Pro';
-    font-weight: 800;
+    font-weight: 600;
 }
     .about-who-are-we-content .btn > button {
         margin: 10px;
@@ -409,6 +409,10 @@ element.style {
     }
     .about-microrage-solutions div {
        margin: 10px 22px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     }
     .about-microrage h2 {
         line-height: 48px;
@@ -417,6 +421,7 @@ element.style {
         line-height: 28px;
         font-size: 16px;
         color: black;
+        padding-right: 10px;
     }
    .detail {
        margin-top: 10px;

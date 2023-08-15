@@ -9,7 +9,8 @@
 .build-together > h1 {
     text-align:  center;
     padding: 100px 0px 40px 0px;
-    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-family:  'Montserrat', Arial, He
+    lvetica, sans-serif;
     font-weight: 900;
     font-size: 40px;
 }
@@ -129,7 +130,7 @@
     border-radius: 13px 13px 13px 13px;
     overflow: hidden;
     /* box-shadow: 2px 2px 5px 1px #eeeeee; */
-    padding: 23px 28px 14px 32px;
+    padding: 23px 15px 14px 13px;
     margin: 9px 14px;
     /* height: 179vh; */
 }
@@ -137,13 +138,42 @@
     margin-bottom: 30px;
     font-family: 'Montserrat';
 }
+.build-together .build-together-content .further-div .custom-list{
+    list-style-type: none;
+    counter-reset: custom-counter;
+    padding-left: 25px;
+}
+.custom-list li {
+    position: relative;
+    counter-increment: custom-counter;
+    display: block;
+    line-height: 22px;
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    margin-bottom: 21px;
+  }
+  
+  .custom-list li::before {
+    content: counter(custom-counter) ". ";
+    position: absolute;
+    left: -20px;
+  }
 .build-together .build-together-content .further-div ol li {
     display: block;
     line-height: 22px;
     font-family: 'Source Sans Pro';
     font-weight: 500;
     margin-bottom: 21px;
+    font-size: 18px;
 }
+/* .build-together .build-together-content .further-div ol li::before {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+} */
 .build-together .build-together-content .further-div ol li span .portfolio{
     text-decoration: none;
     color: #97B325;
@@ -153,7 +183,10 @@
     margin-top: -96px;
     margin-left: 244px;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.build-together .contact-form form input[type=text]::placeholder,
+.build-together .contact-form form input[type=email]::placeholder,
+.build-together .contact-form form input[type=number]::placeholder,
+.build-together .contact-form form .textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     font-size: 16px;
     padding: 10px 15px;
     color: black;
@@ -184,7 +217,7 @@
         margin: 0px 10px;
     }
     .build-together .contact-form {
-        width: 65%;
+        width: 61%;
         height: 104vh;
         margin: 11px 49px 0px 21px
     }
@@ -229,6 +262,7 @@
         font-weight: 500;
         font-family: Montserrat;
       }
+      
 }
 @media screen and (max-width: 669px){
     .build-together .contact-form {

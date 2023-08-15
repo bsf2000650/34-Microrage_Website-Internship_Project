@@ -63,12 +63,12 @@ const buildTogetherData = [
         attach_file : 'Attach file',
         submit : 'Submit',
         whats_next : "What's next?",
-        point_1 : '1. We will contact you to discuss the next steps.',
-        point_2 : '2. In the meantime, you can check our ',
+        point_1 : ' We will contact you to discuss the next steps.',
+        point_2 : ' In the meantime, you can check our ',
         span:'Portfolio.',
-        point_3 : '3. We will sign the NDA if required, and start the project discussion.',
+        point_3 : ' We will sign the NDA if required, and start the project discussion.',
         span:'Portfolio.',
-        point_4 : '4. Our experts will analyze your requirements and suggest the best ways to bring your idea to life.'
+        point_4 : ' Our experts will analyze your requirements and suggest the best ways to bring your idea to life.'
     },
 ]
 
