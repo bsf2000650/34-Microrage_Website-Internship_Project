@@ -141,10 +141,10 @@
 }   
 .web-development-section p {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Source Sans Pro';
     font-weight: 500;
-    padding: 0px 447px 39px 412px;
+    padding: 1px 414px 39px 377px;
     color: black;
     line-height: 26px;
     /* margin-left: 291px; */
@@ -180,7 +180,7 @@
 }
 .detail ul li {
     font-family: 'Source Sans Pro';
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 7px;
     padding-left: 7px;
     line-height: 20px;

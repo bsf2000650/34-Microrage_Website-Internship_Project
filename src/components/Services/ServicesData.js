@@ -49,7 +49,7 @@ const designAndBranding = [
     {
         designAndBranding : 'Design and Branding',
         designAndBrandingDescription: "Our creative team identifies your brand's core characteristics and craft an image that perfectly fits your business identity that work anywhere, all the time",
-        detail : 'Our creative team identifies your brand’s core characteristics and craft an image that perfectly fits your business identity that work anywhere, all the time. From a new compelling corporate identity to improving your existing logo, we can assist with detailed illustrations for both web and print media.',
+        detail : ' identifies your brand’s core characteristics and craft an image that perfectly fits your business identity that work anywhere, all the time. From a new compelling corporate identity to improving your existing logo, we can assist with detailed illustrations for both web and print media.',
         image : require('../../images/design-and-branding.png'),
         imageTools : require('../../images/tools.png'),
         point1 : 'Logo and Brand Identityg',

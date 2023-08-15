@@ -1,0 +1,109 @@
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    background: black;
+    width: 125%;
+    margin-left: -165px;
+    height: 51px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #1595ce;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    background: black;
+    width: 127%;
+    margin-left: -166px;
+    height: 51px;
+}
+/* #ffb900 */
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 0px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 1;
+    color: #f7f7fa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 992px) {
+    .slick-dots {
+        margin-left: -131px;
+        width: 132%;
+    }
+}
+
+@media screen and (max-width: 668px){
+.slick-dots {
+    margin-left: -100px;
+    width: 135%;
+}
+}
+
+@media screen and (max-width : 422px) {
+    .testimonials .slick-carousel-testimonials .slick-dots li button::before {
+        font-family: 'slick';
+        font-size: 19px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: '•';
+        text-align: center;
+        opacity: 1;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-dots {
+        margin-left: -55px;
+        width: 127%;
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: #1595ce;
+    }
+}
+
+@media screen and (max-width: 422px){
+.testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
+    height: 921px;
+}
+}

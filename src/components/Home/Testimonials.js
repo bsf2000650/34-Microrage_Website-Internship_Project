@@ -3,6 +3,10 @@ import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { testimonials } from './HomeData';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './Custom_Carousel.css'
+// import "./carousel-custom.css";
 
 
 const Testimonials = () => {
@@ -12,7 +16,7 @@ const Testimonials = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
       };
       const stars = {
         count: 5,
