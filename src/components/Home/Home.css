@@ -590,7 +590,7 @@ padding-bottom: 45px;
 
 .testimonials {
     background: black;
-    margin-bottom: 30px;
+    margin-bottom: 56px;
 }
 
 .slick-carousel-testimonials {
@@ -659,8 +659,13 @@ padding-bottom: 45px;
     padding: 10px;
     color: #80848c;
 }
-.testimonials .slick-carousel-testimonials .slick-slider .slick-track, .slick-slider .slick-list {
+.testimonials .slick-carousel-testimonials  
+.slick-slider .slick-list {
     height: 83vh;
+}
+.key-clients .slick-carousel-key-clients 
+.slick-slider .slick-list {
+    height: 44vh;
 }
 .testimonials .slick-carousel-testimonials .slick-dots li button{
     width: 30%;

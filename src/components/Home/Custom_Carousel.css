@@ -1,6 +1,6 @@
 .slick-dots {
     position: absolute;
-    bottom: -25px;
+    bottom: -39px;
     display: block;
     width: 100%;
     padding: 0;
@@ -20,7 +20,7 @@
 
 .slick-dots {
     position: absolute;
-    bottom: -25px;
+    bottom: -56px;
     display: block;
     width: 100%;
     padding: 0;
@@ -31,7 +31,8 @@
     background: black;
     width: 127%;
     margin-left: -166px;
-    height: 51px;
+    height: 68px;
+    padding-top: -1px;
 }
 /* #ffb900 */
 .slick-dots li {

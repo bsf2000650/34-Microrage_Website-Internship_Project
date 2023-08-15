@@ -20,7 +20,7 @@ const KeyClients = () => {
     <>
          <section className="key-clients">
         <h1>Our <span>Key Clients</span></h1>
-        <Slider className="slick-carousel" {...keyClientsSettings}>
+        <Slider className="slick-carousel-key-clients" {...keyClientsSettings}>
         {
           keyClients.map((data,index)=>{
             return(

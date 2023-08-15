@@ -26,7 +26,8 @@ const Home = () => {
       {
       isLoading ? 
       <Spinner /> : 
-      <><div className="container">
+      <>
+      <div className="container">
       <InnovativeSolutionSection />
       <HomeCoreCompetencies />
       <FlexibilityToInnovate />
