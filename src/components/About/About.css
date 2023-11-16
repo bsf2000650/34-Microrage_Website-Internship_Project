@@ -30,7 +30,7 @@
     align-items : flex-start;
     justify-content : flex-start;
     flex-direction: column;
-    margin-top: -191px;
+    /* margin-top: -191px; */
     margin-left: -6px;
 }
 .about-who-are-we .about-who-are-we-content   h1 {
@@ -135,7 +135,7 @@
     display: grid;
     grid-template-columns:  auto auto;
     padding: 20px 128px;
-    margin-top: -61px;
+    /* margin-top: -61px; */
 }
 
 .about-microrage-solutions div {

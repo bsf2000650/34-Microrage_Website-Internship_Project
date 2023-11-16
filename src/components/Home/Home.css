@@ -171,7 +171,7 @@ img{
     clip-path: polygon(0 0, 100% 0, 99% 77%, 0% 100%);
     margin-bottom: 10px;
     /* margin-top: 2px; */
-    padding-top: 60px;
+    padding-top: 100px;
 }
 .flexibity-to-innovative-div {
     /* justify-content: center; */
@@ -216,7 +216,7 @@ img{
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    width: 32%;
+    width: 36%;
 }
 
 .flexibity-to-innovative-div .talk-to-us:hover{
