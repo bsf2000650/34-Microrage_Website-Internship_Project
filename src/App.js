@@ -28,7 +28,7 @@ const App = () => {
     <Router>
     <Navbar />
       <Routes>
-        <Route exact path='/Microrage_Website/' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/services' element={<Services />} />
         <Route exact path='/services/:web-development' element={<WebDevelopment />} />
