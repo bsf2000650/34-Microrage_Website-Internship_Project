@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bsf2000650.github.io/34-Microrage_Website-Internship_Project",
   "name": "MicrorageWebsite",
   "version": "0.1.0",
   "private": true,
@@ -47,6 +48,8 @@
     "zlib": "^1.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
