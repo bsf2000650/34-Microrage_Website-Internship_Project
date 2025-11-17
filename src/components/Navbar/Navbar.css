@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap");
 
-.link{
+.link {
   text-decoration: none;
 }
-li{
+li {
   list-style: none;
 }
-.link{
-    text-decoration: none;
-    color: #6b7175;
-    font-size: 18px;
-    font-weight: 700;
-    position: relative;
-    /* border-bottom: 4px solid #97b325;
+.link {
+  text-decoration: none;
+  color: #6b7175;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  /* border-bottom: 4px solid #97b325;
     padding-bottom: 10px;     */
-    padding-right: 118px;
-} 
+  padding-right: 118px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
 
 .main-nav {
   width: 100%;
@@ -24,18 +29,19 @@ li{
   justify-content: space-between;
   padding: 23px 30px 6px 29px;
   max-width: 1284px;
-  margin: 0px 35px;
 }
+
+.main-nav .logo img {
+  width: 90%;
+  height: auto;
+}
+
 .logo {
-  width: 13vw;
-  /* margin-top: -229px; */
-  /* margin-right: -48px; */
-  /* margin-left: 70px; */
+  width: 19vw;
+  margin-top: 25px;
+  margin-right: 21px;
 }
-.menu-links {
-  /* margin-left: 158px; */
-  /* margin-top: -248px; */
-}
+
 .menu-links ul {
   display: flex;
   align-items: center;
@@ -54,7 +60,7 @@ li{
 }
 
 .menu-links ul li button {
-  padding: 15px 21px;
+  padding: 13px 18px;
   border-radius: 5px;
   border: 2px solid #97b325;
   background: white;
@@ -65,8 +71,8 @@ li{
   margin-left: 0px;
 }
 
-.menu-links ul li button:hover{
-  background-color : #97b325;
+.menu-links ul li button:hover {
+  background-color: #97b325;
   color: white;
 }
 .menu-links ul li .link:after {
@@ -90,19 +96,50 @@ li{
 .hamburger-menu {
   display: none;
 }
-.active{
+.active {
   border-bottom: 5px solid #97b325;
   padding-bottom: 10px;
 }
-.faChevronDown{
+.main-nav {
+  padding: 10px 20px 10px 20px;
+  gap: 0px;
+  margin-top: 0px;
+  justify-content: space-between;
+  margin-left: 0px;
+  position: relative; /* allow absolute positioning of hamburger */
+}
+
+.qoute button {
+  border: 1px solid green;
+  padding: 14px 22px;
+  border-radius: 5px;
+  background-color: #97b325;
+  color: white;
+  transition: linear 0.3s;
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+/* place hamburger at right of the navbar */
+.hamburger-menu {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  display: none;
+  z-index: 99;
+}
+.faChevronDown {
   margin-left: 14px;
   font-size: 15px;
   font-weight: 900;
 }
-#our-services{
+#our-services {
   position: relative;
 }
-.dropdown-menu{
+.dropdown-menu {
   position: relative;
   top: 30px;
   right: 20px;
@@ -110,14 +147,14 @@ li{
   border-radius: 3px;
   width: 250px;
   line-height: 15px;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
-.dropdown-menu.is-InActive{
+.dropdown-menu.is-InActive {
   opacity: 0;
   visibility: hidden;
   z-index: -99;
   transform: translateY(-20px);
-  transition:  linear 0.5s;
+  transition: linear 0.5s;
 }
 
 .dropdown-menu.isActive {
@@ -150,23 +187,23 @@ li{
   left: 0;
   border-top: 3px solid #817175;
 }
-#services-link  li {
-  font-family: 'Montserrat';
-    text-decoration: none;
-    color: black;
-    /* padding: 10px; */
-    font-size: 15px;
-    font-weight: 500;
-    transition: linear 0.5s;
-    /* padding: 20px 0px 0px 0px; */
-    width: 100%;
-    /* margin: 10px 0px;*/
+#services-link li {
+  font-family: "Montserrat";
+  text-decoration: none;
+  color: black;
+  /* padding: 10px; */
+  font-size: 15px;
+  font-weight: 500;
+  transition: linear 0.5s;
+  /* padding: 20px 0px 0px 0px; */
+  width: 100%;
+  /* margin: 10px 0px;*/
 }
 #services-link .service-link {
   text-decoration: none;
   color: black;
   display: block;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   border-bottom: 1px solid #ececec;
   padding-bottom: 6px;
   /* position: absolute; */
@@ -174,21 +211,20 @@ li{
   /* margin-left: 10px; */
   /* margin-bottom: -3px; */
   padding: 14px 19px;
-  transition : linear .2s;
-  
+  transition: linear 0.2s;
 }
-#services-link .service-link span{
+#services-link .service-link span {
   /* margin-left: 23px; */
   /* margin-bottom: 24px; */
   /* padding-bottom: 17px; */
 }
-#services-link .service-link:hover{
+#services-link .service-link:hover {
   background-color: #97b325;
 }
 
 .dropdown-menu ul li {
   padding: 10px 0px;
-  border-top: 1px solid rgba(0,0,0,0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 .dropdown-menu ul li:hover {
   background-color: #97b325;
@@ -199,219 +235,249 @@ li{
   margin: 10px auto;
 } */
 
+/* Responsive: only three mobile breakpoints (320, 375, 425) */
 
-
-@media screen and (max-width: 992px){
-  .main-nav {
-    padding: 10px 33px 10px 0px;
-    gap: 0px;
-    margin-top: 0px;
-    justify-content: flex-start;
-    margin-left: 32px;
-}
-  .main-nav .logo{
-    width: 20vw;
-    margin: 22px 24px 12px 0px;
-  }
-  .main-nav .logo img {
-    max-height: 55px;
-    height: auto;
-  }
-  /* .main-nav{
-    display: flex;
-    align-items: center;
-    justify-content : flex-start;
-    margin-top: 0px;
-    margin-bottom: 69px;
-  } */
-  .menu-links {
-    margin-top: -9px;
-    margin-left: 27px;
-}
-  #our-services{
-    margin-right: 15px;
-    margin-top: 0px;
-  }
-  .faChevronDown {
-    margin-left: 3px;
-    font-size: 12px;
-    font-weight: 1000;
-}
-  .menu-links ul li .link {
-    margin-right: 4px;
-  }
-  .link{
-    padding-right: 16px;
-  }
-  .menu-links ul {
-    gap: 11px;
-    margin-left: -20px;
-  }
-  .menu-links ul li {
-    margin-right: 16px;
-}
-  .menu-links ul li button{
-    padding: 15px 20px;
-    font-size: 15px;
-    margin: 0px;
-    font-weight: 600;
-    border-radius: 6px;
-
-  }
-  .menu-links ul li .link{
-    font-size: 15px;
-    font-weight: 700;
-    padding-bottom: 11px;
-  }
-  .menu-links ul li .service{
-    margin-left: 0px;
-  }
-  .menu-links ul li .our-services{
-    margin-right: -144px;
-    padding-right: 10px;
-  }
-  #services-link {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    margin-right: 0px;
-    margin-top: 0px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 12px;
-    width: 175%;
-    line-height: 12px;
-}
-}
-@media screen and (max-width: 668px) {
+/* Small mobile: 320px - 374px */
+@media screen and (min-width: 320px) and (max-width: 373px) {
   .hamburger-menu {
     display: block;
-    z-index: 99;
+    right: 12px;
+    top: 12px;
   }
   .hamburger-menu button {
-    border:  none;
-    background-color: white;
+    border: none;
+    background: transparent;
+  }
+
+  .main-nav {
+    padding: 8px 12px;
   }
   .main-nav .logo {
-    width: 30vw;
-    margin: 15px 24px 22px 5px;
-}
-.main-nav {
-  margin-top: 12px;
-  padding: 0px 41px 0px 0px;
-}
-  .main-nav {
-    height: 7rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 12px;
-    margin-left: 24px;
-  }  
-  .faChevronDown {
+    width: 50vw;
+    margin: 0px;
+  }
+
+  .qoute button {
     display: none;
-}
+  }
+
+  .main-nav .logo img {
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+  }
+
   .menu-links {
-    background-color: rgba(255,255,2555,0.9);
-    height:  100vh;
-    padding-left: 3rem;
-    transform-origin: top;
-    transition: all 0.5s linear;
-    box-shadow: rgba(50, 50, 93,0.25) 0px 50px 100px -20px, rgba(0,0,0,0.3) 0px 30px 60px -30px;
     position: fixed;
     top: 0;
     left: 0;
-    min-height: 100%;
-    width: 108%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.98);
     transform: translateX(-110%);
-    margin-top: 0px; 
-    margin-left: 0px;
+    transition: transform 0.45s ease;
+    padding-top: 56px;
+    z-index: 90;
   }
-  .menu-links ul li .link {
-    font-size: 15px;
-    font-weight: 500;
-    padding-bottom: 11px;
-    font-family: Montserrat;
-    font-size: 16px;
-    line-height: 28px;
-}
-.menu-links ul li button {
-  padding: 8px 20px;
-  font-size: 18px;
-  margin: 0px;
-  font-weight: 600;
-  border-radius: 0px;
-  border: none;
-  background-color: #97b325;
-  color: white;
-  font-family: Montserrat;
-  font-weight: 500;
-}
-  .menu-links.mobile-menu-link{
-     
-  }
-  .menu-links.mobile-menu-link #our-services{
-      margin-right: -53px;
-      margin-top: 5px;
-  }
-  .menu-links.mobile-menu-link{
-    transform: translateX(-7%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .menu-links.mobile-menu-link {
+    transform: translateX(0);
   }
   .menu-links ul {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    align-items : flex-start;
+    gap: 10px;
+    padding-left: 20px;
   }
-  .menu-links ul li {
-    margin-bottom: 11px;
-}
-.active {
-  border-bottom: none;
-  padding-bottom: 0px;
-}
-  .menu-links ul li:first-child{
-    transition-delay: 0.2s;
-  }
-  .logo{
-    margin-left: 30px;
-  }
-  .link{
+  .menu-links ul li .link {
     font-size: 15px;
-    margin-left: 44px;
-    color: black;
-    font-weight: 500;
+    color: #000;
+    margin-left: 8px;
   }
-  .menu-links ul li .link:after {
+  .faChevronDown {
     display: none;
-}
-  .service{
-    margin-left: 10px;
   }
-  #services-link{
+  #services-link {
     display: none;
   }
 }
 
-@media screen and (max-width: 420px) {
-  .main-nav .logo{
-    width: 50vw;
+/* Tablet: 600px - 992px - behave like mobile (hamburger + slide-in menu) */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .hamburger-menu {
+    display: block;
+    right: 18px;
+    top: 18px;
   }
   .hamburger-menu button {
     border: none;
-    background: white;
-}
+    background: transparent;
+  }
+
+  .main-nav {
+    padding: 12px 24px;
+  }
+  .main-nav .logo {
+    width: 30vw;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+
+  .qoute button {
+    display: none;
+  }
+
+  .menu-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.98);
+    transform: translateX(-110%);
+    transition: transform 0.45s ease;
+    z-index: 90;
+    padding-top: 80px;
+  }
+  .menu-links.mobile-menu-link {
+    transform: translateX(0);
+  }
+  .menu-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 36px;
+  }
+  .menu-links ul li .link {
+    font-size: 16px;
+    color: #000;
+    margin-left: 10px;
+  }
+  .faChevronDown {
+    display: none;
+  }
+  #services-link {
+    display: none;
+  }
 }
 
-@media  screen and (max-width: 380px) {
-   .logo{
-    width: 80%;
-   }
-   .hamburger-menu button {
+/* Medium mobile: 375px - 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .hamburger-menu {
+    display: block;
+    right: 14px;
+    top: 14px;
+  }
+  .hamburger-menu button {
     border: none;
-    background: white;
+    background: transparent;
+  }
+
+  .main-nav {
+    padding: 10px 16px;
+  }
+  .main-nav .logo {
+    width: 50vw;
+    margin: 0px;
+  }
+
+  .qoute button {
+    display: none;
+  }
+
+  .main-nav .logo img {
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+  }
+
+  .menu-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.98);
+    transform: translateX(-110%);
+    transition: transform 0.45s ease;
+    z-index: 90;
+  }
+  .menu-links.mobile-menu-link {
+    transform: translateX(0);
+  }
+  .menu-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 28px;
+    padding-top: 64px;
+  }
+  .menu-links ul li .link {
+    font-size: 16px;
+    color: #000;
+    margin-left: 10px;
+  }
+  .faChevronDown {
+    display: none;
+  }
+  #services-link {
+    display: none;
+  }
 }
+
+/* Large mobile / small tablet: 425px - 599px */
+@media screen and (min-width: 425px) and (max-width: 599px) {
+  .hamburger-menu {
+    display: block;
+    right: 18px;
+    top: 16px;
+  }
+  .hamburger-menu button {
+    border: none;
+    background: transparent;
+  }
+
+  .main-nav {
+    padding: 12px 20px;
+  }
+  .main-nav .logo {
+    width: 50vw;
+    margin-top: 12px;
+  }
+
+  .qoute button {
+    display: none;
+  }
+
+  .menu-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.98);
+    transform: translateX(-110%);
+    transition: transform 0.45s ease;
+    z-index: 90;
+  }
+  .menu-links.mobile-menu-link {
+    transform: translateX(0);
+  }
+  .menu-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-left: 36px;
+    padding-top: 68px;
+  }
+  .menu-links ul li .link {
+    font-size: 16px;
+    color: #000;
+    margin-left: 12px;
+  }
+  .faChevronDown {
+    display: none;
+  }
+  #services-link {
+    display: none;
+  }
 }

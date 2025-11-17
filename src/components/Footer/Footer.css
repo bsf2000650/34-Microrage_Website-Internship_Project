@@ -9,7 +9,7 @@ footer {
     flex-direction: row; */
   background: #1d242d;
   color: white;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 .main-footer {
   display: flex;
@@ -26,7 +26,7 @@ footer {
   /* width: 25%; */
   flex-grow: 1;
   flex-basis: 0;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 .box h3 {
   text-align: left;
@@ -65,7 +65,7 @@ footer {
 .main-footer ul li .footer-links:hover {
   color: #97b325;
 }
-.main-footer ul li .active{
+.main-footer ul li .active {
   color: #97b325 !important;
   border-bottom: 0px solid transparent !important;
   padding-bottom: 0 !important;
@@ -81,7 +81,7 @@ footer {
   font-family: "Montserrat";
   padding: 9px 0px;
   margin-top: 32px;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 .copyright #microrage {
   text-decoration: none;
@@ -102,7 +102,7 @@ footer {
   margin-right: 10px;
 }
 
-.social-media .linkedin-link{
+.social-media .linkedin-link {
   background-color: #0077b5;
   color: white;
   border-radius: 5px;
@@ -118,17 +118,16 @@ footer {
   }
 }
 
-
 @media screen and (max-width: 669px) {
   .main-footer {
     display: flex;
-    align-items : flex-start;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     margin-top: 16px;
     padding: 74px 10px 60px 12px;
   }
-  .main-footer .box img{
+  .main-footer .box img {
     width: 206px;
   }
   .main-footer .box2 {
@@ -137,77 +136,89 @@ footer {
   }
   .main-footer ul {
     padding: 12px 1px;
-}
+  }
   .main-footer .box2 ul {
     margin-top: 20px;
     margin-left: 12px;
-}
-.main-footer .box2 ul .inner {
-  /* margin-top: 20px; */
-  /* margin-left: 12px; */
-  /* display: inline; */
-}
-  .main-footer .box h3 , .main-footer .box2 h3{
-    margin-left: 0px;
   }
-.main-footer ul li {
-  padding-bottom: 13px;
-}
-.main-footer ul li .footer-links {
-  font-size: 18px;
-}
-.address {
-  margin-top: 48px;
-}
+  .main-footer .box2 ul .inner {
+    /* margin-top: 20px; */
+    /* margin-left: 12px; */
+    /* display: inline; */
+  }
+  .main-footer .box h3,
+  .main-footer .box2 h3 {
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .main-footer ul li {
+    padding-bottom: 13px;
+  }
+  .main-footer ul li .footer-links {
+    font-size: 18px;
+  }
+  .address {
+    margin-top: 48px;
+  }
   .main-footer .box .address-header {
-    padding-left:  0px;
+    padding-left: 0px;
   }
   .social-media {
     margin-left: 0px;
-}
+  }
 }
 
 @media screen and (max-width: 421px) {
-    .main-footer .box2{
-        padding: 20px 10px;
-        margin-bottom: 0px;
-        margin-top: 112px;
-    }
-    .main-footer .box2 ul {
-      display: flex;
-      margin-left: 12px;
-      padding-left: 0px;
+  .main-footer .box2 {
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    margin-top: 112px;
   }
-    .main-footer ul li {
-        padding-bottom: 15px;
-    }
-    .footer-links {
-        font-size: 15px;
-    }
-    /* .main-footer:first-child{
+  .main-footer .box2 ul {
+    display: flex;
+    margin-left: 12px;
+    padding-left: 0px;
+  }
+  .main-footer ul li {
+    padding-bottom: 15px;
+  }
+  .footer-links {
+    font-size: 15px;
+  }
+  /* .main-footer:first-child{
         margin-bottom: 50px;
     } */
-    .main-footer .address {
-      margin-top: 0px;
+  .main-footer .address {
+    margin-top: 0px;
   }
-    .main-footer .box2 h3 {
-        margin-bottom: 0px;
-    }
-    .main-footer .box2 ul .inner {
-      /* margin-top: 20px; */
-      margin-left: 40px;
-      /* display: inline; */
+  .main-footer .box2 h3 {
+    margin-bottom: 0px;
   }
-    .copyright {
-        margin-top: 0px;
-    }
+  .main-footer .box2 ul .inner {
+    /* margin-top: 20px; */
+    margin-left: 40px;
+    /* display: inline; */
+  }
+  .copyright {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 381px) {
-    .main-footer .box2 {
-        margin-top:  150px;
-    }
-    .main-footer .address {
-        margin-top: 31px;
-    }
+  .main-footer .box2 {
+    margin-top: 150px;
+  }
+  .main-footer .address {
+    margin-top: 31px;
+  }
+  .copyright {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+  .main-footer {
+    padding: 87px 85px 139px 85px;
+  }
 }

@@ -1,258 +1,313 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap");
 
 /* .careers-section {
 
 } */
 .careers-section {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-.careers-section h1{
-    text-align: center;
-    font-family: 'Montserrat';
-    font-size: 50px;
-    margin: 27px;
-    color: #232b36;
+.careers-section h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 50px;
+  margin: 27px;
+  color: #232b36;
 }
 
 .careers-section .career-description {
-    text-align: center;
-    margin-bottom: 130px;
-    font-size: 24px;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    padding: 0px 400px;
-    line-height: 32px;
+  text-align: center;
+  margin-bottom: 130px;
+  font-size: 24px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  padding: 0px 400px;
+  line-height: 32px;
 }
 
-.careers-section  .job-archives{
-    text-align: left;
-    margin-left: 161px;
-    font-size: 24px;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    color: #97B325;
-    margin-bottom: 24px;
+.careers-section .job-archives {
+  text-align: left;
+  margin-left: 120px;
+  font-size: 30px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  color: #97b325;
+  margin-bottom: 24px;
 }
 
-.careers-section .job{
-    border: 1px solid #dcd6d6;;
-    margin: 0px 0px 20px 165px;
-    width: 56vw;
+.careers-section .job {
+  border: 1px solid #dcd6d6;
+  margin: 0px 0px 20px 121px;
+  width: 56vw;
 }
 
-.careers-section .job h2{
-    font-family: 'Source Sans Pro';
-    color: #97B325;
-    /* border-bottom: 1px solid black; */
-    padding: 15px 50px 15px 22px;
-    /* display: inline-block; */
-    width: 45vw;
-    font-weight: 600;
+.careers-section .job h2 {
+  font-family: "Source Sans Pro";
+  color: #97b325;
+  /* border-bottom: 1px solid black; */
+  padding: 15px 50px 15px 22px;
+  /* display: inline-block; */
+  width: 45vw;
+  font-weight: 600;
 }
 .careers-section > .job > .job-detail {
-    margin: 15px 50px 24px 28px;
-    color: #97B325;
-    font-family: 'Montserrat';
+  margin: 15px 50px 24px 28px;
+  color: #97b325;
+  font-family: "Montserrat";
 }
-.job-div{
-    margin-bottom: 25px;
+.job-div {
+  margin-bottom: 25px;
 }
-.careers-section .job .apply-job{
-    display: flex;
-    border-bottom: 1px solid #dcd6d6;
+.careers-section .job .apply-job {
+  display: flex;
+  border-bottom: 1px solid #dcd6d6;
 }
 .careers-section .job .apply-job button {
-    padding: 0px 14px;
-    margin: 12px 4px 5px 71px;
-    border: none;
-    border-radius: 6px;
-    background: #97B325;
-    height: 40px;
+  padding: 4px 14px;
+  margin: 12px 4px 5px 71px;
+  border: none;
+  border-radius: 6px;
+  background: #97b325;
 }
 .careers-section .job .apply-job button .apply-link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 .career-description .job .job-detail .brief-case {
-    margin-left: -20px;
+  margin-left: -20px;
 }
 .careers-section .job .job-detail .job-div p span {
-    margin-left: 7px;
-    font-family: 'Source Sans Pro';
-    color: #bed74c;
+  margin-left: 7px;
+  font-family: "Source Sans Pro";
+  color: #bed74c;
 }
 .careers-section .job .job-detail .location-arrow {
-    margin-left: 50px;
+  margin-left: 50px;
 }
-.careers-section > .job > .job-detail .location{
-    margin-left: 8px;
+.careers-section > .job > .job-detail .location {
+  margin-left: 8px;
 }
 
-.career-description .full-time{
-    width: 8vw;
-    /* display: inline; */
-    border: 2px solid black;
+.career-description .full-time {
+  width: 8vw;
+  /* display: inline; */
+  border: 2px solid black;
 }
 .careers-section > .job > .job-detail p {
-    margin: 16px 0px 36px 0px;
-    color: #717796;
+  margin: 16px 0px 36px 0px;
+  color: #717796;
+  font-size: 21px;
+  font-family: "Source Sans Pro";
+  display: inline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .careers-section {
+    margin-top: 0px;
+  }
+  .careers-section h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .careers-section .career-description {
+    margin-bottom: 60px;
+    padding: 0px 116px;
+  }
+  .careers-section .career-description {
+    font-size: 21px;
+  }
+  .careers-section .job h2 {
+    font-family: "Source Sans Pro";
+    color: #97b325;
+    /* border-bottom: 1px solid black; */
+    padding: 18px 50px 18px 22px;
+    /* display: inline-block; */
+    width: 45vw;
+    font-size: 19px;
+  }
+  .careers-section .job-archives {
+    font-size: 22px;
+  }
+  .careers-section .job-archives {
+    margin-left: 32px;
+  }
+  .careers-section > .job > .job-detail {
+    margin: 15px 25px 24px 24px;
+  }
+  .careers-section > .job > .job-detail p {
     font-size: 15px;
-    font-family: 'Source Sans Pro';
-    display: inline;
+  }
+  .careers-section .job .apply-job button {
+    padding: 1px 12px;
+  }
+  .careers-section .job {
+    margin: 0px 0px 20px 28px;
+    width: 68%;
+  }
+  .careers-section .job .apply-job button {
+    margin: 6px 9px 8px 114px;
+  }
+  .careers-section .job .job-detail .location-arrow {
+    margin-left: 120px;
+  }
 }
 
-@media screen and (max-width: 992px) {
-    .careers-section {
-        margin-top: 0px;
-    }
-    .careers-section h1 {
-        font-size: 55px;
-        margin-bottom: 39px;
-    }
-    .careers-section .career-description {
-        margin-bottom: 100px;
-        padding: 0px 155px;
-    }
-    .careers-section .job h2 {
-        font-family: 'Source Sans Pro';
-        color: #97B325;
-        /* border-bottom: 1px solid black; */
-        padding: 18px 50px 18px 22px;
-        /* display: inline-block; */
-        width: 45vw;
-        font-size: 19px;
-    }
-    .careers-section .job-archives {
-        margin-left: 32px
-    }
-    .careers-section .job {
-        margin: 0px 0px 20px 28px;
-        width: 68%;
-    }
-    /* .job-detail-further{
-        display: inline;
-    } */
-    .careers-section .job .apply-job button {
-        margin: 6px 9px 8px 114px;
-    }
-    .careers-section .job .job-detail .location-arrow {
-        margin-left: 120px;
-    }
-}
-
-@media screen and (max-width: 668px) {
-    .careers-section{
-        margin-top: 0px;
-    }
-    .careers-section .job {
-        width: 92%;
-    }
-    .careers-section .job h2 {
-        width: 53vw;
-    }
-    .careers-section .job .apply-job button {
-        margin: 5px 31px 5px 134px;
-    }
-    .careers-section > .job > .job-detail {
-        display: flex;
-    align-items : flex-start;
+@media screen and (min-width: 425px) and (max-width: 668px) {
+  .careers-section {
+    margin-top: 0px;
+  }
+  .careers-section .job {
+    width: 92%;
+    margin-left: 16px;
+  }
+  .careers-section .job h2 {
+    width: 53vw;
+  }
+  .careers-section .job .apply-job button {
+    margin: 5px 16px 5px 41px;
+  }
+  .careers-section > .job > .job-detail {
+    display: flex;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    }
-    .careers-section .job .job-detail .location-arrow {
-        margin-left: 0px;
-    }
-    .job-div {
-        margin-bottom: 20px;
-    }
-    .careers-section > .job > .job-detail p {
-        margin: 0px 0px 16px 0px;
-        display: block;
-    }
-    .careers-section .career-description {
-        text-align: center;
-        margin-bottom: 94px;
-        font-size: 25px;
-        font-family: 'Source Sans Pro';
-        font-weight: 500;
-        padding: 10px 39px;
-        line-height: 33px;
-    }
-    .careers-section .job .apply-job {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    .careers-section .job h2 {
-        padding: 10px 50px 10px 9px;
-        width: 100%;
-    }
-    .careers-section .job .apply-job button {
-        margin: 6px 6px 6px 77px;
-        padding: 12px 18px 17px 16px;
-        width: 23%;
-    }
-    .careers-section h1 {   
-        margin: 0px 27px 22px 27px;
-    }
+  }
+  .careers-section .job .job-detail .location-arrow {
+    margin-left: 0px;
+  }
+  .job-div {
+    margin-bottom: 0px;
+  }
+  .careers-section > .job > .job-detail p {
+    font-size: 17px;
+  }
+  .careers-section > .job > .job-detail p {
+    margin: 0px 0px 16px 0px;
+    display: block;
+  }
+  .careers-section .career-description {
+    font-size: 22px;
+    padding: 10px 39px;
+    margin-bottom: 60px;
+  }
+  .careers-section .job .apply-job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .careers-section .job h2 {
+    padding: 10px 50px 10px 9px;
+    width: 100%;
+  }
+  .careers-section .job .apply-job button {
+    padding: 8px 10px 8px 10px;
+  }
+  .careers-section h1 {
+    margin: 22px 27px 22px 27px;
+    font-size: 45px;
+  }
 }
-@media screen and (max-width: 421px) {
-    .careers-section .job .apply-job {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .careers-section .job .apply-job button {
-        margin: 0px 9px 6px 253px;
-        padding: 12px 12px 13px 8px;
-        width: 27%;
-    }
-    .careers-section .job {
-        margin: 0px 0px 71px 18px;
-        width: 88%;
-        margin-left: 22px;
-    }
-    .careers-section .job h2 {
-        margin-left: 41px;
-        font-size: 23px;
-        padding: 8px 38px 7px 8px;
-    }
-    .careers-section {
-        margin-top: -12px;
-    }
-    .careers-section h1 {
-        font-size: 37px;
-    }
-    .careers-section .career-description {
-        font-size: 24px;
-        padding: 10px 32px;
-    }
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .careers-section .job .apply-job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .careers-section .job .apply-job button {
+    margin: 0px 9px 6px 253px;
+    padding: 12px 12px 13px 8px;
+    width: 27%;
+  }
+  .careers-section .job {
+    margin: 0px 0px 71px 18px;
+    width: 88%;
+    margin-left: 22px;
+  }
+  .careers-section .job h2 {
+    margin-left: 41px;
+    font-size: 23px;
+    padding: 8px 38px 7px 8px;
+  }
+  .careers-section {
+    margin-top: -12px;
+  }
+  .careers-section h1 {
+    font-size: 37px;
+  }
+  .careers-section .career-description {
+    font-size: 24px;
+    padding: 10px 32px;
+  }
 }
-@media screen and (max-width: 380px){
-    .careers-section {
-        margin-top: 0px;
-    }
-    .careers-section .job {
-        margin: 0px 0px 20px 13px;
-    }
-    .careers-section .job h2 {
-        margin-left: 13px;
-        width: 89%;
-        padding: 0px 92px 0px 0px;
-    }
-    .careers-section > .job > .job-detail {
-        margin: 15px 23px 24px 28px;
-    }
-    .careers-section > .job > .job-detail p {
-        font-size: 17px;
-    }
-    .careers-section .job .apply-job button {
-        margin: 3px 22px 6px 232px;
-        padding-left: 8px;
-        width: 31%;
-    }
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .careers-section {
+    margin-top: 0px;
+  }
+  .careers-section .career-description {
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding: 0px 40px;
+  }
+  .careers-section h1 {
+    font-size: 45px;
+  }
+  .careers-section .job-archives {
+    margin-left: 85px;
+  }
+  .careers-section .job {
+    border: 1px solid #dcd6d6;
+    margin: 0px 0px 20px 20px;
+    width: 92vw;
+  }
+  .careers-section .job h2 {
+    margin-left: 13px;
+    width: 89%;
+    padding: 0px 0px 0px 0px;
+  }
+  .careers-section > .job > .job-detail {
+    margin: 15px 23px 24px 28px;
+  }
+  .careers-section > .job > .job-detail p {
+    font-size: 17px;
+  }
+  .careers-section .job .apply-job button {
+    margin: 3px 22px 6px 50px;
+    padding-left: 8px;
+    width: 31%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .careers-section .career-description {
+    margin-bottom: 90px;
+    padding: 0px 230px;
+  }
+  .careers-section .job-archives {
+    font-size: 26px;
+  }
+  .careers-section .job h2 {
+    color: #97b325;
+    padding: 18px 50px 10px 22px;
+    font-size: 20px;
+  }
+  .careers-section .job .apply-job button .apply-link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+  .careers-section > .job > .job-detail p {
+    font-size: 18px;
+  }
+  .job-div {
+    margin-bottom: 15px;
+  }
+  .careers-section > .job > .job-detail p {
+    font-size: 16px;
+  }
+  .careers-section > .job > .job-detail {
+    margin: 15px 30px 24px 30px;
+  }
 }

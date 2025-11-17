@@ -1,29 +1,29 @@
 /* Core Competencies Start */
 
 .core-competencies-section {
-    background-color: #1d242d;
-    /* width: 100%; */
-    /* height: auto; */
+  background-color: #1d242d;
+  /* width: 100%; */
+  /* height: auto; */
 }
 .core-competencies-section h2 {
-    padding: 108px 0px 13px 0px;
-    color: #6b7175;
-    border-bottom: 0.5px solid #61676c;
-    text-align: center;
-    width: 36%;
-    margin-left: 32%;
-    margin-bottom: 29px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 21px;
-    letter-spacing: 2px;
+  padding: 108px 0px 13px 0px;
+  color: #6b7175;
+  border-bottom: 0.5px solid #61676c;
+  text-align: center;
+  width: 36%;
+  margin-left: 32%;
+  margin-bottom: 29px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 2px;
 }
-.core-competencies-div{
-   display: grid;
-   grid-template-columns: auto auto auto;
-   padding: 10px 10px 38px 10px;
-   margin: 0px 10%;
+.core-competencies-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px 10px 38px 10px;
+  margin: 0px 3%;
 }
 .core-competencies-item {
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
@@ -34,114 +34,116 @@
   /* text-align: justify; */
 }
 .core-competencies-item h3 {
-    text-transform: uppercase;
-    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 21px;
-    margin-bottom: 18px;
+  text-transform: uppercase;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 21px;
+  margin-bottom: 18px;
 }
-h3, .links > p , .links > img{
-    margin: 20px 0px ;
+h3,
+.links > p,
+.links > img {
+  margin: 20px 0px;
 }
 .core-competencies-item p {
-    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    line-height: 25px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 25px;
 }
 .links > img {
-    width: 100px;
-    height: 80px;
-    transition: all 0.5s;
+  width: 100px;
+  height: 80px;
+  transition: all 0.5s;
 }
 .links > img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.links{
-    text-decoration: none;
-    color: white;
+.links {
+  text-decoration: none;
+  color: white;
 }
 .links > p {
-    font-size: 15px;  
-    font-weight: normal;
-    color: white; 
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
 }
 
 /* Core Competencies End */
 
-@media screen and (max-width: 992px){
-    .core-competencies-div {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        padding: 10px 25px 38px 25px;
-        margin: 0px 1%;
-    }
+@media screen and (max-width: 992px) {
+  .core-competencies-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px 25px 38px 25px;
+    margin: 0px 1%;
+  }
 }
-@media screen and (max-width: 669px){
-    .core-competencies-item {
-        margin: 10px 24px 30px 15px;
-    }
-    .core-competencies-div{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .core-competencies-section h2 {
-        width: 60%;
-        margin-left: 19%;
-    }
-    .build-together > h1 {
-        padding: 52px 0px 38px 0px;
-    }
-    .flexibity-to-innovative-div .talk-to-us {
-        width: 73%;
-    }
+@media screen and (max-width: 669px) {
+  .core-competencies-item {
+    margin: 10px 24px 30px 15px;
+  }
+  .core-competencies-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .core-competencies-section h2 {
+    width: 60%;
+    margin-left: 19%;
+  }
+  .build-together > h1 {
+    padding: 52px 0px 38px 0px;
+  }
+  .flexibity-to-innovative-div .talk-to-us {
+    width: 73%;
+  }
 }
-@media screen and (max-width: 421px){
-    .core-competencies-div{
-        display: block;
-    }
-    .core-competencies-div{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .core-competencies-div {
-        margin: 0px 3% 0px 3%;
-    }
-    .coded-level .content h1 {
-        margin-left: -4px;
-    }
-    .core-competencies-section h2 {
-        width: 80%;
-        margin-left: 12%;
-    }
-    .flexibity-to-innovative-div .talk-to-us {
+@media screen and (max-width: 421px) {
+  .core-competencies-div {
+    display: block;
+  }
+  .core-competencies-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .core-competencies-div {
+    margin: 0px 3% 0px 3%;
+  }
+  .coded-level .content h1 {
+    margin-left: -4px;
+  }
+  .core-competencies-section h2 {
+    width: 80%;
+    margin-left: 12%;
+  }
+  .flexibity-to-innovative-div .talk-to-us {
     width: 59%;
-    }
-    .testimonials .slick-carousel-testimonials .slick-next:before {
-        margin-left: -42px;
-    }
+  }
+  .testimonials .slick-carousel-testimonials .slick-next:before {
+    margin-left: -42px;
+  }
 }
-@media screen and (max-width: 381px){
-    .core-competencies-item .links p {
-        font-size: 17px;
-    }
-    .core-competencies-div{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .coded-level .content h1 {
-        margin-left: -7px;
-    }
-    .flexibity-to-innovative-div .talk-to-us {
-        width: 59%;
-    }
-    .testimonials .slick-carousel-testimonials .slick-next:before {
-        margin-left: -42px;
-    }
+@media screen and (max-width: 381px) {
+  .core-competencies-item .links p {
+    font-size: 17px;
+  }
+  .core-competencies-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .coded-level .content h1 {
+    margin-left: -7px;
+  }
+  .flexibity-to-innovative-div .talk-to-us {
+    width: 59%;
+  }
+  .testimonials .slick-carousel-testimonials .slick-next:before {
+    margin-left: -42px;
+  }
 }

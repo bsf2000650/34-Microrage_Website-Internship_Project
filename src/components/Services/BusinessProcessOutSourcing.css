@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap");
 
 /* business-who we are Starts */
 /* .business-are-we{
@@ -13,63 +13,172 @@
 
 /* Who we are Starts */
 .business-who-are-we {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* padding-bottom: 100px; */
-    /* margin-top: 10px; */
-    margin: 65px 156px 0px 81px;
-    gap: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 100px; */
+  /* margin-top: 10px; */
+  margin: 65px 156px 0px 81px;
+  gap: 122px;
 }
-.business-who-are-we-content{
-    /* display: flex;
+.business-who-are-we-content {
+  /* display: flex;
     flex-direction: column;
     align-items: center; */
-    /* justify-content: center; */
-    width: 80%;
-    display: flex;
-    align-items : flex-start;
-    justify-content : flex-start;
-    flex-direction: column;
-    margin-top: -0px;
+  /* justify-content: center; */
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: -0px;
 }
 .business-who-are-we-img {
-    width: 73%;
-    /* margin-top: -79px; */
-    /* margin-bottom: 84px; */
+  width: 73%;
+  /* margin-top: -79px; */
+  /* margin-bottom: 84px; */
 }
-.business-who-are-we .business-who-are-we-content   h1 {
-    text-align: left;
-    margin: 0px 0px 16px 93px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 54px;
+.business-who-are-we .business-who-are-we-content h1 {
+  text-align: left;
+  margin: 0px 0px 16px 93px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 54px;
 }
-.business-who-are-we-content  > h1 > span {
-    color: #97B325;
+.business-who-are-we-content > h1 > span {
+  color: #97b325;
 }
 .business-who-are-we-content > p {
-    text-align: justify;
-    margin: 0px 0px 10px 100px;
-    line-height: 25px;
-    color: black;
-    font-family: 'Source Sans Pro';
-    font-weight: 500;
-    font-size: 20px;
+  text-align: justify;
+  margin: 0px 0px 10px 100px;
+  line-height: 25px;
+  color: black;
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  font-size: 20px;
 }
 .business-who-are-we .business-who-are-we-content .experienced-team {
-        margin-bottom: 25px;
-        margin-top: 0px;
-        font-weight: 380;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-weight: 380;
 }
 .business-who-are-we-content .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.business-who-are-we-content .btn  .btn-link-portfolio,
-.business-who-are-we-content .btn  .btn-link{
-    margin : 10px;
+.business-who-are-we-content .btn .btn-link-portfolio,
+.business-who-are-we-content .btn .btn-link {
+  margin: 10px;
+  border: 1px solid green;
+  padding: 15px 25px;
+  border-radius: 5px;
+  /* margin-right: 150px; */
+  /* margin-left: -120px; */
+  transition: all 0.5s;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: "Source Sans Pro";
+}
+.business-who-are-we-content .btn .btn-link-portfolio {
+  background-color: white;
+  margin-left: 100px;
+}
+.business-who-are-we-content .btn .btn-link {
+  background-color: #97b325;
+}
+
+.business-who-are-we-content .btn .btn-link-portfolio:hover {
+  background-color: #97b325;
+
+  color: white !important;
+}
+.business-who-are-we-content .btn .btn-link:hover {
+  background-color: #1d242d !important;
+  color: white !important;
+}
+
+.business-who-are-we-img > img {
+  width: 90%;
+  height: auto;
+}
+
+/* Web Development Section Starts*/
+.business-web-development-section {
+  /* display: flex;
+    justify-content: space-between;
+    margin-top: 40px; */
+  background-color: #f9f9fb;
+}
+
+.business-web-development-section h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 45px;
+  margin-bottom: 5px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  padding: 41px 0px 28px 0px;
+}
+.business-web-development-section p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  padding: 0px 447px 39px 412px;
+  color: black;
+  line-height: 26px;
+  /* margin-left: 291px; */
+}
+.business-web-development-section p > span {
+  font-weight: 600;
+}
+.get-in-touch {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.business-web-development .get-in-touch > p {
+  font-weight: 500;
+}
+.business-detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.business-detail ul li {
+  font-family: "Montserrat";
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  line-height: 20px;
+  margin: 22px 54px 22px 4px;
+  display: inline;
+}
+.business-detail img {
+  margin: -22px 45px 0px 90px;
+  width: 25%;
+}
+.business-detail ul .check-mark {
+  color: green;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .business-who-are-we {
+    margin: 56px 0px 142px 10px;
+    gap: 40px;
+  }
+  .business-who-are-we-content {
+    width: 67%;
+  }
+  .business-who-are-we-content .btn > button {
+    margin: 10px;
     border: 1px solid green;
     padding: 15px 25px;
     border-radius: 5px;
@@ -78,277 +187,172 @@
     transition: all 0.5s;
     font-size: 20px;
     text-transform: capitalize;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-family: 'Source Sans Pro';
-}
-.business-who-are-we-content .btn .btn-link-portfolio{
+  }
+  .business-who-are-we-content .btn .btn-portfolio {
     background-color: white;
-    margin-left: 100px;
-}
-.business-who-are-we-content .btn .btn-link{
-    background-color: #97B325;
-}
-
-.business-who-are-we-content .btn .btn-link-portfolio:hover{
-    background-color: #97B325;
-    
-    color: white !important;
-}
-.business-who-are-we-content .btn .btn-link:hover{
-    background-color: #1d242d !important;
-    color: white !important;
-    
-}
-
-.business-who-are-we-img > img {
-    width: 90%;
-    height: auto;
-}
-
-/* Web Development Section Starts*/
-.business-web-development-section{
-    /* display: flex;
-    justify-content: space-between;
-    margin-top: 40px; */
-    background-color: #f9f9fb;
-}
-
-.business-web-development-section h1 {
-    text-align: center;
-    margin: 20px;
-    font-size: 45px;
-    margin-bottom: 5px;
-    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+  }
+  .business-who-are-we .business-who-are-we-content h1,
+  .business-who-are-we-content p {
+    margin: 0px 20px 26px 20px;
+    /* margin-bottom: 30px; */
+  }
+  .business-who-are-we-content p {
+    margin: 10px 20px;
+  }
+  .business-who-are-we-content > p {
+    text-align: left;
+    font-size: 20px;
+  }
+  .business-who-are-we-img {
+    /* margin-bottom: 287px; */
+    width: 71%;
+    margin-top: 0px;
+  }
+  .business-who-are-we-img img {
+    margin-left: 13px;
+    width: 93%;
+  }
+  .business-web-development-section h1 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-weight: 900;
-    padding: 41px 0px 28px 0px;
-}   
-.business-web-development-section p {
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Source Sans Pro';
-    font-weight: 500;
-    padding: 0px 447px 39px 412px;
-    color: black;
-    line-height: 26px;
-    /* margin-left: 291px; */
-}
-.business-web-development-section p > span {
-    font-weight: 600;
-}
-.get-in-touch{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.business-web-development .get-in-touch > p {
-    font-weight: 500;
-}
-.business-detail {
-    display: flex;
-    align-items : flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-}
-.business-detail ul li{
-    font-family: 'Montserrat';
+    padding: 53px 0px;
+  }
+  .business-who-are-we-content .btn .btn-link-portfolio {
+    background-color: white;
+    margin-left: 20px;
+  }
+  .business-web-development-section p {
+    font-size: 20px;
+    padding: 0px 163px 35px 146px;
+    margin-left: 47px;
+  }
+  .detail ul {
+    font-family: "Montserrat";
     font-size: 15px;
     padding-bottom: 10px;
     padding-left: 7px;
     line-height: 20px;
-    margin: 22px 54px 22px 4px;
-    display: inline;
-}
-.business-detail img {
-    margin: -22px 45px 0px 90px;
-    width: 25%; 
-}
-.business-detail ul .check-mark {
-    color: green;
+    margin: 0px 1px 8px -53px;
+  }
+  .detail img {
+    margin: -22px 48px 0px 121px;
+    width: 80%;
+  }
 }
 
-@media screen and (max-width: 992px){
-    .business-who-are-we {
-        margin: 56px 0px 142px 10px;
-        gap: 40px;
-    }
-    .business-who-are-we-content {
-        width: 67%;
-    }
-    .business-who-are-we-content .btn > button {
-        margin: 10px;
-        border: 1px solid green;
-        padding: 15px 25px;
-        border-radius: 5px;
-        /* margin-right: 150px; */
-        /* margin-left: -120px; */
-        transition: all 0.5s;
-        font-size: 20px;
-        text-transform: capitalize;
-    }
-    .business-who-are-we-content .btn .btn-portfolio {
-        background-color: white;
-        margin-left: 22px;
-    }
-    .business-who-are-we .business-who-are-we-content h1, .business-who-are-we-content p {
-        margin: 0px 20px 26px 20px;
-        /* margin-bottom: 30px; */
-    }
-    .business-who-are-we-content p {
-        margin: 10px 20px;
-    }
-    .business-who-are-we-content > p {
-        text-align: left;
-        font-size: 20px;
-    }
-    .business-who-are-we-img{
-        /* margin-bottom: 287px; */
-        width: 71%;
-        margin-top: 0px;
-    }
-    .business-who-are-we-img img {
-        margin-left: 13px;
-        width: 93%;
-    }
-    .business-web-development-section h1 {
-        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-        font-weight: 900;
-        padding: 53px 0px;
-    }
-    .business-who-are-we-content .btn .btn-link-portfolio {
-        background-color: white;
-        margin-left: 20px;
-    }
-    .business-web-development-section p {
-        font-size: 20px;
-        padding: 0px 163px 35px 146px;
-        margin-left: 47px;
-    }
-    .detail ul {
-        font-family: 'Montserrat';
-        font-size: 15px;
-        padding-bottom: 10px;
-        padding-left: 7px;
-        line-height: 20px;
-        margin: 0px 1px 8px -53px
-    }
-    .detail img {
-        margin: -22px 26px 0px 24px;
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 669px){
-    /* .business-who-are-we-content {
+@media screen and (max-width: 669px) {
+  /* .business-who-are-we-content {
         width: 100%;
     }*/
-    .business-who-are-we {
-        gap: 0px;
-        padding-bottom: 28px;
-        margin: 131px 0px 18px 0px;
-    }
-    .business-web-development-section p {
-        font-size: 19px;
-        padding: 0px 86px 39px 86px;
-        margin-left: 47px;
-    }
-    .business-who-are-we .business-who-are-we-content h1 {
-        font-size: 56px;
-    }
-    .business-who-are-we-img {
-        /* margin-bottom: 287px; */
-        width: 80%;
-        margin-top: -418px;
-    }
-    .business-who-are-we-content {
-        margin-top: -61px;
-        width: 56%;
-    }
-    .business-who-are-we-content .btn{
-        display: flex;
+  .business-who-are-we {
+    gap: 0px;
+    padding-bottom: 28px;
+    margin: 131px 0px 18px 0px;
+  }
+  .business-web-development-section p {
+    font-size: 19px;
+    padding: 0px 86px 39px 86px;
+    margin-left: 47px;
+  }
+  .business-who-are-we .business-who-are-we-content h1 {
+    font-size: 56px;
+  }
+  .business-who-are-we-img {
+    /* margin-bottom: 287px; */
+    width: 80%;
+    margin-top: -418px;
+  }
+  .business-who-are-we-content {
+    margin-top: -61px;
+    width: 56%;
+  }
+  .business-who-are-we-content .btn {
+    display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    }
-    .business-who-are-we-content .btn .btn-link {
-        background-color: #97B325;
-        margin-left: 19px;
-    }
-    
+  }
+  .business-who-are-we-content .btn .btn-link {
+    background-color: #97b325;
+    margin-left: 19px;
+  }
 }
 
-@media screen and (max-width: 421px){
-    .business-who-are-we {
-        display: flex;
+@media screen and (max-width: 421px) {
+  .business-who-are-we {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding-bottom: 0px;
     margin-top: 60px;
-    }
-    .business-who-are-we-content {
-        width: 100%;
-        
-    }
-    .business-who-are-we .business-who-are-we-content h1  {
-        font-size: 36px;
-        padding: 11px 0px;
-        color: #212934;
-    }
-    .business-web-development-section h1 {
-        font-size: 31px;
-        padding: 20px 0px;
-    }
-    .business-web-development-section p {
-        font-size: 17px;
-        padding: 0px 22px 39px 15px;
-        margin-left: 21px;
-    }
-    .business-who-are-we-content .btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    .business-who-are-we .business-who-are-we-content .btn button {
+  }
+  .business-who-are-we-content {
+    width: 100%;
+  }
+  .business-who-are-we .business-who-are-we-content h1 {
+    font-size: 36px;
+    padding: 11px 0px;
+    color: #212934;
+  }
+  .business-web-development-section h1 {
+    font-size: 31px;
+    padding: 20px 0px;
+  }
+  .business-web-development-section p {
+    font-size: 17px;
+    padding: 0px 22px 39px 15px;
+    margin-left: 21px;
+  }
+  .business-who-are-we-content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .business-who-are-we .business-who-are-we-content .btn button {
     padding: 13px 11px;
-    }
-    .business-who-are-we-img {
-        width: 100%;
-        margin-bottom: 35px;
-        margin-top: 24px;
-    }
-    .business-who-are-we-content .btn .btn-link-portfolio, .business-who-are-we-content .btn .btn-link {
-        padding: 6px 10px;
-    }
-    .business-who-are-we-content .btn .btn-get-in-touch{
-        margin-left: 0px;
-    }
-    .business-who-are-we-content .btn .btn-portfolio ,
-    .business-who-are-we-content .btn .btn-get-in-touch {
-        font-size: 14px;
-    }
-    .business-who-are-we-content .btn .btn-link {
-        background-color: #97B325;
-        margin-left: 0px;
-    }
-    .detail {
-        margin-top: 0px;
-    }
-    .detail img {
-        margin: 78px 24px -2px 0px;
-        width: 100%;
-    }
-    .detail ul {
-        margin: 0px 2px 8px -385px;
-    }
+  }
+  .business-who-are-we-img {
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 24px;
+  }
+  .business-who-are-we-content .btn .btn-link-portfolio,
+  .business-who-are-we-content .btn .btn-link {
+    padding: 6px 10px;
+  }
+  .business-who-are-we-content .btn .btn-get-in-touch {
+    margin-left: 0px;
+  }
+  .business-who-are-we-content .btn .btn-portfolio,
+  .business-who-are-we-content .btn .btn-get-in-touch {
+    font-size: 14px;
+  }
+  .business-who-are-we-content .btn .btn-link {
+    background-color: #97b325;
+    margin-left: 0px;
+  }
+  .detail {
+    margin-top: 0px;
+  }
+  .detail img {
+    margin: 78px 24px -2px 0px;
+    width: 100%;
+  }
+  .detail ul {
+    margin: 0px 2px 8px -385px;
+  }
 }
 
-@media screen and (max-width: 381px){
-    
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .get-in-touch {
+    width: 100%;
+    flex-direction: column;
+  }
+  .detail img {
+    margin: -22px 26px 0px 24px;
+    width: 90%;
+  }
 }
-
-

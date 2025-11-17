@@ -1,70 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap");
 
 /* Contact Section Start */
 .contact-section {
-    margin-top: 60px;
+  margin-top: 60px;
 }
-.contact-section h1{
-    text-align: center;
-    font-family: 'Montserrat';
-    font-size: 50px;
-    margin: 27px;
-    color: #232b36;
+.contact-section h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 50px;
+  margin: 27px;
+  color: #232b36;
 }
 
 .contact-section .career-description {
-    text-align: center;
-    margin-bottom: 85px;
-    font-size: 24px;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
+  text-align: center;
+  margin: 50px;
+  font-size: 24px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
 }
 
 .contact-section .get-in-touch-grid {
-        display: flex;
-        align-items : flex-start;
-        justify-content: center;
-        flex-direction: row;
-        gap: 70px;
-        margin-left: 18px;
-        margin-bottom: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 70px;
+  margin-left: 18px;
+  margin-bottom: 60px;
 }
-.contact-section .get-in-touch-grid .google-map{
-    width: 50%;
-    height: 250px;
+.contact-section .get-in-touch-grid .google-map {
+  width: 50%;
+  height: 250px;
 }
 .contact-section .get-in-touch-grid .contact-item {
-    /* border: 2px solid black; */
-    /* width: 55%; */
-    height: 200px;
-    font-family: 'Source Sans Pro';
+  /* border: 2px solid black; */
+  /* width: 55%; */
+  height: 200px;
+  font-family: "Source Sans Pro";
 }
 
 .contact-section .get-in-touch-grid .contact-item .contact-address {
-    /* border: 2px solid black; */
-    color: black;
-    margin: 31px 0px 0px 21px;
-    font-style: normal;
-    line-height: 27px;
-    font-weight: 600;
-    font-family: Montserrat;
+  /* border: 2px solid black; */
+  color: black;
+  margin: 31px 0px 0px 21px;
+  font-style: normal;
+  line-height: 27px;
+  font-weight: 600;
+  font-family: Montserrat;
 }
 
 .contact-section .get-in-touch-grid .contact-item .contact-address a,
 .contact-section .get-in-touch-grid .contact-item .contact-address span {
-    color: #97B325;
+  color: #97b325;
 }
 
-.contact-section .get-in-touch-grid .contact-item h1{
-    font-size: 26px;
-    margin: 21px;
-    text-align: left;
+.contact-section .get-in-touch-grid .contact-item h1 {
+  font-size: 26px;
+  margin: 21px;
+  text-align: left;
 }
 
 .contact-section .get-in-touch-grid .google-map {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 /* Contact Section End */
@@ -85,20 +85,20 @@
     grid-template-columns: auto auto;
     margin: 0px 50px;
     /* height: 400px; */
-    /* border: 2px solid black; */
-   /* padding-bottom: 30px;
+/* border: 2px solid black; */
+/* padding-bottom: 30px;
 }
 .build-together .contact-form{
     /* border: 2px solid black; */
-  /*  width: 60vw;
+/*  width: 60vw;
     margin: 11px 0px 0px 21px;
     /* height: 500px; */
-  /*  background-color: #97B325;
+/*  background-color: #97B325;
     padding: 20px;
 }
 .build-together .contact-form form {
     /* border: 2px solid black; */
-    /* margin: 24px
+/* margin: 24px
 }
 .build-together .contact-form h1 
     {
@@ -139,7 +139,7 @@
 
 .build-together .contact-form form textarea{
     /* border: 2px solid black; */
-  /*  width: 90%;
+/*  width: 90%;
     height: 139px;
 }
 .build-together .contact-form form input[type=submit]{
@@ -154,7 +154,7 @@
 }
 .build-together .build-together-content .further-div {
     /* border: 2px solid black; */
-   /* border-radius: 13px 13px 13px 13px;
+/* border-radius: 13px 13px 13px 13px;
     background-color: transparent;
     background-color: #ffffff;
     border-radius: 13px 13px 13px 13px;
@@ -163,7 +163,7 @@
     padding: 23px 28px 14px 32px;
     margin: 9px 14px;
     /* height: 179vh; */
-    /*
+/*
 }
 .build-together .build-together-content .further-div h2 {
     margin-bottom: 30px;
@@ -187,98 +187,118 @@ margin-bottom: 21px;
     
 /* Build Together */
 
-
 @media screen and (max-width: 992px) {
-    .contact-section {
-        margin-top: 50px;
-    }
-    .contact-section .get-in-touch-grid {
-        margin: 0px 17px 50px 17px;
-    }
-    .contact-section .get-in-touch-grid .google-map {
-        width: 69%;
-        height: 250px;
-    }
-    .contact-section .get-in-touch-grid {
-        gap: 12px;
-    }
-    .contact-section .get-in-touch-grid .google-map {
-        width: 73%;
-        height: 250px;
-        display: block;
-    }
-    .contact-section .career-description {
-        text-align: center;
-        margin-bottom: 85px;
-        font-size: 24px;
-        font-family: 'Source Sans Pro';
-        font-weight: 400;
-        padding: 0px 51px;
-    }
-    .contact-section .get-in-touch-grid .google-map {
-        border-radius: 15px;
-    }
+  .contact-section {
+    margin-top: 50px;
+  }
+  .contact-section .get-in-touch-grid {
+    margin: 0px 17px 50px 17px;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    width: 69%;
+    height: 250px;
+  }
+  .contact-section .get-in-touch-grid {
+    gap: 12px;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    width: 73%;
+    height: 250px;
+    display: block;
+  }
+  .contact-section .career-description {
+    text-align: center;
+    margin-bottom: 85px;
+    font-size: 24px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    padding: 0px 51px;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    border-radius: 15px;
+  }
 }
 @media screen and (max-width: 668px) {
-    .contact-section {
-        margin-top: 0px;
-    }
-    .contact-section h1 {
-        font-size: 48px;
-    }
-    .contact-section .get-in-touch-grid .contact-item {
-        width: 42%;
-    }
-    .contact-section .get-in-touch-grid .google-map {
-        border-radius: 18px;
-    }
+  .contact-section {
+    margin-top: 0px;
+  }
+  .contact-section h1 {
+    font-size: 48px;
+  }
+  .contact-section .get-in-touch-grid .contact-item {
+    width: 42%;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    border-radius: 18px;
+  }
 }
 @media screen and (max-width: 421px) {
-    .contact-section h1 {
-        font-size: 37px;
-    }
-    .contact-section .career-description {
-        font-size: 24px;
-        padding: 0px 15px;
-        margin-bottom: 82px;
-    }
-    .contact-section .get-in-touch-grid {
-        display: flex;
+  .contact-section h1 {
+    font-size: 37px;
+  }
+  .contact-section .career-description {
+    font-size: 24px;
+    padding: 0px 15px;
+    margin-bottom: 82px;
+  }
+  .contact-section .get-in-touch-grid {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-        margin: 13px 2px 36px 10px;
-    }
-    .contact-section .get-in-touch-grid .contact-item {
-        width: 100%;
-    }
-    .contact-section .get-in-touch-grid .contact-item h1 {
-        margin: 16px 16px 9px 22px;
-        font-size: 29px;
-    }
-    .contact-section .get-in-touch-grid .contact-item .contact-address {
-        margin: 22px 0px 0px 21px;
-    }
-    .contact-section .get-in-touch-grid .google-map {
-        width: 93%;
-        height: 250px;
-        border-radius: 12px;
-    }
-    .contact-section .get-in-touch-grid .contact-item .contact-address a, .contact-section .get-in-touch-grid .contact-item .contact-address span {
-        color: #97B325;
-        text-decoration: none;
-    }
-    .contact-section .get-in-touch-grid .google-map {
-        border-radius: 15px;
-    }
+    margin: 13px 2px 36px 10px;
+  }
+  .contact-section .get-in-touch-grid .contact-item {
+    width: 100%;
+  }
+  .contact-section .get-in-touch-grid .contact-item h1 {
+    margin: 16px 16px 9px 22px;
+    font-size: 29px;
+  }
+  .contact-section .get-in-touch-grid .contact-item .contact-address {
+    margin: 22px 0px 0px 21px;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    width: 93%;
+    height: 250px;
+    border-radius: 12px;
+  }
+  .contact-section .get-in-touch-grid .contact-item .contact-address a,
+  .contact-section .get-in-touch-grid .contact-item .contact-address span {
+    color: #97b325;
+    text-decoration: none;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    border-radius: 15px;
+  }
 }
-@media screen and (max-width: 381px) {
-    .contact-section .get-in-touch-grid .google-map {
-        width: 91%;
-        height: 250px;
-        margin-top: 20px;
-    }
-    .contact-section .get-in-touch-grid .google-map {
-        border-radius: 15px;
-    }
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .contact-section .get-in-touch-grid {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section .career-description {
+    padding: 0px 0px;
+    margin-bottom: 0px;
+  }
+  .contact-section .get-in-touch-grid .contact-item {
+    padding-right: 16px;
+    width: 90%;
+    margin: 30px;
+  }
+  .contact-section .get-in-touch-grid .contact-item h1 {
+    text-align: center;
+  }
+  .contact-section .get-in-touch-grid .contact-item .contact-address {
+    margin: 31px 0px 0px 0px;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    width: 91%;
+    height: 250px;
+    margin-top: 20px;
+  }
+  .contact-section .get-in-touch-grid .google-map {
+    border-radius: 15px;
+  }
 }

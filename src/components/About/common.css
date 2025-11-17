@@ -6,69 +6,204 @@
     justify-content: center;
 } */
 
-
 /* Who we are Starts */
 .who-are-we {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    /* padding-bottom: 100px; */
-    /* margin-top: 10px; */
-    margin: 69px 116px 0px 77px;
-    gap: 48px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* padding-bottom: 100px; */
+  /* margin-top: 10px; */
+  margin: 69px 116px 0px 77px;
+  gap: 48px;
 }
-.who-are-we-content{
-    /* display: flex;
+.who-are-we-content {
+  /* display: flex;
     flex-direction: column;
     align-items: center; */
-    /* justify-content: center; */
-    width: 97%;
-    display: flex;
-    align-items : flex-start;
-    justify-content : flex-start;
-    flex-direction: column;
-    margin-top: -0px;
+  /* justify-content: center; */
+  width: 97%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: -0px;
 }
 .who-are-we-img {
-    width: 77%;
-    /* margin-top: -79px; */
-    /* margin-bottom: 84px; */
+  width: 77%;
+  /* margin-top: -79px; */
+  /* margin-bottom: 84px; */
 }
 .who-are-we .who-are-we-content h1 {
-    text-align: left;
-    margin: 53px 2px 17px 94px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 54px;
-    color: #232b36;
-    padding-right: 18px;
+  text-align: left;
+  margin: 53px 2px 17px 94px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  color: #232b36;
+  padding-right: 18px;
 }
-.who-are-we-content  > h1 > span {
-    color: #97B325;
+.who-are-we-content > h1 > span {
+  color: #97b325;
 }
 .who-are-we-content > p {
-    text-align: left;
-    margin: 0px 0px 10px 100px;
-    line-height: 30px;
-    color: black;
-    font-family: 'Source Sans Pro';
-    font-weight: 500;
-    font-size: 21px;
+  text-align: left;
+  margin: 0px 0px 10px 100px;
+  line-height: 30px;
+  color: black;
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  font-size: 21px;
 }
 .who-are-we .who-are-we-content .experienced-team {
-        margin-bottom: 25px;
-        margin-top: 0px;
-        font-weight: 380;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-weight: 380;
 }
 .who-are-we-content .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 84px;
 }
-.who-are-we-content .btn  > .btn-link-portfolio, 
-.who-are-we-content .btn  > .btn-link {
-    margin : 10px;
+.who-are-we-content .btn > .btn-link-portfolio,
+.who-are-we-content .btn > .btn-link {
+  margin: 10px;
+  border: 1px solid green;
+  padding: 15px 25px;
+  border-radius: 5px;
+  /* margin-right: 150px; */
+  /* margin-left: -120px; */
+  transition: all 0.5s;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-family: "Source Sans Pro";
+}
+.who-are-we-content .btn .btn-link-portfolio {
+  background-color: white;
+  font-weight: 600;
+  /* margin-left: 100px; */
+}
+.who-are-we-content .btn .btn-link {
+  background-color: #97b325;
+}
+.who-are-we-content .btn .btn-link {
+  color: #97b325;
+  text-decoration: none;
+}
+.who-are-we-content .btn .btn-link {
+  color: white;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  color: black;
+  font-weight: 600;
+  border: none;
+}
+.who-are-we-content .btn .btn-link-portfolio:hover {
+  background-color: #97b325;
+  color: white !important;
+}
+.who-are-we-content .btn .btn-link:hover {
+  background-color: #97b325;
+  color: white !important;
+}
+.who-are-we-content .btn .btn-link:hover {
+  background-color: #1d242d !important;
+  color: white !important;
+}
+
+.who-are-we-img > img {
+  width: 84%;
+  height: auto;
+}
+
+/* Web Development Section Starts*/
+.web-development-section {
+  /* display: flex;
+    justify-content: space-between;
+    margin-top: 40px; */
+  background-color: #f9f9fb;
+}
+
+.web-development-section h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 45px;
+  margin-bottom: 5px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding: 41px 0px 28px 0px;
+}
+.web-development-section p {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  padding: 0px 288px 39px 288px;
+  color: black;
+  line-height: 32px;
+}
+.web-development-section p > span {
+  font-weight: 600;
+}
+.get-in-touch {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.web-development .get-in-touch > p {
+  font-weight: 500;
+}
+.detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.detail p {
+  text-align: left;
+}
+.detail li:before {
+  content: "✓";
+  display: inline-block;
+  color: rgb(151, 179, 37);
+  width: 20px;
+  font-weight: 600;
+}
+.detail ul li {
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  line-height: 30px;
+}
+.detail img {
+  margin: -22px 45px 0px 90px;
+  width: 25%;
+}
+.detail ul .check-mark {
+  color: green;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .who-are-we {
+    margin: 50px 40px 100px 40px;
+    gap: 20px;
+  }
+
+  .who-are-we-content {
+    width: 67%;
+  }
+  .who-are-we-content .btn {
+    margin-left: 9px;
+  }
+  .who-are-we-content .btn > button {
+    margin: 10px;
     border: 1px solid green;
     padding: 15px 25px;
     border-radius: 5px;
@@ -77,351 +212,275 @@
     transition: all 0.5s;
     font-size: 20px;
     text-transform: capitalize;
-    text-decoration: none;
-    color: black;
-    font-family: 'Source Sans Pro';
-}
-.who-are-we-content .btn .btn-link-portfolio{
+  }
+  .who-are-we-content .btn .btn-portfolio {
+    background-color: white;
+    margin-left: 22px;
+  }
+  .who-are-we .who-are-we-content h1,
+  .who-are-we-content p {
+    margin: 0px 12px 9px 20px;
+    /* margin-bottom: 30px; */
+  }
+  .who-are-we .who-are-we-content h1 {
+    font-size: 35px;
+  }
+  .who-are-we-content p {
+    margin: 10px 20px;
+  }
+  .who-are-we-content > p {
+    text-align: left;
+    font-size: 16px;
+  }
+  .who-are-we-content .btn .btn-link-portfolio {
     background-color: white;
     font-weight: 600;
-    /* margin-left: 100px; */
-}
-.who-are-we-content .btn .btn-link{
-    background-color: #97B325;
-}
-.who-are-we-content .btn .btn-link {
-    color: #97B325;
-    text-decoration: none;
-}
-.who-are-we-content .btn .btn-link {
-    color: white;
-    text-decoration: none;
-        color: white;
-        text-decoration: none;
-        font-family: 'Source Sans Pro';
-        color: black;
-        font-weight: 600;
-        border: none;
-}
-.who-are-we-content .btn .btn-link-portfolio:hover{
-    background-color: #97B325;
-    color: white !important;
-}
-.who-are-we-content .btn .btn-link:hover{
-    background-color: #97B325;
-    color: white !important;
-}
-.who-are-we-content .btn .btn-link:hover{
-    background-color: #1d242d !important;
-    color: white !important;
-    
-}
-
-.who-are-we-img > img {
-    width: 84%;
-    height: auto;
-}
-
-/* Web Development Section Starts*/
-.web-development-section{
-    /* display: flex;
-    justify-content: space-between;
-    margin-top: 40px; */
-    background-color: #f9f9fb;
-}
-
-.web-development-section h1 {
-    text-align: center;
-    margin: 20px;
-    font-size: 45px;
-    margin-bottom: 5px;
-    font-family: 'Montserrat';
-    font-weight: 900;
-    padding: 41px 0px 28px 0px;
-}   
-.web-development-section p {
-    text-align: center;
+    padding: 10px 10px;
     font-size: 16px;
-    font-family: 'Source Sans Pro';
-    font-weight: 500;
-    padding: 1px 414px 39px 377px;
-    color: black;
-    line-height: 26px;
-    /* margin-left: 291px; */
-}
-.web-development-section p > span {
+  }
+  .who-are-we-content .btn .btn-link {
     font-weight: 600;
-}
-.get-in-touch{
-    width: 40%;
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+  .who-are-we-img {
+    /* margin-bottom: 287px; */
+    width: 71%;
+    margin-top: 0px;
+  }
+  .who-are-we-img img {
+    margin-left: 13px;
+    width: 100%;
+  }
+  .web-development-section h1 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding: 35px 0px;
+    font-size: 28px;
+  }
+  .web-development-section p {
+    font-size: 17px;
+    padding: 0px 209px 26px 259px;
+    margin-left: 47px;
+  }
+  .detail-further {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.web-development .get-in-touch > p {
-    font-weight: 500;
-}
-.detail {
-    display: flex;
-    align-items : flex-start;
-    justify-content : flex-start;
     flex-direction: row;
-}
-.detail p {
-    text-align: left;
-}
-.detail li:before {
-    content: "✓";
-    display: inline-block;
-    color: rgb(151, 179, 37);
-    width: 20px;
-    font-weight: 600;
-}
-.detail ul li {
-    font-family: 'Source Sans Pro';
-    font-size: 17px;
-    padding-bottom: 7px;
+  }
+  .detail ul {
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding-bottom: 10px;
     padding-left: 7px;
     line-height: 20px;
-}
-.detail img {
-    margin: -22px 45px 0px 90px;
-    width: 25%; 
-}
-.detail ul .check-mark {
-    color: green;
-}
-
-@media screen and (max-width: 992px){
-    .who-are-we {
-        margin: 50px 8px 100px 8px;
-        gap: 40px;
-    }
-
-    .who-are-we-content {
-        width: 67%;
-    }
-    .who-are-we-content .btn {
-        margin-left: 9px;
-    }
-    .who-are-we-content .btn > button {
-        margin: 10px;
-        border: 1px solid green;
-        padding: 15px 25px;
-        border-radius: 5px;
-        /* margin-right: 150px; */
-        /* margin-left: -120px; */
-        transition: all 0.5s;
-        font-size: 20px;
-        text-transform: capitalize;
-    }
-    .who-are-we-content .btn .btn-portfolio {
-        background-color: white;
-        margin-left: 22px;
-    }
-    .who-are-we .who-are-we-content h1, .who-are-we-content p {
-        margin: 0px 12px 9px 20px;
-        /* margin-bottom: 30px; */
-    }
-    .who-are-we .who-are-we-content h1 {
-        font-size: 58px;
-    }
-    .who-are-we-content p {
-        margin: 10px 20px;
-    }
-    .who-are-we-content > p {
-        text-align: left;
-        font-size: 20px;
-    }
-    .who-are-we-img{
-        /* margin-bottom: 287px; */
-        width: 71%;
-        margin-top: 0px;
-    }
-    .who-are-we-img img {
-        margin-left: 13px;
-        width: 93%;
-    }
-    .web-development-section h1 {
-        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-        font-weight: 900;
-        padding: 53px 0px;
-    }
-    .web-development-section p {
-            font-size: 17px;
-            padding: 0px 209px 26px 259px;
-            margin-left: 47px;
-    }
-    .detail-further{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    .detail ul {
-        font-family: 'Montserrat';
-        font-size: 15px;
-        padding-bottom: 10px;
-        padding-left: 7px;
-        line-height: 20px;
-        margin: 22px 2px 8px -10px;
-    }
-    .detail img {
-        margin: -22px 26px 0px 24px;
-        width: 40%;
-    }
+    margin: 22px 2px 8px -10px;
+  }
+  .detail img {
+    margin: -22px 26px 0px 24px;
+    width: 40%;
+  }
+  .build-together > h1 {
+    font-size: 35px;
+  }
+  .detail ul li {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width: 669px){
-    /* .who-are-we-content {
+@media screen and (max-width: 669px) {
+  /* .who-are-we-content {
         width: 100%;
     }*/
-    .who-are-we {
-        gap: 0px;
-        padding-bottom: 28px;
-        margin: 100px 8px 18px 8px
-    }
-    .who-are-we-content .btn > .btn-link{
-        margin-left: -47px;
-    }
-    .web-development-section p {
-        font-size: 16px;
-        padding: 0px 118px 26px 113px;
-        margin-left: 47px;
-    }
-    .who-are-we .who-are-we-content h1 {
-        font-size: 53px;
-    }
-    .who-are-we-img {
-        /* margin-bottom: 287px; */
-        width: 80%;
-        /* margin-top: -365px; */
-    }
-    .who-are-we-content {
-        margin-top: -61px;
-        width: 56%;
-    }
-    .who-are-we-content .btn{
-        display: flex;
+  .who-are-we {
+    gap: 0px;
+    padding-bottom: 28px;
+    margin: 100px 8px 18px 8px;
+  }
+  .who-are-we-content .btn > .btn-link {
+    margin-left: -47px;
+  }
+  .web-development-section p {
+    font-size: 16px;
+    padding: 0px 118px 26px 113px;
+    margin-left: 47px;
+  }
+  .who-are-we .who-are-we-content h1 {
+    font-size: 53px;
+  }
+  .who-are-we-img {
+    /* margin-bottom: 287px; */
+    width: 80%;
+    /* margin-top: -365px; */
+  }
+  .who-are-we-content {
+    margin-top: -61px;
+    width: 56%;
+  }
+  .who-are-we-content .btn {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    }
-    .who-are-we-content .btn .btn-get-in-touch {
-        margin-left: -45px;
-    }
-    .detail ul {
-        margin: 0px 2px 8px -53px;
-    }
-    .detail-further{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    
+  }
+  .who-are-we-content .btn .btn-get-in-touch {
+    margin-left: -45px;
+  }
+  .detail ul {
+    margin: 0px 2px 8px -53px;
+  }
+  .detail-further {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width: 421px){
-    .who-are-we {
-        display: flex;
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .who-are-we {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding-bottom: 0px;
     margin-top: 80px;
-    }
-    .who-are-we-content {
-        width: 100%;
-    }
-    .who-are-we .who-are-we-content h1  {
-        font-size: 36px;
-        padding: 11px 0px;
-        margin-bottom: 0px;
-    }
-    .who-are-we-content > p {
-        margin-top: 0px;
-        font-size: 20px;
-    }
-    .who-are-we-content .btn {
-        margin-left: 8px;
-        flex-direction: row;
-        margin-bottom: 0px;
-        margin-left: 18px;
-    }
-    .who-are-we-content .btn .btn-link-portfolio, .who-are-we-content .btn .btn-link{
-        padding: 12px 16px;
-        font-size: 15px;
-        font-weight: 500;
-    }
-    .who-are-we-content .btn > button {
-        font-size: 14px;
-    }
-    .who-are-we-content .btn .btn-link-portfolio {
-        margin-left: 0px;
-    }
-    .who-are-we-content .btn .btn-link {
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-    .web-development-section h1 {
-        font-size: 31px;
-        padding: 20px 0px;
-    }
-    .web-development-section p {
-        font-size: 17px;
-        padding: 0px 21px 39px 2px;
-        margin-left: 21px;
-    }
-    .who-are-we-content .btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    .who-are-we .who-are-we-content .btn button {
+  }
+  .who-are-we-content {
+    width: 100%;
+  }
+  .who-are-we .who-are-we-content h1 {
+    font-size: 32px;
+    padding: 11px 0px;
+    margin-bottom: 0px;
+    margin: 0px 2px 17px 40px;
+  }
+  .who-are-we-content > p {
+    margin-top: 0px;
+    font-size: 18px;
+    margin: 0px 32px 10px 42px;
+  }
+
+  .who-are-we-content .btn {
+    margin-left: 8px;
+    flex-direction: row;
+    margin-bottom: 0px;
+    margin-left: 18px;
+  }
+  .who-are-we-content .btn .btn-link-portfolio,
+  .who-are-we-content .btn .btn-link {
+    padding: 12px 16px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .who-are-we-content .btn > button {
+    font-size: 14px;
+  }
+  .who-are-we-content .btn .btn-link-portfolio {
+    margin-left: 22px;
+  }
+  .who-are-we-content .btn .btn-link {
+    margin-left: -28px;
+    margin-top: 10px;
+  }
+  .who-are-we-img > img {
+    margin-left: 25px;
+  }
+  .build-together-grid {
+    margin: 10px 0px;
+  }
+  .web-development-section h1 {
+    font-size: 27px;
+    padding: 37px 0px;
+  }
+  .web-development-section p {
+    font-size: 17px;
+    padding: 0px 21px 39px 2px;
+    margin-left: 21px;
+  }
+  .who-are-we-content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .who-are-we .who-are-we-content .btn button {
     padding: 13px 11px;
-    }
-    .who-are-we-img {
-        width: 100%;
-        margin-bottom: 35px;
-        margin-top: 24px;
-    }
-    .who-are-we-content .btn .btn-get-in-touch{
-        margin-left: 0px;
-    }
-    .who-are-we-content .btn .btn-portfolio ,
-    .who-are-we-content .btn .btn-get-in-touch {
-        font-size: 14px;
-    }
-    .detail {
-        margin-top: 0px;
-    }
-    .detail img {
-        margin: 138px 24px -2px 0px;
-        width: 100%;
-    }
-    .detail ul {
-        margin: 0px 2px 8px -385px;
-    }
-    .detail-further {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: column;
-        margin-left: 10px;
-    }
+  }
+  .who-are-we-img {
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 24px;
+  }
+  .who-are-we-content .btn .btn-get-in-touch {
+    margin-left: 0px;
+  }
+  .who-are-we-content .btn .btn-portfolio,
+  .who-are-we-content .btn .btn-get-in-touch {
+    font-size: 14px;
+  }
+  .detail {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .detail img {
+    margin: 138px 24px -2px 0px;
+    width: 100%;
+  }
+  .detail ul {
+    margin: 0px 2px 8px -385px;
+  }
+  .detail ul li {
+    font-size: 18px;
+  }
+  .detail-further {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+  }
 }
 
-@media screen and (max-width: 381px){
-    .web-development-section p {
-        font-size: 17px;
-        padding: 0px 13px 39px 2px;
-        margin-left: 21px;
-    }
-    .web-development-section h1 {
-        margin: 0px 10px;
-    }
-    
+@media screen and (max-width: 381px) {
+  .web-development-section p {
+    font-size: 17px;
+    padding: 0px 13px 39px 2px;
+    margin-left: 21px;
+  }
+  .web-development-section h1 {
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .who-are-we .who-are-we-content h1 {
+    margin: 1px 2px 17px 25px;
+  }
+  .who-are-we-content > p {
+    margin: 0px 0px 10px 30px;
+  }
+  .who-are-we-content .btn {
+    margin-left: 17px;
+  }
+  .who-are-we-img > img {
+    width: 100%;
+  }
+  .web-development-section p {
+    font-size: 21px;
+    padding: 0px 185px 39px 185px;
+    line-height: 33px;
+  }
+  .detail img {
+    width: 28%;
+  }
+  .detail ul li {
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    line-height: 30px;
+  }
 }

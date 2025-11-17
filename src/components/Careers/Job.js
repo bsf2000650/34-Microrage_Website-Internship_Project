@@ -95,7 +95,7 @@ const Job = () => {
         <h1 className="h1">WordPress Developer</h1>
         <div className="job1">
           <div className="fav-icon">
-            <img src={MicrorageFavIcon} />
+            <img src={MicrorageFavIcon} alt="fav-icon" />
           </div>
           <div className="description">
             <div>
@@ -147,7 +147,7 @@ const Job = () => {
                   />
             </div>
             <div className="application-form-inputs">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email" className="email-label">Email</label>
               <input 
               type="email"
                required='required'

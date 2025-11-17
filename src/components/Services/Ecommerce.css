@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200;300;400;600;700&display=swap");
 
 /* Who we are Starts */
 /* .who-are-we {
@@ -11,11 +11,11 @@
     margin-top: 10px;
 } */
 /* .who-are-we-content{ */
-    /* display: flex;
+/* display: flex;
     flex-direction: column;
     align-items: center; */
-    /* justify-content: center; */
-  /*  width: 50%;
+/* justify-content: center; */
+/*  width: 50%;
     display: flex;
     align-items : flex-start;
     justify-content : flex-start;
@@ -57,8 +57,8 @@
     padding: 15px 25px;
     border-radius: 5px;
     /* margin-right: 150px; */
-    /* margin-left: -120px; */
-  /*  transition: all 0.5s;
+/* margin-left: -120px; */
+/*  transition: all 0.5s;
     font-size: 20px;
     text-transform: capitalize;
 }
@@ -92,7 +92,7 @@
     /* display: flex;
     justify-content: space-between;
     margin-top: 40px; */
-  /*  background-color: #f9f9fb;
+/*  background-color: #f9f9fb;
 }
 
 .web-development-section h1 {
@@ -164,21 +164,21 @@
     grid-template-columns: auto auto;
     margin: 0px 50px;
     /* height: 400px; */
-    /* border: 2px solid black; */
-   /* padding-bottom: 30px;
+/* border: 2px solid black; */
+/* padding-bottom: 30px;
 }
 .build-together .contact-form{
     /* border: 2px solid black; */
-    /*width: 60vw;
+/*width: 60vw;
     margin: 11px 0px 0px 21px;
     /* height: 500px; */
-   /* background-color: #97B325;
+/* background-color: #97B325;
     padding: 20px;
     border-radius: 5px;
 }
 .build-together .contact-form form {
     /* border: 2px solid black; */
-   /* margin: 24px
+/* margin: 24px
 }
 .build-together .contact-form h1 
     {
@@ -219,7 +219,7 @@
 
 .build-together .contact-form form textarea{
     /* border: 2px solid black; */
-   /* width: 90%;
+/* width: 90%;
     height: 139px;
 }
 .build-together .contact-form form input[type=submit]{
@@ -234,7 +234,7 @@
 }
 .build-together .build-together-content .further-div {
     /* border: 2px solid black; */
-   /* border-radius: 13px 13px 13px 13px;
+/* border-radius: 13px 13px 13px 13px;
     background-color: transparent;
     background-color: #ffffff;
     border-radius: 13px 13px 13px 13px;
@@ -243,7 +243,7 @@
     padding: 23px 28px 14px 32px;
     margin: 9px 14px;
     /* height: 179vh; */
-  /*  border-radius: 5px;
+/*  border-radius: 5px;
 }
 .build-together .build-together-content .further-div h2 {
     margin-bottom: 30px;
@@ -267,57 +267,56 @@ margin-bottom: 21px;
 
     
 /* Build Together */
-    
+
 /* Build Together */
 .ecommerce-img {
-    width: 88%;
-    height: auto;
-    margin-left: 20px;
+  width: 88%;
+  height: auto;
+  margin-left: 20px;
 }
 
-@media  screen and (max-width: 992px){
-    .ecommerce-content {
-        width: 72%;
-    }
-    
-    .web-development-section .ecommerce-detail {
-        font-size: 17px;
-        padding: 0px 192px 26px 226px;
-        margin-left: 47px;
-    }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .ecommerce-content {
+    width: 72%;
+  }
+
+  .web-development-section .ecommerce-detail {
+    font-size: 17px;
+    padding: 0px 120px 26px 120px;
+    margin-left: 47px;
+  }
 }
 
 @media screen and (max-width: 668px) {
-    .web-development-section .ecommerce-detail {
-        font-size: 17px;
-        padding: 0px 109px 26px 147px;
-        margin-left: 47px;
-    }
+  .web-development-section .ecommerce-detail {
+    font-size: 17px;
+    padding: 0px 109px 26px 147px;
+    margin-left: 47px;
+  }
 }
 
-@media screen and (max-width: 422px) {
-    .ecommerce-content {
-        width: 100%;
-    }
-    .web-development-section .ecommerce-detail {
-        font-size: 17px;
-        padding: 0px 36px 26px 24px;
-        margin-left: 25px;
-    }
-    .ecommerce-detail{
-        margin: 0px 24px -2px 0px;
-        width: 100%;
-    }
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .ecommerce-content {
+    width: 100%;
+  }
+  .web-development-section .ecommerce-detail {
+    font-size: 17px;
+    padding: 0px 50px 26px 23px;
+    margin-left: 15px;
+  }
+  .ecommerce-detail {
+    margin: 0px 24px -2px 0px;
+    width: 100%;
+  }
+  .detail img {
+    margin: 60px 24px -2px 0px;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:381px) {
-    .ecommerce-detail{
-        margin-top: 0px;
-    }
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .detail img {
+    width: 50%;
+    margin-left: 267px;
+  }
 }
-
-
-
-
-
-
